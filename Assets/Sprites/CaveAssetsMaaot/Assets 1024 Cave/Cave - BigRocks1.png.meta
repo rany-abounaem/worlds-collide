@@ -1,0 +1,1566 @@
+fileFormatVersion: 2
+guid: be76d6b64ce452d4bad0808c3655d93b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4420416242603121876
+    second: Cave - BigRocks1_0
+  - first:
+      213: 3917231834981698172
+    second: Cave - BigRocks1_1
+  - first:
+      213: -323036006449832048
+    second: Cave - BigRocks1_2
+  - first:
+      213: -1178018390583475805
+    second: Cave - BigRocks1_3
+  - first:
+      213: 3714807935714138745
+    second: Cave - BigRocks1_4
+  - first:
+      213: 6036110616325237527
+    second: Cave - BigRocks1_5
+  - first:
+      213: -8733773345293251420
+    second: Cave - BigRocks1_6
+  - first:
+      213: -4055658321647854206
+    second: Cave - BigRocks1_7
+  - first:
+      213: -3834839354536260602
+    second: Cave - BigRocks1_8
+  - first:
+      213: -9216738602167250781
+    second: Cave - BigRocks1_9
+  - first:
+      213: 469616892591372132
+    second: Cave - BigRocks1_10
+  - first:
+      213: 4289946626085745829
+    second: Cave - BigRocks1_11
+  - first:
+      213: 8966104879317279433
+    second: Cave - BigRocks1_12
+  - first:
+      213: -2288734668481340429
+    second: Cave - BigRocks1_13
+  - first:
+      213: -6599695406521390087
+    second: Cave - BigRocks1_14
+  - first:
+      213: 1720820395945529274
+    second: Cave - BigRocks1_15
+  - first:
+      213: 908866716789448110
+    second: Cave - BigRocks1_16
+  - first:
+      213: 6550120765155929404
+    second: Cave - BigRocks1_17
+  - first:
+      213: 1270005736831875299
+    second: Cave - BigRocks1_18
+  - first:
+      213: 4972468036524745899
+    second: Cave - BigRocks1_19
+  - first:
+      213: 7966307693685426281
+    second: Cave - BigRocks1_20
+  - first:
+      213: -667983513281912189
+    second: Cave - BigRocks1_21
+  - first:
+      213: 263340290394482023
+    second: Cave - BigRocks1_22
+  - first:
+      213: -2250962379579299385
+    second: Cave - BigRocks1_23
+  - first:
+      213: -5273609493214075463
+    second: Cave - BigRocks1_24
+  - first:
+      213: -1466029655424266978
+    second: Cave - BigRocks1_25
+  - first:
+      213: -1747627862017299871
+    second: Cave - BigRocks1_26
+  - first:
+      213: 4144643257619512279
+    second: Cave - BigRocks1_27
+  - first:
+      213: -7187094168196343038
+    second: Cave - BigRocks1_28
+  - first:
+      213: 786968090669684464
+    second: Cave - BigRocks1_29
+  - first:
+      213: 3750417398730478742
+    second: Cave - BigRocks1_30
+  - first:
+      213: 7233709225362001586
+    second: Cave - BigRocks1_31
+  - first:
+      213: 2616737099606361591
+    second: Cave - BigRocks1_32
+  - first:
+      213: 2264645203380790295
+    second: Cave - BigRocks1_33
+  - first:
+      213: -5903118407969064480
+    second: Cave - BigRocks1_34
+  - first:
+      213: -5298282833136274868
+    second: Cave - BigRocks1_35
+  - first:
+      213: -8629586311671766408
+    second: Cave - BigRocks1_36
+  - first:
+      213: -5736034791201450084
+    second: Cave - BigRocks1_37
+  - first:
+      213: 2729597751982432029
+    second: Cave - BigRocks1_38
+  - first:
+      213: 4736653173327684251
+    second: Cave - BigRocks1_39
+  - first:
+      213: -2063412353217050713
+    second: Cave - BigRocks1_40
+  - first:
+      213: -7881134465188430001
+    second: Cave - BigRocks1_41
+  - first:
+      213: -6675456457618709341
+    second: Cave - BigRocks1_42
+  - first:
+      213: -15651055595912107
+    second: Cave - BigRocks1_43
+  - first:
+      213: 6407725310773475366
+    second: Cave - BigRocks1_44
+  - first:
+      213: 4838608861960914371
+    second: Cave - BigRocks1_45
+  - first:
+      213: -3474544077337502537
+    second: Cave - BigRocks1_46
+  - first:
+      213: 2916909277433751346
+    second: Cave - BigRocks1_47
+  - first:
+      213: -7890490192822927838
+    second: Cave - BigRocks1_48
+  - first:
+      213: 5387539174640413013
+    second: Cave - BigRocks1_49
+  - first:
+      213: -1072724258990050018
+    second: Cave - BigRocks1_50
+  - first:
+      213: -177650641397699052
+    second: Cave - BigRocks1_51
+  - first:
+      213: 6674361877115050811
+    second: Cave - BigRocks1_52
+  - first:
+      213: -5042324357248143238
+    second: Cave - BigRocks1_53
+  - first:
+      213: -5851086702508864862
+    second: Cave - BigRocks1_54
+  - first:
+      213: 245484462849600513
+    second: Cave - BigRocks1_55
+  - first:
+      213: -7409077257662941092
+    second: Cave - BigRocks1_56
+  - first:
+      213: -2577358858917644315
+    second: Cave - BigRocks1_57
+  - first:
+      213: -22785535298335247
+    second: Cave - BigRocks1_58
+  - first:
+      213: -1543758221430672088
+    second: Cave - BigRocks1_59
+  - first:
+      213: -6571381544963195561
+    second: Cave - BigRocks1_60
+  - first:
+      213: 1260978411796747684
+    second: Cave - BigRocks1_61
+  - first:
+      213: -3803921005555123140
+    second: Cave - BigRocks1_62
+  - first:
+      213: -8044712913807682893
+    second: Cave - BigRocks1_63
+  - first:
+      213: -3392546213646438626
+    second: Cave - BigRocks1_64
+  - first:
+      213: 5235135578481188336
+    second: Cave - BigRocks1_65
+  - first:
+      213: 3289571711464612456
+    second: Cave - BigRocks1_66
+  - first:
+      213: -4607106408625731675
+    second: Cave - BigRocks1_67
+  - first:
+      213: 1564618952258647413
+    second: Cave - BigRocks1_68
+  - first:
+      213: -2194678776002667809
+    second: Cave - BigRocks1_69
+  - first:
+      213: 8925854369321957790
+    second: Cave - BigRocks1_70
+  - first:
+      213: 5830301188586697029
+    second: Cave - BigRocks1_71
+  - first:
+      213: 4781418517200852514
+    second: Cave - BigRocks1_72
+  - first:
+      213: -1099267756084540970
+    second: Cave - BigRocks1_73
+  - first:
+      213: 8343333181626052979
+    second: Cave - BigRocks1_74
+  - first:
+      213: 3658820326402564613
+    second: Cave - BigRocks1_75
+  - first:
+      213: 5132941651963418398
+    second: Cave - BigRocks1_76
+  - first:
+      213: 6357852152298720594
+    second: Cave - BigRocks1_77
+  - first:
+      213: 8508862603643204429
+    second: Cave - BigRocks1_78
+  - first:
+      213: 3475821199401319448
+    second: Cave - BigRocks1_79
+  - first:
+      213: 274092672718241950
+    second: Cave - BigRocks1_80
+  - first:
+      213: 3800846486396092615
+    second: Cave - BigRocks1_81
+  - first:
+      213: -1702822126724002611
+    second: Cave - BigRocks1_82
+  - first:
+      213: 4885358494792423015
+    second: Cave - BigRocks1_83
+  - first:
+      213: -7671823149201176599
+    second: Cave - BigRocks1_84
+  - first:
+      213: 5222830534786767348
+    second: Cave - BigRocks1_85
+  - first:
+      213: -5335911555885568466
+    second: Cave - BigRocks1_86
+  - first:
+      213: -3102896512515735525
+    second: Cave - BigRocks1_87
+  - first:
+      213: -9219700455594031594
+    second: Cave - BigRocks1_88
+  - first:
+      213: 7408250233391713681
+    second: Cave - BigRocks1_89
+  - first:
+      213: -9011738998621684779
+    second: Cave - BigRocks1_90
+  - first:
+      213: 7264975466374369780
+    second: Cave - BigRocks1_91
+  - first:
+      213: 3605257969781759446
+    second: Cave - BigRocks1_92
+  - first:
+      213: -6149042818633934053
+    second: Cave - BigRocks1_93
+  - first:
+      213: 8583167746560389455
+    second: Cave - BigRocks1_94
+  - first:
+      213: 8705314699345955669
+    second: Cave - BigRocks1_95
+  - first:
+      213: 8706127716638431186
+    second: Cave - BigRocks1_96
+  - first:
+      213: -5110691779710412401
+    second: Cave - BigRocks1_97
+  - first:
+      213: 4146659788432248660
+    second: Cave - BigRocks1_98
+  - first:
+      213: -7391586751119356071
+    second: Cave - BigRocks1_99
+  - first:
+      213: 4683749798029796206
+    second: Cave - BigRocks1_100
+  - first:
+      213: -4463275427551222849
+    second: Cave - BigRocks1_101
+  - first:
+      213: -5194839969301898389
+    second: Cave - BigRocks1_102
+  - first:
+      213: -7777090046322646725
+    second: Cave - BigRocks1_103
+  - first:
+      213: -8991115062745307909
+    second: Cave - BigRocks1_104
+  - first:
+      213: -8220318485475576999
+    second: Cave - BigRocks1_105
+  - first:
+      213: -9128999976386409341
+    second: Cave - BigRocks1_106
+  - first:
+      213: 1026628726309187757
+    second: Cave - BigRocks1_107
+  - first:
+      213: 2275812544945301137
+    second: Cave - BigRocks1_108
+  - first:
+      213: -7539061657067963560
+    second: Cave - BigRocks1_109
+  - first:
+      213: -6424389293357295401
+    second: Cave - BigRocks1_110
+  - first:
+      213: -3298396969700115034
+    second: Cave - BigRocks1_111
+  - first:
+      213: -2200819797367127249
+    second: Cave - BigRocks1_112
+  - first:
+      213: -3206356779169291615
+    second: Cave - BigRocks1_113
+  - first:
+      213: -2590564655750720100
+    second: Cave - BigRocks1_114
+  - first:
+      213: 257472345155678111
+    second: Cave - BigRocks1_115
+  - first:
+      213: 7233808513428060269
+    second: Cave - BigRocks1_116
+  - first:
+      213: -2224374941354106495
+    second: Cave - BigRocks1_117
+  - first:
+      213: 1066717277244540949
+    second: Cave - BigRocks1_118
+  - first:
+      213: 3764438929157252821
+    second: Cave - BigRocks1_119
+  - first:
+      213: -2883787057946205353
+    second: Cave - BigRocks1_120
+  - first:
+      213: -5278094599586543898
+    second: Cave - BigRocks1_121
+  - first:
+      213: 6073799805673257821
+    second: Cave - BigRocks1_122
+  - first:
+      213: 1221539747102002013
+    second: Cave - BigRocks1_123
+  - first:
+      213: 185454504830948301
+    second: Cave - BigRocks1_124
+  - first:
+      213: -2127447928262475102
+    second: Cave - BigRocks1_125
+  - first:
+      213: -8443730601315917270
+    second: Cave - BigRocks1_126
+  - first:
+      213: 5082377764974179363
+    second: Cave - BigRocks1_127
+  - first:
+      213: -2928270605935840853
+    second: Cave - BigRocks1_128
+  - first:
+      213: 7171683132399632974
+    second: Cave - BigRocks1_129
+  - first:
+      213: -4036377990975540706
+    second: Cave - BigRocks1_130
+  - first:
+      213: -7152236952436204655
+    second: Cave - BigRocks1_131
+  - first:
+      213: 1905998494090626641
+    second: Cave - BigRocks1_132
+  - first:
+      213: -1294372351865551233
+    second: Cave - BigRocks1_133
+  - first:
+      213: -1444848999833028535
+    second: Cave - BigRocks1_134
+  - first:
+      213: -1124880121226027695
+    second: Cave - BigRocks1_135
+  - first:
+      213: -7148165084095260391
+    second: Cave - BigRocks1_136
+  - first:
+      213: 137010636573923242
+    second: Cave - BigRocks1_137
+  - first:
+      213: -3350878991390638218
+    second: Cave - BigRocks1_138
+  - first:
+      213: 2053482534630832384
+    second: Cave - BigRocks1_139
+  - first:
+      213: 8351413197411982545
+    second: Cave - BigRocks1_140
+  - first:
+      213: 4116596563080072735
+    second: Cave - BigRocks1_141
+  - first:
+      213: -2969130628135178660
+    second: Cave - BigRocks1_142
+  - first:
+      213: -2063272658616610123
+    second: Cave - BigRocks1_143
+  - first:
+      213: -2102673833590635697
+    second: Cave - BigRocks1_144
+  - first:
+      213: 6659354015648036609
+    second: Cave - BigRocks1_145
+  - first:
+      213: 5835920435607430141
+    second: Cave - BigRocks1_146
+  - first:
+      213: -8048741247075729
+    second: Cave - BigRocks1_147
+  - first:
+      213: 5804828789850321272
+    second: Cave - BigRocks1_148
+  - first:
+      213: -7736447073272962118
+    second: Cave - BigRocks1_149
+  - first:
+      213: 2984885835714987148
+    second: Cave - BigRocks1_150
+  - first:
+      213: 4573009435862757992
+    second: Cave - BigRocks1_151
+  - first:
+      213: -3468426779602454828
+    second: Cave - BigRocks1_152
+  - first:
+      213: 3211711195090806168
+    second: Cave - BigRocks1_153
+  - first:
+      213: 9200787808685801924
+    second: Cave - BigRocks1_154
+  - first:
+      213: 4907381488232331427
+    second: Cave - BigRocks1_155
+  - first:
+      213: -305768032943421978
+    second: Cave - BigRocks1_156
+  - first:
+      213: -1029796616656711145
+    second: Cave - BigRocks1_157
+  - first:
+      213: 8265787510150063506
+    second: Cave - BigRocks1_158
+  - first:
+      213: 2318130786005292345
+    second: Cave - BigRocks1_159
+  - first:
+      213: 8726692797983101817
+    second: Cave - BigRocks1_160
+  - first:
+      213: 5615354426240463169
+    second: Cave - BigRocks1_161
+  - first:
+      213: -8015515171649612354
+    second: Cave - BigRocks1_162
+  - first:
+      213: 6022531179861064333
+    second: Cave - BigRocks1_163
+  - first:
+      213: 1495605496625365592
+    second: Cave - BigRocks1_164
+  - first:
+      213: -2029521188782600210
+    second: Cave - BigRocks1_165
+  - first:
+      213: -3224082628071626673
+    second: Cave - BigRocks1_166
+  - first:
+      213: -132458837682694077
+    second: Cave - BigRocks1_167
+  - first:
+      213: -2684857416549121440
+    second: Cave - BigRocks1_168
+  - first:
+      213: -1123656372743230437
+    second: Cave - BigRocks1_169
+  - first:
+      213: 7784664689626331528
+    second: Cave - BigRocks1_170
+  - first:
+      213: 1007252779998414153
+    second: Cave - BigRocks1_171
+  - first:
+      213: 1247099553632887541
+    second: Cave - BigRocks1_172
+  - first:
+      213: 6943742040640511530
+    second: Cave - BigRocks1_173
+  - first:
+      213: -2607932660168568703
+    second: Cave - BigRocks1_174
+  - first:
+      213: -7024706184310090595
+    second: Cave - BigRocks1_175
+  - first:
+      213: 3242940459560440012
+    second: Cave - BigRocks1_176
+  - first:
+      213: 1219961664036518282
+    second: Cave - BigRocks1_177
+  - first:
+      213: 6989768304584264988
+    second: Cave - BigRocks1_178
+  - first:
+      213: -7442928806420361212
+    second: Cave - BigRocks1_179
+  - first:
+      213: -3076210505459361957
+    second: Cave - BigRocks1_180
+  - first:
+      213: 3907959308211557751
+    second: Cave - BigRocks1_181
+  - first:
+      213: 488184187326466978
+    second: Cave - BigRocks1_182
+  - first:
+      213: 5086457963035895136
+    second: Cave - BigRocks1_183
+  - first:
+      213: -391631959167964520
+    second: Cave - BigRocks1_184
+  - first:
+      213: 703612905888653062
+    second: Cave - BigRocks1_185
+  - first:
+      213: -3631200553092344752
+    second: Cave - BigRocks1_186
+  - first:
+      213: -306762866895162202
+    second: Cave - BigRocks1_187
+  - first:
+      213: -1459763815401529816
+    second: Cave - BigRocks1_188
+  - first:
+      213: -2675558917141616821
+    second: Cave - BigRocks1_189
+  - first:
+      213: 6458471991719630119
+    second: Cave - BigRocks1_190
+  - first:
+      213: 7029079572418603834
+    second: Cave - BigRocks1_191
+  - first:
+      213: 5299851133966108680
+    second: Cave - BigRocks1_192
+  - first:
+      213: 3782805029393634979
+    second: Cave - BigRocks1_193
+  - first:
+      213: -2973845560675443624
+    second: Cave - BigRocks1_194
+  - first:
+      213: 4763245066064390984
+    second: Cave - BigRocks1_195
+  - first:
+      213: -7158085524390829190
+    second: Cave - BigRocks1_196
+  - first:
+      213: -4081416340842029574
+    second: Cave - BigRocks1_197
+  - first:
+      213: -890966845092962082
+    second: Cave - BigRocks1_198
+  - first:
+      213: 8612896870323558597
+    second: Cave - BigRocks1_199
+  - first:
+      213: -2873494963560893421
+    second: Cave - BigRocks1_200
+  - first:
+      213: 904430190259573238
+    second: Cave - BigRocks1_201
+  - first:
+      213: 4119036160872933604
+    second: Cave - BigRocks1_202
+  - first:
+      213: 466243895332591729
+    second: Cave - BigRocks1_203
+  - first:
+      213: 558442360003556054
+    second: Cave - BigRocks1_204
+  - first:
+      213: 8795027383170148648
+    second: Cave - BigRocks1_205
+  - first:
+      213: 8690961058801184225
+    second: Cave - BigRocks1_206
+  - first:
+      213: -5696662408634112971
+    second: Cave - BigRocks1_207
+  - first:
+      213: 2997318049545238086
+    second: Cave - BigRocks1_208
+  - first:
+      213: 9173930094122848217
+    second: Cave - BigRocks1_209
+  - first:
+      213: 7691694792237877213
+    second: Cave - BigRocks1_210
+  - first:
+      213: 1023841616713282197
+    second: Cave - BigRocks1_211
+  - first:
+      213: 5722324958579267860
+    second: Cave - BigRocks1_212
+  - first:
+      213: -4228146542231477087
+    second: Cave - BigRocks1_213
+  - first:
+      213: -7112316136595095479
+    second: Cave - BigRocks1_214
+  - first:
+      213: 3738558979023364597
+    second: Cave - BigRocks1_215
+  - first:
+      213: 2867581708035567958
+    second: Cave - BigRocks1_216
+  - first:
+      213: 7346626334647326325
+    second: Cave - BigRocks1_217
+  - first:
+      213: 8983583268249960984
+    second: Cave - BigRocks1_218
+  - first:
+      213: 9082365586002277541
+    second: Cave - BigRocks1_219
+  - first:
+      213: -1194544228759717361
+    second: Cave - BigRocks1_220
+  - first:
+      213: -8912909973434694810
+    second: Cave - BigRocks1_221
+  - first:
+      213: -6607341041977234768
+    second: Cave - BigRocks1_222
+  - first:
+      213: -9120812087968044214
+    second: Cave - BigRocks1_223
+  - first:
+      213: 1495258977571349732
+    second: Cave - BigRocks1_224
+  - first:
+      213: 404500161544928879
+    second: Cave - BigRocks1_225
+  - first:
+      213: 6729059995591997885
+    second: Cave - BigRocks1_226
+  - first:
+      213: 6069280915837653218
+    second: Cave - BigRocks1_227
+  - first:
+      213: -8801505144253749970
+    second: Cave - BigRocks1_228
+  - first:
+      213: -2311597865272932458
+    second: Cave - BigRocks1_229
+  - first:
+      213: 9192409897602361805
+    second: Cave - BigRocks1_230
+  - first:
+      213: -4917838370303131974
+    second: Cave - BigRocks1_231
+  - first:
+      213: -5922618364922163663
+    second: Cave - BigRocks1_232
+  - first:
+      213: -4899592003240764125
+    second: Cave - BigRocks1_233
+  - first:
+      213: -1492510409182038704
+    second: Cave - BigRocks1_234
+  - first:
+      213: -7877068994159330211
+    second: Cave - BigRocks1_235
+  - first:
+      213: 5644986650601819942
+    second: Cave - BigRocks1_236
+  - first:
+      213: -6353717287407996552
+    second: Cave - BigRocks1_237
+  - first:
+      213: 5753939828639623741
+    second: Cave - BigRocks1_238
+  - first:
+      213: 1956479140811086676
+    second: Cave - BigRocks1_239
+  - first:
+      213: -5680397501293944971
+    second: Cave - BigRocks1_240
+  - first:
+      213: -6436255181449545611
+    second: Cave - BigRocks1_241
+  - first:
+      213: -6728451374752981665
+    second: Cave - BigRocks1_242
+  - first:
+      213: -1725053749192708349
+    second: Cave - BigRocks1_243
+  - first:
+      213: 3532027452671655719
+    second: Cave - BigRocks1_244
+  - first:
+      213: -3438130630654240685
+    second: Cave - BigRocks1_245
+  - first:
+      213: -1600236412514241255
+    second: Cave - BigRocks1_246
+  - first:
+      213: -1242688886480125712
+    second: Cave - BigRocks1_247
+  - first:
+      213: -1041871393798919409
+    second: Cave - BigRocks1_248
+  - first:
+      213: -750617531982444383
+    second: Cave - BigRocks1_249
+  - first:
+      213: 9026944546535639756
+    second: Cave - BigRocks1_250
+  - first:
+      213: -5192304694653468952
+    second: Cave - BigRocks1_251
+  - first:
+      213: -8829402551496474411
+    second: Cave - BigRocks1_252
+  - first:
+      213: 2875737793550767118
+    second: Cave - BigRocks1_253
+  - first:
+      213: 655675848840789889
+    second: Cave - BigRocks1_254
+  - first:
+      213: -99516411041908154
+    second: Cave - BigRocks1_255
+  - first:
+      213: -6050626630547482430
+    second: Cave - BigRocks1_256
+  - first:
+      213: -2016934297145172897
+    second: Cave - BigRocks1_257
+  - first:
+      213: 7460946201616735378
+    second: Cave - BigRocks1_258
+  - first:
+      213: 1851613783881940546
+    second: Cave - BigRocks1_259
+  - first:
+      213: -6572388255591624254
+    second: Cave - BigRocks1_260
+  - first:
+      213: -6851936843590256397
+    second: Cave - BigRocks1_261
+  - first:
+      213: -1144211570830928239
+    second: Cave - BigRocks1_262
+  - first:
+      213: -7909181217400323919
+    second: Cave - BigRocks1_263
+  - first:
+      213: 6956250660916354773
+    second: Cave - BigRocks1_264
+  - first:
+      213: 4357029429820910461
+    second: Cave - BigRocks1_265
+  - first:
+      213: 8571765200272740660
+    second: Cave - BigRocks1_266
+  - first:
+      213: -853555544260150296
+    second: Cave - BigRocks1_267
+  - first:
+      213: -7908336689096441345
+    second: Cave - BigRocks1_268
+  - first:
+      213: 7763143515284808558
+    second: Cave - BigRocks1_269
+  - first:
+      213: -1214428142673430020
+    second: Cave - BigRocks1_270
+  - first:
+      213: -4477903247303837544
+    second: Cave - BigRocks1_271
+  - first:
+      213: -6368029137938894962
+    second: Cave - BigRocks1_272
+  - first:
+      213: 6755492917000376314
+    second: Cave - BigRocks1_273
+  - first:
+      213: -5800687532435244882
+    second: Cave - BigRocks1_274
+  - first:
+      213: -1994399733979440330
+    second: Cave - BigRocks1_275
+  - first:
+      213: -876445033453724885
+    second: Cave - BigRocks1_276
+  - first:
+      213: -2127704268305087701
+    second: Cave - BigRocks1_277
+  - first:
+      213: 3975162804497069880
+    second: Cave - BigRocks1_278
+  - first:
+      213: -8293893769107794066
+    second: Cave - BigRocks1_279
+  - first:
+      213: 1907396517800913519
+    second: Cave - BigRocks1_280
+  - first:
+      213: -6728837003045551021
+    second: Cave - BigRocks1_281
+  - first:
+      213: 287264586811456757
+    second: Cave - BigRocks1_282
+  - first:
+      213: 6416432956266529938
+    second: Cave - BigRocks1_283
+  - first:
+      213: 964191009326277378
+    second: Cave - BigRocks1_284
+  - first:
+      213: 3662137240456286414
+    second: Cave - BigRocks1_285
+  - first:
+      213: 7501497177103057973
+    second: Cave - BigRocks1_286
+  - first:
+      213: -8912531592692883845
+    second: Cave - BigRocks1_287
+  - first:
+      213: -1315691761628838330
+    second: Cave - BigRocks1_288
+  - first:
+      213: -8534967638164314431
+    second: Cave - BigRocks1_289
+  - first:
+      213: 385042157038131756
+    second: Cave - BigRocks1_290
+  - first:
+      213: 8133504759635981582
+    second: Cave - BigRocks1_291
+  - first:
+      213: 971625818305396360
+    second: Cave - BigRocks1_292
+  - first:
+      213: -3391620049407690628
+    second: Cave - BigRocks1_293
+  - first:
+      213: -5389326651270379664
+    second: Cave - BigRocks1_294
+  - first:
+      213: -84619096509635303
+    second: Cave - BigRocks1_295
+  - first:
+      213: 8776441937722050797
+    second: Cave - BigRocks1_296
+  - first:
+      213: 5773005578961331984
+    second: Cave - BigRocks1_297
+  - first:
+      213: -567167544709572910
+    second: Cave - BigRocks1_298
+  - first:
+      213: -7670074241016686318
+    second: Cave - BigRocks1_299
+  - first:
+      213: 7838261293460565463
+    second: Cave - BigRocks1_300
+  - first:
+      213: 6584786003100362980
+    second: Cave - BigRocks1_301
+  - first:
+      213: 8391912404513010948
+    second: Cave - BigRocks1_302
+  - first:
+      213: -6755810545506017175
+    second: Cave - BigRocks1_303
+  - first:
+      213: -9164566332991852260
+    second: Cave - BigRocks1_304
+  - first:
+      213: -4296528651778038849
+    second: Cave - BigRocks1_305
+  - first:
+      213: 5149805308401742831
+    second: Cave - BigRocks1_306
+  - first:
+      213: 331372073318786367
+    second: Cave - BigRocks1_307
+  - first:
+      213: 7608227397208439920
+    second: Cave - BigRocks1_308
+  - first:
+      213: 4141120929892488411
+    second: Cave - BigRocks1_309
+  - first:
+      213: 3830217395367592779
+    second: Cave - BigRocks1_310
+  - first:
+      213: -7549719611118018660
+    second: Cave - BigRocks1_311
+  - first:
+      213: -4992996678520370127
+    second: Cave - BigRocks1_312
+  - first:
+      213: -7730893828233218491
+    second: Cave - BigRocks1_313
+  - first:
+      213: -4702188726357566021
+    second: Cave - BigRocks1_314
+  - first:
+      213: -1124914534474206020
+    second: Cave - BigRocks1_315
+  - first:
+      213: 7910583998741115906
+    second: Cave - BigRocks1_316
+  - first:
+      213: 5269668895617255729
+    second: Cave - BigRocks1_317
+  - first:
+      213: -6805922970340908651
+    second: Cave - BigRocks1_318
+  - first:
+      213: 5635241512861518943
+    second: Cave - BigRocks1_319
+  - first:
+      213: -6229133587419130001
+    second: Cave - BigRocks1_320
+  - first:
+      213: -2237430275748541946
+    second: Cave - BigRocks1_321
+  - first:
+      213: 6963204376309994998
+    second: Cave - BigRocks1_322
+  - first:
+      213: -3809169187697986442
+    second: Cave - BigRocks1_323
+  - first:
+      213: 3858261653875197945
+    second: Cave - BigRocks1_324
+  - first:
+      213: 4695093021972818863
+    second: Cave - BigRocks1_325
+  - first:
+      213: 8978257917097851265
+    second: Cave - BigRocks1_326
+  - first:
+      213: -4182566177363121616
+    second: Cave - BigRocks1_327
+  - first:
+      213: -1804677122735162642
+    second: Cave - BigRocks1_328
+  - first:
+      213: 2290035338254798615
+    second: Cave - BigRocks1_329
+  - first:
+      213: 5568609059000729543
+    second: Cave - BigRocks1_330
+  - first:
+      213: 5980326210273960610
+    second: Cave - BigRocks1_331
+  - first:
+      213: 6542218844081961601
+    second: Cave - BigRocks1_332
+  - first:
+      213: 2985082499612449726
+    second: Cave - BigRocks1_333
+  - first:
+      213: -6287593132695394710
+    second: Cave - BigRocks1_334
+  - first:
+      213: 8518188791542424120
+    second: Cave - BigRocks1_335
+  - first:
+      213: 7288885725992226491
+    second: Cave - BigRocks1_336
+  - first:
+      213: 6859115661173589590
+    second: Cave - BigRocks1_337
+  - first:
+      213: -7976430123492272138
+    second: Cave - BigRocks1_338
+  - first:
+      213: -3538098225477426156
+    second: Cave - BigRocks1_339
+  - first:
+      213: -591574285406554457
+    second: Cave - BigRocks1_340
+  - first:
+      213: -4742755356333514350
+    second: Cave - BigRocks1_341
+  - first:
+      213: -7659507543786146019
+    second: Cave - BigRocks1_342
+  - first:
+      213: 268188429078172859
+    second: Cave - BigRocks1_343
+  - first:
+      213: -7374863200091426542
+    second: Cave - BigRocks1_344
+  - first:
+      213: 1723884228442424386
+    second: Cave - BigRocks1_345
+  - first:
+      213: 52178015048783812
+    second: Cave - BigRocks1_346
+  - first:
+      213: 4503464961671237782
+    second: Cave - BigRocks1_347
+  - first:
+      213: 8734220763891496718
+    second: Cave - BigRocks1_348
+  - first:
+      213: 5209907747933090332
+    second: Cave - BigRocks1_349
+  - first:
+      213: 734627215005965183
+    second: Cave - BigRocks1_350
+  - first:
+      213: -6401344043152924500
+    second: Cave - BigRocks1_351
+  - first:
+      213: -1406686516624860122
+    second: Cave - BigRocks1_352
+  - first:
+      213: -1972382719364332651
+    second: Cave - BigRocks1_353
+  - first:
+      213: -6095372814383923873
+    second: Cave - BigRocks1_354
+  - first:
+      213: 4769813772424578113
+    second: Cave - BigRocks1_355
+  - first:
+      213: -2783366628590657813
+    second: Cave - BigRocks1_356
+  - first:
+      213: 5532984358837578360
+    second: Cave - BigRocks1_357
+  - first:
+      213: -3562576098591367514
+    second: Cave - BigRocks1_358
+  - first:
+      213: -8414587639032131502
+    second: Cave - BigRocks1_359
+  - first:
+      213: -8809397846241391344
+    second: Cave - BigRocks1_360
+  - first:
+      213: -4886810644327071785
+    second: Cave - BigRocks1_361
+  - first:
+      213: -5060498522077591824
+    second: Cave - BigRocks1_362
+  - first:
+      213: -2559693041162042113
+    second: Cave - BigRocks1_363
+  - first:
+      213: -5986477823975682516
+    second: Cave - BigRocks1_364
+  - first:
+      213: 1286953928137214476
+    second: Cave - BigRocks1_365
+  - first:
+      213: -8809649434547968597
+    second: Cave - BigRocks1_366
+  - first:
+      213: 7745229772856498665
+    second: Cave - BigRocks1_367
+  - first:
+      213: 4579465580569021468
+    second: Cave - BigRocks1_368
+  - first:
+      213: -4199710528827854641
+    second: Cave - BigRocks1_369
+  - first:
+      213: 2484304527041723981
+    second: Cave - BigRocks1_370
+  - first:
+      213: -3016215302738077858
+    second: Cave - BigRocks1_371
+  - first:
+      213: 4199347771244539862
+    second: Cave - BigRocks1_372
+  - first:
+      213: -3051574356030730585
+    second: Cave - BigRocks1_373
+  - first:
+      213: 4442711394152466929
+    second: Cave - BigRocks1_374
+  - first:
+      213: 5720836846728701886
+    second: Cave - BigRocks1_375
+  - first:
+      213: -3222013976575392058
+    second: Cave - BigRocks1_376
+  - first:
+      213: -6245713241323010295
+    second: Cave - BigRocks1_377
+  - first:
+      213: -2069012484423034056
+    second: Cave - BigRocks1_378
+  - first:
+      213: -3751337282734272686
+    second: Cave - BigRocks1_379
+  - first:
+      213: 3340087819752186958
+    second: Cave - BigRocks1_380
+  - first:
+      213: 2769514497318471934
+    second: Cave - BigRocks1_381
+  - first:
+      213: 6266311207169735446
+    second: Cave - BigRocks1_382
+  - first:
+      213: -5781722973775603210
+    second: Cave - BigRocks1_383
+  - first:
+      213: 2795798482125774160
+    second: Cave - BigRocks1_384
+  - first:
+      213: 7737838762792896045
+    second: Cave - BigRocks1_385
+  - first:
+      213: -9112453291616982082
+    second: Cave - BigRocks1_386
+  - first:
+      213: -9039493035045643440
+    second: Cave - BigRocks1_387
+  - first:
+      213: 8619954467870120620
+    second: Cave - BigRocks1_388
+  - first:
+      213: 8452346977096836284
+    second: Cave - BigRocks1_389
+  - first:
+      213: 2999971540579925331
+    second: Cave - BigRocks1_390
+  - first:
+      213: 5540805217849936472
+    second: Cave - BigRocks1_391
+  - first:
+      213: 7696222906635615778
+    second: Cave - BigRocks1_392
+  - first:
+      213: -5053790239015732959
+    second: Cave - BigRocks1_393
+  - first:
+      213: -4101332990167966060
+    second: Cave - BigRocks1_394
+  - first:
+      213: 6236229116605726344
+    second: Cave - BigRocks1_395
+  - first:
+      213: 4977848523242110099
+    second: Cave - BigRocks1_396
+  - first:
+      213: -8363966144415568707
+    second: Cave - BigRocks1_397
+  - first:
+      213: -557060650150516617
+    second: Cave - BigRocks1_398
+  - first:
+      213: 4315907752566915012
+    second: Cave - BigRocks1_399
+  - first:
+      213: -5621396091852919358
+    second: Cave - BigRocks1_400
+  - first:
+      213: 7039155457294893147
+    second: Cave - BigRocks1_401
+  - first:
+      213: 6036373353489311056
+    second: Cave - BigRocks1_402
+  - first:
+      213: 4814601242107709799
+    second: Cave - BigRocks1_403
+  - first:
+      213: 6082638351153018628
+    second: Cave - BigRocks1_404
+  - first:
+      213: -9086022270786388770
+    second: Cave - BigRocks1_405
+  - first:
+      213: -2390899892358591863
+    second: Cave - BigRocks1_406
+  - first:
+      213: -3358665459911250608
+    second: Cave - BigRocks1_407
+  - first:
+      213: -2368125608697370527
+    second: Cave - BigRocks1_408
+  - first:
+      213: 1863168343820967657
+    second: Cave - BigRocks1_409
+  - first:
+      213: 4459835591001954040
+    second: Cave - BigRocks1_410
+  - first:
+      213: 8466028022314923178
+    second: Cave - BigRocks1_411
+  - first:
+      213: -2744469903446763391
+    second: Cave - BigRocks1_412
+  - first:
+      213: 1523865749280075894
+    second: Cave - BigRocks1_413
+  - first:
+      213: -3953075081988530746
+    second: Cave - BigRocks1_414
+  - first:
+      213: 6897845953354319524
+    second: Cave - BigRocks1_415
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave - BigRocks1_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 436
+        width: 730
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcd9bbf629785d30800000000000000
+      internalID: 4420416242603121876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_1
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 749
+        width: 387
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a8fea799dcc5630800000000000000
+      internalID: 3917231834981698172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 466
+        width: 316
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f95e1b678548bf0800000000000000
+      internalID: -323036006449832048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_3
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 806
+        width: 249
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a10562e386d6afe0800000000000000
+      internalID: -1178018390583475805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_4
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 742
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a1b09b226ad8330800000000000000
+      internalID: 3714807935714138745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_5
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 12
+        width: 233
+        height: 757
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ba707ff9294c350800000000000000
+      internalID: 6036110616325237527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_6
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 465
+        width: 578
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac450d7a676bc680800000000000000
+      internalID: -8733773345293251420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 5
+        width: 345
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d92d78e3867b7c0800000000000000
+      internalID: -4055658321647854206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 7
+        width: 692
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c8d26cce9e7cac0800000000000000
+      internalID: -3834839354536260602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave - BigRocks1_9
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 7
+        width: 601
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0d03ed211971080800000000000000
+      internalID: -9216738602167250781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

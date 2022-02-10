@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6943214d82bc4554ba3fb68de4dbff29, type: 3}
+  m_Name: BlacksmithQuest
+  m_EditorClassIdentifier: 
+  id: 1
+  stage: 0
+  numberOfStages: 1
+  questName: Blacksmith Quest
+  description: The blacksmith in town requests an item.
+  state: 0
+  dialogues:
+  - dialogue: HUMAN! PROVE THAT I CAN TRUST YOU!
+    accept: Confirm
+    reject: Decline
+  - dialogue: DID YOU BRING THE ITEM?
+    accept: Yes
+    reject: No
+  - dialogue: YOU HAVE GAINED MY TRUST! ACCESS MY SHOP NOW!
+    accept: Yes
+    reject: No
+  blacksmithHammer: {fileID: 11400000, guid: c8463df0054f6e84088d436b6b869803, type: 2}
