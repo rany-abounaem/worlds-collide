@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 350551833}
   - component: {fileID: 350551832}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -308,7 +308,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 71742549}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -377,8 +377,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000068665, y: -210}
-  m_SizeDelta: {x: 455.566, y: 164.774}
+  m_AnchoredPosition: {x: 0.0000038147, y: -56}
+  m_SizeDelta: {x: 223.3539, y: 68.8284}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748284759
 MonoBehaviour:
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 168.45
+  m_fontSize: 70.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -751,6 +751,7 @@ GameObject:
   - component: {fileID: 1832799349}
   - component: {fileID: 1832799352}
   - component: {fileID: 1832799353}
+  - component: {fileID: 1832799354}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -775,8 +776,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: 208}
-  m_SizeDelta: {x: 455.566, y: 164.774}
+  m_AnchoredPosition: {x: 0.0000030204, y: 58}
+  m_SizeDelta: {x: 223.35, y: 68.828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832799349
 MonoBehaviour:
@@ -884,6 +885,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &1832799354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832799347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a9b262606115f42a5dd177c029840e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _action: {fileID: 4801411254150627309, guid: c48e84a923e89964c860a1b0bcaaa78e, type: 3}
 --- !u!1 &1981013446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +1025,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 168.45
+  m_fontSize: 70.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace WorldsCollide.MainMenu
+namespace WorldsCollide.UI
 {
     public class CustomButtonVisuals : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IUIFade
     {
@@ -25,9 +25,9 @@ namespace WorldsCollide.MainMenu
             _fadeCoroutine = StartCoroutine(StartFade(duration));
         }
 
-        public void FadeLoop(float duration, int repetitions)
+        public void FadeLoop(float target, float duration, int repetitions)
         {
-            _fadeLoopCoroutine = StartCoroutine(StartFadeLoop(duration, repetitions));
+            _fadeLoopCoroutine = StartCoroutine(StartFadeLoop(target, duration, repetitions));
         }
 
         IEnumerator StartFade(float duration)
@@ -46,7 +46,7 @@ namespace WorldsCollide.MainMenu
 
             _fadeCoroutine = null;
         }
-        IEnumerator StartFadeLoop(float duration, int repetitions)
+        IEnumerator StartFadeLoop(float target, float duration, int repetitions)
         {
             if (_fadeLoopCoroutine != null)
                 StopCoroutine(_fadeLoopCoroutine);
@@ -57,10 +57,9 @@ namespace WorldsCollide.MainMenu
                 {
                     if (_fadeCoroutine == null)
                     {
-                        repetitions--;
-                        if (_canvasGroup.alpha > 0)
+                        if (_canvasGroup.alpha > 0.5f)
                         {
-                            Fade(0, duration);
+                            Fade(0.5f, duration);
                         }
                         else
                         {
@@ -78,9 +77,9 @@ namespace WorldsCollide.MainMenu
                     if (_fadeCoroutine == null)
                     {
                         repetitions--;
-                        if (_canvasGroup.alpha > 0)
+                        if (_canvasGroup.alpha > 0.5f)
                         {
-                            Fade(0, duration);
+                            Fade(0.5f, duration);
                         }
                         else
                         {
@@ -97,7 +96,7 @@ namespace WorldsCollide.MainMenu
         {
             if (_fadeLoopCoroutine != null)
                 StopCoroutine(_fadeLoopCoroutine);
-            FadeLoop(1f, -1);
+            FadeLoop(0, 1f, -1);
         }
 
         public void OnPointerExit(PointerEventData eventData)
