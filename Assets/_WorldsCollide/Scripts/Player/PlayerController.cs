@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     public UnityEvent leftWeaponHit, rightWeaponHit,
         throwWeapon, rightClickPressed;
 
+    InputActions _inputActions;
+
     void Awake()
     {
         if (instance != null && instance != this)
@@ -47,6 +49,12 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        if (_inputActions == null)
+        {
+            _inputActions = new InputActions();
+            Cursor.visible = false; 
+            _inputActions.Enable();
+        }
 
     }
 
@@ -54,7 +62,7 @@ public class PlayerController : MonoBehaviour
     {
         //isGrounded = Physics2D.OverlapCircle(leg1.position, checkRadius, ground) || Physics2D.OverlapCircle(leg2.position, checkRadius, ground);
 
-        moveInput = Input.GetAxis("Horizontal");
+        moveInput = _inputActions.Game.Movement.ReadValue<float>();
         if (moveInput != 0 && isGrounded)
             anim.SetBool("isMoving", true);
         else
@@ -103,32 +111,32 @@ public class PlayerController : MonoBehaviour
             rollCooldown -= Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.W) && remainingJumps > 0)
+        if (_inputActions.Game.Jump.triggered && remainingJumps > 0)
         {
             jumpClicked = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && rollCooldown <= 0)
-        {
-            shiftClicked = true;
-        }
+        //if (Input.GetKeyDown(KeyCode.LeftShift) && rollCooldown <= 0)
+        //{
+        //    shiftClicked = true;
+        //}
 
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            isAttacking = true;
-            anim.SetTrigger("Attack");
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            //isAttacking = true;
-            anim.SetTrigger("Attack2");
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            //isAttacking = true;
-            anim.SetTrigger("Attack3");
-        }
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    isAttacking = true;
+        //    anim.SetTrigger("Attack");
+        //}
+        //if (Input.GetMouseButtonDown(1))
+        //{
+        //    //isAttacking = true;
+        //    anim.SetTrigger("Attack2");
+        //}
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    //isAttacking = true;
+        //    anim.SetTrigger("Attack3");
+        //}
 
         
         //if (Input.GetKey(KeyCode.W) && remainingJumps == 0 && isGrounded)
