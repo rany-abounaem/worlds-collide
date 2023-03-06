@@ -30,6 +30,8 @@ public class Item : ScriptableObject
     public ItemType Type { get; set; }
     [field: SerializeField]
     public List <Action> actions { get; set; }
+    [field: SerializeField]
+    public Sprite Sprite { get; set; }
     //Buff[] buffs;
 
     //public Item(string name, int spriteId, int cost, ItemType type, List <Action> actions)

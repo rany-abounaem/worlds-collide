@@ -33,6 +33,10 @@ public class PlayerController : MonoBehaviour
 
     InputActions _inputActions;
 
+    [SerializeField] UIManager _UIManager;
+
+    public delegate void PickupHandler(IPickupable pickupable);
+
     void Awake()
     {
         if (instance != null && instance != this)
@@ -56,6 +60,19 @@ public class PlayerController : MonoBehaviour
             _inputActions.Enable();
         }
 
+        _inputActions.UI.OpenInventory.performed += _ => ToggleInventory();
+        _inputActions.Game.Pickup.performed += _ => HandlePickup();
+
+    }
+
+    void ToggleInventory()
+    {
+        _UIManager.ToggleInventory();
+    }
+
+    void HandlePickup()
+    {
+        _UIManager.ToggleInventory();
     }
 
     private void FixedUpdate()
@@ -116,17 +133,17 @@ public class PlayerController : MonoBehaviour
             jumpClicked = true;
         }
 
-        //if (Input.GetKeyDown(KeyCode.LeftShift) && rollCooldown <= 0)
-        //{
-        //    shiftClicked = true;
-        //}
+        if (_inputActions.Game.Roll.triggered  && rollCooldown <= 0)
+        {
+            shiftClicked = true;
+        }
 
 
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    isAttacking = true;
-        //    anim.SetTrigger("Attack");
-        //}
+        if (_inputActions.Game.Attack_1.triggered)
+        {
+            isAttacking = true;
+            anim.SetTrigger("Attack");
+        }
         //if (Input.GetMouseButtonDown(1))
         //{
         //    //isAttacking = true;
@@ -138,7 +155,7 @@ public class PlayerController : MonoBehaviour
         //    anim.SetTrigger("Attack3");
         //}
 
-        
+
         //if (Input.GetKey(KeyCode.W) && remainingJumps == 0 && isGrounded)
         //    rb.velocity = Vector2.up * jumpForce;
     }

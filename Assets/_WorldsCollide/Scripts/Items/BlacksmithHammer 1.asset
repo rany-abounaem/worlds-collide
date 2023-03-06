@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a175635978da2cf449fdebf682ae2fc4, type: 3}
-  m_Name: BlacksmithHammer
+  m_Name: BlacksmithHammer 1
   m_EditorClassIdentifier: 
-  itemName: BlacksmithHammer
-  spriteId: 0
-  quantity: 1
-  cost: 10
-  durability: 100
-  type: 12
+  <ItemName>k__BackingField: 
+  <SpriteId>k__BackingField: 0
+  <Quantity>k__BackingField: 0
+  <Cost>k__BackingField: 0
+  <Durability>k__BackingField: 0
+  <Type>k__BackingField: 0
+  <Sprite>k__BackingField: {fileID: -3559194562748164056, guid: 3fd7e78036581984db300a0143e498b6, type: 3}

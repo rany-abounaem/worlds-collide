@@ -18,7 +18,7 @@ TagManager:
   - UI
   - Ground
   - Enemy
-  - 
+  - Loot
   - 
   - 
   - 
@@ -57,6 +57,9 @@ TagManager:
     locked: 0
   - name: Objects
     uniqueID: 1281468889
+    locked: 0
+  - name: ObjectForeEffect
+    uniqueID: 1447028355
     locked: 0
   - name: Foreground
     uniqueID: 1038324993
