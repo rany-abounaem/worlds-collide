@@ -44,53 +44,53 @@ public class EquipmentManager : MonoBehaviour
                 //InventoryManager.instance.inventory.Add(item);
                 if (!hood.ItemName.Equals(""))
                 {
-                    InventoryManager.instance.AddToInventory(hood);
+                    InventoryManager.instance.AddItem(hood);
                     Debug.Log("Hood detected");
                 }
                 hood = item;
-                InventoryManager.instance.RemoveFromInventory(item);
+                InventoryManager.instance.RemoveItem(item);
                 hoodSR.SetCategoryAndLabel("Hood", item.SpriteId.ToString());
                 break;
             case ItemType.Shoulder:
                 //InventoryManager.instance.inventory.Add(item);
                 if(!shoulder.ItemName.Equals(""))
                 { 
-                    InventoryManager.instance.AddToInventory(shoulder);
+                    InventoryManager.instance.AddItem(shoulder);
                     Debug.Log("Shoulder detected");
                 }
                 shoulder = item;
-                InventoryManager.instance.RemoveFromInventory(item);
+                InventoryManager.instance.RemoveItem(item);
                 leftShoulderSR.SetCategoryAndLabel("L_Shoulder", item.SpriteId.ToString());
                 rightShoulderSR.SetCategoryAndLabel("R_Shoulder", item.SpriteId.ToString());
                 break;
             case ItemType.Torso:
                 if(!torso.ItemName.Equals(""))
                 { 
-                    InventoryManager.instance.AddToInventory(torso);
+                    InventoryManager.instance.AddItem(torso);
                     Debug.Log("Torso detected");
                 }
                 torso = item;
-                InventoryManager.instance.RemoveFromInventory(item);
+                InventoryManager.instance.RemoveItem(item);
                 torsoSR.SetCategoryAndLabel("Torso", item.SpriteId.ToString());
                 break;
             case ItemType.Pelvis:
                 if(!pelvis.ItemName.Equals(""))
                 { 
-                    InventoryManager.instance.AddToInventory(pelvis);
+                    InventoryManager.instance.AddItem(pelvis);
                     Debug.Log("Pelvis detected");
                 }
                 pelvis = item;
-                InventoryManager.instance.RemoveFromInventory(item);
+                InventoryManager.instance.RemoveItem(item);
                 pelvisSR.SetCategoryAndLabel("Pelvis", item.SpriteId.ToString());
                 break;
             case ItemType.Boot:
                 if (!boot.ItemName.Equals(""))
                 { 
-                    InventoryManager.instance.AddToInventory(boot);
+                    InventoryManager.instance.AddItem(boot);
                     Debug.Log("Boot detected");
                 }
                 boot = item;
-                InventoryManager.instance.RemoveFromInventory(item);
+                InventoryManager.instance.RemoveItem(item);
                 leftBootSR.SetCategoryAndLabel("L_Boot", item.SpriteId.ToString());
                 rightBootSR.SetCategoryAndLabel("R_Boot", item.SpriteId.ToString());
                 break;
@@ -113,9 +113,9 @@ public class EquipmentManager : MonoBehaviour
         {
             case ItemType.Weapon:
                 if (Weapon != null)
-                    InventoryManager.instance.AddToInventory(Weapon);
+                    InventoryManager.instance.AddItem(Weapon);
                 Weapon = item;
-                InventoryManager.instance.RemoveFromInventory(item);
+                InventoryManager.instance.RemoveItem(item);
                 break;
             default:
                 Debug.Log("Item has no type");

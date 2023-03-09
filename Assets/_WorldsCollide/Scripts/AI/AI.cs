@@ -14,7 +14,7 @@ public class AI : MonoBehaviour
     public float MaxHealth { get; set; }
     public int DamagePower { get; set; }
     public int DefensePower { get; set; }
-    public List<Action> actions = new List<Action>();
+    public List<Ability> actions = new List<Ability>();
     public bool faceRight = true;
     public Slider slider;
 
@@ -44,7 +44,7 @@ public class AI : MonoBehaviour
 
     public virtual void UseAction(int index)
     {
-        actions[index].UseAction();
+        actions[index].Use();
     }
 
 

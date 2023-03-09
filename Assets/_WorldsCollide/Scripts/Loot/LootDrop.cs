@@ -20,8 +20,8 @@ public class LootDrop : MonoBehaviour
 
     public void Drop()
     {
-        var randomX = Random.Range(-2, 2);
-        var randomY = Random.Range(1, 3);
+        var randomX = Random.Range(-2f, 2f);
+        var randomY = Random.Range(1f, 3f);
         _rigidbody.AddForce(new Vector2(randomX, randomY) * 200f);
         _rigidbody.AddTorque(randomX * 10f);
         _spriteRenderer.sprite = Item.Sprite;

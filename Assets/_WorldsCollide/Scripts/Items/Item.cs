@@ -29,7 +29,7 @@ public class Item : ScriptableObject
     [field: SerializeField]
     public ItemType Type { get; set; }
     [field: SerializeField]
-    public List <Action> actions { get; set; }
+    public List <Ability> actions { get; set; }
     [field: SerializeField]
     public Sprite Sprite { get; set; }
     //Buff[] buffs;

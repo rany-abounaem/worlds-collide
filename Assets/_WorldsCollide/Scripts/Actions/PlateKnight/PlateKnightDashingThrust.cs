@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlateKnightDashingThrust : Action
+public class PlateKnightDashingThrust : Ability
 {
     GameObject spear;
     GameObject shield;
@@ -13,7 +13,7 @@ public class PlateKnightDashingThrust : Action
         shield = _shield;
     }
 
-    public override void UseAction()
+    public override void Use()
     {
         BoxCollider2D spearCollider = spear.GetComponent<BoxCollider2D>();
         Collider2D[] colliders = new Collider2D [5];

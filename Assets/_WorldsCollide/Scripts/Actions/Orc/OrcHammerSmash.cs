@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OrcHammerSmash : Action
+public class OrcHammerSmash : Ability
 {
     public GameObject hammer;
     public OrcHammerSmash(GameObject _caster, GameObject _hammer) : base(_caster)
@@ -10,7 +10,7 @@ public class OrcHammerSmash : Action
         hammer = _hammer;
     }
 
-    public override void UseAction()
+    public override void Use()
     {
         BoxCollider2D hammerCollider = hammer.GetComponent<BoxCollider2D>();
         Collider2D[] colliders = new Collider2D[5];

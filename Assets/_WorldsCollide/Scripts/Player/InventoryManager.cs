@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+public delegate void InventoryHandler();
+
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager instance;
-
     public List<Item> inventory;
-    public UnityEvent onInventoryChanged;
+    public event InventoryHandler OnInventoryChanged;
     // Start is called before the first frame update
 
     void Awake()
@@ -24,24 +25,24 @@ public class InventoryManager : MonoBehaviour
         
     }
 
-    public void AddToInventory(Item item)
+    public void AddItem(Item item)
     {
         inventory.Add(item);
-        onInventoryChanged.Invoke();
+        OnInventoryChanged?.Invoke();
     }
 
-    public bool RemoveFromInventory (Item item)
+    public bool RemoveItem (Item item)
     {
         if (inventory.Remove(item))
         {
-            onInventoryChanged.Invoke();
+            OnInventoryChanged?.Invoke();
             return true;
         }
         else
             return false;  
     }
     
-    public Item GetItemFromInventory (int index)
+    public Item GetItem (int index)
     {
         if (inventory[index] != null)
             return inventory[index];

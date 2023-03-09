@@ -19,7 +19,7 @@ public class BlacksmithQuest : Quest
                 return QuestResponse.CLOSE_DIALOGUE;
 
             case 1:
-                if (InventoryManager.instance.RemoveFromInventory(blacksmithHammer))
+                if (InventoryManager.instance.RemoveItem(blacksmithHammer))
                 {
                     state = QuestState.DONE;
                     stage++;

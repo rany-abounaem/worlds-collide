@@ -16,7 +16,6 @@ public class OrcPatrolState : State
     public override void Enter()
     {
         anim.SetBool("isWalking", true);
-        Debug.Log("Walk set");
         base.Enter();
     }
 
@@ -31,8 +30,6 @@ public class OrcPatrolState : State
     {
         rb.velocity = new Vector2(0, 0);
         anim.SetBool("isWalking", false);
-        //anim.ResetTrigger("isWalking");
-        Debug.Log("Walk unset");
         base.Exit();
     }
 

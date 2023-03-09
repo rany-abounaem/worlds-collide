@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,6 +8,8 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
     public Animator anim;
+    [SerializeField]
+    Collider2D[] _colliders;
 
     public bool faceRight = true;
     bool jumpClicked, shiftClicked;
@@ -72,7 +75,22 @@ public class PlayerController : MonoBehaviour
 
     void HandlePickup()
     {
-        _UIManager.ToggleInventory();
+        var pointA = (Vector2)transform.position - new Vector2(0.5f, -0.5f);
+        var pointB = (Vector2)transform.position + new Vector2(0.5f, -0.5f);
+        Debug.DrawLine(pointA, pointB, Color.red, 10);
+        var results = new List<Collider2D>();
+        Physics2D.OverlapArea(pointA, pointB, new ContactFilter2D(), results);
+        foreach (var collider in results)
+        {
+            if (collider.TryGetComponent(out LootDrop lootDrop))
+            {
+                var __playerInventory = GetComponent<InventoryManager>();
+                __playerInventory.AddItem(lootDrop.Item);
+                Destroy(lootDrop.gameObject);
+                break;
+            }
+        }
+
     }
 
     private void FixedUpdate()
@@ -144,39 +162,7 @@ public class PlayerController : MonoBehaviour
             isAttacking = true;
             anim.SetTrigger("Attack");
         }
-        //if (Input.GetMouseButtonDown(1))
-        //{
-        //    //isAttacking = true;
-        //    anim.SetTrigger("Attack2");
-        //}
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    //isAttacking = true;
-        //    anim.SetTrigger("Attack3");
-        //}
-
-
-        //if (Input.GetKey(KeyCode.W) && remainingJumps == 0 && isGrounded)
-        //    rb.velocity = Vector2.up * jumpForce;
     }
-
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Ground"))
-    //    {
-    //        isGrounded = true;
-    //        anim.SetBool("isJumping", false);
-    //        remainingJumps = 2;
-    //    }
-    //}
-    //private void OnCollisionExit2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Ground") && Vector2.Distance(collision.transform.position, transform.position) > 5)
-    //    {
-    //        anim.SetBool("isJumping", true);
-    //        isGrounded = false;
-    //    }
-    //}
 
     public void SetAttackingBoolean(int value)
     {
@@ -207,21 +193,5 @@ public class PlayerController : MonoBehaviour
     {
         rightClickPressed.Invoke();
     }
-
-    //void AddControllerActionToCooldown(string actionName)
-    //{
-
-    //}
-
-    //bool CheckCooldown (string actionName)
-    //{
-
-    //}
-
-    //void UpdateCooldowns()
-    //{
-
-    //}
-
 
 }

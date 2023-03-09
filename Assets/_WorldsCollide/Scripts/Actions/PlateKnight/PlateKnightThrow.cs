@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlateKnightThrow : Action
+public class PlateKnightThrow : Ability
 {
     float throwForce = 20;
     GameObject spear;
@@ -12,11 +12,11 @@ public class PlateKnightThrow : Action
         spear = _spear;  
     }
 
-    public override void UseAction()
+    public override void Use()
     {
-        GameObject instantiatedSpear = MonoBehaviour.Instantiate(spear, caster.transform.position, Quaternion.identity);
+        GameObject instantiatedSpear = MonoBehaviour.Instantiate(spear, Caster.transform.position, Quaternion.identity);
         Rigidbody2D rb = instantiatedSpear.GetComponent<Rigidbody2D>();
-        Vector2 direction = (Vector2)(PlayerController.instance.transform.position - caster.transform.position);
+        Vector2 direction = (Vector2)(PlayerController.instance.transform.position - Caster.transform.position);
         instantiatedSpear.transform.up = direction.normalized;
         rb.velocity = direction.normalized * throwForce;
 
