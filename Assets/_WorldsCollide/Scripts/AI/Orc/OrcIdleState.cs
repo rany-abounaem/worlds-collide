@@ -13,7 +13,6 @@ public class OrcIdleState : State
     public override void Enter()
     {
         anim.SetBool("isIdle", true);
-        Debug.Log("Idle set");
         base.Enter();
     }
 
@@ -31,9 +30,6 @@ public class OrcIdleState : State
     public override void Exit()
     {
         anim.SetBool("isIdle", false);
-        Debug.Log("Idle unset");
-        //anim.ResetTrigger("isIdle");
-
         base.Exit();
 
     }

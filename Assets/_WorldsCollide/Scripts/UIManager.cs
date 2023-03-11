@@ -11,9 +11,13 @@ public class UIManager : MonoBehaviour
 
     [SerializeField]
     RectTransform _inventoryPanel;
+
+    [SerializeField]
+    InputManager _inputManager;
     
     void Start()
     {
+        _inputManager.InputActions.UI.OpenInventory.performed += _ => ToggleInventory();
         if (playerHPSlider && playerHPFill)
             UpdateUIHealth();
         PlayerStats.instance.onHealthUpdate.AddListener(() => UpdateUIHealth());

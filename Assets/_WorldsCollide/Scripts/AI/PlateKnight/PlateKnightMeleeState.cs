@@ -16,7 +16,7 @@ public class PlateKnightMeleeState : State
     //Set trigger based on best action trigger string
     public override void Enter()
     {
-        if (PlayerController.instance.isGrounded)
+        if (PlayerController.instance.IsGrounded)
         {
             anim.SetBool("isAttacking", true);
             upSpear = false;
@@ -50,14 +50,14 @@ public class PlateKnightMeleeState : State
         }
 
         //Condition: If the player is on the ground and plate knight is attacking upwards
-        else if (PlayerController.instance.isGrounded && upSpear)
+        else if (PlayerController.instance.IsGrounded && upSpear)
         {
             nextState = new PlateKnightMeleeState(npc, ai, anim, player, rb);
             stage = EVENT.EXIT;
         }
 
         //Condition: If the player is in the air and plate knight is attacking downwards
-        else if (!PlayerController.instance.isGrounded && !upSpear)
+        else if (!PlayerController.instance.IsGrounded && !upSpear)
         {
             nextState = new PlateKnightMeleeState(npc, ai, anim, player, rb);
             stage = EVENT.EXIT;

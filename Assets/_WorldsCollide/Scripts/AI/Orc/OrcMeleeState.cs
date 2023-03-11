@@ -12,7 +12,6 @@ public class OrcMeleeState : State
     public override void Enter()
     {
         anim.SetBool("isAttacking", true);
-        Debug.Log("Attack set");
         base.Enter();
     }
 
@@ -32,7 +31,6 @@ public class OrcMeleeState : State
     public override void Exit()
     {
         anim.SetBool("isAttacking", false);
-        Debug.Log("Attack unset");
         base.Exit();
     }
 }
