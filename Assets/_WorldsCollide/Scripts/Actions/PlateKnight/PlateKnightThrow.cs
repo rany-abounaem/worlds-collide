@@ -16,7 +16,7 @@ public class PlateKnightThrow : Ability
     {
         GameObject instantiatedSpear = MonoBehaviour.Instantiate(spear, Caster.transform.position, Quaternion.identity);
         Rigidbody2D rb = instantiatedSpear.GetComponent<Rigidbody2D>();
-        Vector2 direction = (Vector2)(PlayerController.instance.transform.position - Caster.transform.position);
+        Vector2 direction = (Vector2)(MovementComponent.instance.transform.position - Caster.transform.position);
         instantiatedSpear.transform.up = direction.normalized;
         rb.velocity = direction.normalized * throwForce;
 

@@ -270,11 +270,11 @@ GameObject:
   - component: {fileID: 493354827537109879}
   - component: {fileID: 320758598}
   - component: {fileID: 320758601}
-  - component: {fileID: 320758597}
   - component: {fileID: 444365303}
   - component: {fileID: 444365304}
   - component: {fileID: 7791122385712096148}
   - component: {fileID: 75604468798979148}
+  - component: {fileID: 3560159503607365659}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -363,39 +363,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &320758597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415117383841600397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b57fdc322595edd4cabcf012a0331dfa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _anim: {fileID: 0}
-  _movementSpeed: 65
-  _jumpForce: 25
-  _rollForce: 25
-  isGrounded: 0
-  isWallHanging: 0
-  isAttacking: 0
-  remainingJumps: 0
-  leftWeaponHit:
-    m_PersistentCalls:
-      m_Calls: []
-  rightWeaponHit:
-    m_PersistentCalls:
-      m_Calls: []
-  throwWeapon:
-    m_PersistentCalls:
-      m_Calls: []
-  rightClickPressed:
-    m_PersistentCalls:
-      m_Calls: []
-  _inputManager: {fileID: 0}
 --- !u!114 &444365303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,6 +437,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f4178758dae9fb4aa62aa85f282ddfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _inputManager: {fileID: 0}
+--- !u!114 &3560159503607365659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415117383841600397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b991278cbd74a5e4ca2e8bd82c6c0e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movementSpeed: 65
+  _jumpForce: 25
+  _rollForce: 25
+  leftWeaponHit:
+    m_PersistentCalls:
+      m_Calls: []
+  rightWeaponHit:
+    m_PersistentCalls:
+      m_Calls: []
+  throwWeapon:
+    m_PersistentCalls:
+      m_Calls: []
+  rightClickPressed:
+    m_PersistentCalls:
+      m_Calls: []
   _inputManager: {fileID: 0}
 --- !u!114 &3856443462228911825
 MonoBehaviour:

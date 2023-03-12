@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputManager : MonoBehaviour
+namespace WorldsCollide.Input
 {
-    public InputActions InputActions { get; private set; }
-    private void Awake()
+    public class InputManager : MonoBehaviour
     {
-        InputActions = new InputActions();
-        InputActions.Enable();
-        Cursor.visible = false;
+        public InputActions InputActions { get; private set; }
+        private void Awake()
+        {
+            InputActions = new InputActions();
+            InputActions.Enable();
+            Cursor.visible = false;
+        }
     }
 }
+

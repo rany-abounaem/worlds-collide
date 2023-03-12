@@ -9,7 +9,7 @@ public class LeftWeaponCollision : MonoBehaviour
     private void Start()
     {
         weaponCollider = GetComponent<BoxCollider2D>();
-        PlayerController.instance.leftWeaponHit.AddListener(() => Hit());
+        MovementComponent.instance.leftWeaponHit.AddListener(() => Hit());
     }
 
     public void Hit()

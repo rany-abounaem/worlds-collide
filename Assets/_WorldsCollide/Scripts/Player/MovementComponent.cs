@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
+using WorldsCollide.Input;
 
-public class PlayerController : MonoBehaviour
+public class MovementComponent : MonoBehaviour
 {
     private Rigidbody2D _rigidbody;
     private Animator _anim;
@@ -25,7 +26,7 @@ public class PlayerController : MonoBehaviour
     public bool IsGrounded { get; private set; }
     
 
-    public static PlayerController instance;
+    public static MovementComponent instance;
 
     public UnityEvent leftWeaponHit, rightWeaponHit,
         throwWeapon, rightClickPressed;

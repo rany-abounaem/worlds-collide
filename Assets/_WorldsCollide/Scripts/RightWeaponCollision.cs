@@ -9,7 +9,7 @@ public class RightWeaponCollision : MonoBehaviour
     private void Start()
     {
         weaponCollider = GetComponent<BoxCollider2D>();
-        PlayerController.instance.rightWeaponHit.AddListener(() => Hit());
+        MovementComponent.instance.rightWeaponHit.AddListener(() => Hit());
     }
 
     public void Hit()
