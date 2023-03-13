@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "Ability", menuName = "ScriptableObjects/Abilities/Ability")]
 public class Ability : ScriptableObject
 {
+    [SerializeField]
+    private AnimationClip _animation;
     [SerializeField]
     private string _name;
     [SerializeField]

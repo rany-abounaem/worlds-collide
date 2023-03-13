@@ -31,7 +31,7 @@ public class AI : MonoBehaviour
         if (Health <= 0)
         {
             Health = 0;
-            Instantiate(GameManager.instance.ExpGainEffect, transform.position, Quaternion.identity);
+            Instantiate(GameplaySystem.instance.ExpGainEffect, transform.position, Quaternion.identity);
             if (TryGetComponent(out LootingBehavior lootingBehavior))
             {
                 lootingBehavior.DropLoot();

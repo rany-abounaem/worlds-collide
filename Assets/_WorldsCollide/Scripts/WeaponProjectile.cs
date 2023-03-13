@@ -22,7 +22,7 @@ public class WeaponProjectile : MonoBehaviour
         {
             AI enemyAI = collision.gameObject.GetComponent<AI>();
             enemyAI.TakeDamage(EquipmentManager.instance.Weapon.AttackPower);
-            GameObject psGameObject = Instantiate(GameManager.instance.BloodEffect, transform.position, Quaternion.identity);
+            GameObject psGameObject = Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity);
             //ParticleSystem ps = psGameObject.GetComponent<ParticleSystem>();
             //var vel = ps.velocityOverLifetime;
             //vel.enabled = true;

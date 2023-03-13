@@ -5,17 +5,10 @@ using WorldsCollide.Input;
 
 namespace WorldsCollide.Interaction
 {
-    public class InteractionManager : MonoBehaviour
+    public class InteractionComponent : MonoBehaviour
     {
-        [SerializeField]
-        InputManager _inputManager;
 
-
-        private void Start()
-        {
-            _inputManager.InputActions.Game.Pickup.performed += _ => HandlePickup();
-        }
-        private void HandlePickup()
+        public void Interact()
         {
             var pointA = (Vector2)transform.position - new Vector2(0.5f, -0.5f);
             var pointB = (Vector2)transform.position + new Vector2(0.5f, -0.5f);

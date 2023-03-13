@@ -31,10 +31,6 @@ public class MovementComponent : MonoBehaviour
     public UnityEvent leftWeaponHit, rightWeaponHit,
         throwWeapon, rightClickPressed;
 
-    [SerializeField] 
-    private InputManager _inputManager;
-    private InputActions _inputActions;
-
     void Awake()
     {
         if (instance != null && instance != this)
@@ -48,42 +44,38 @@ public class MovementComponent : MonoBehaviour
     }
     void Start()
     {
-        _inputActions = _inputManager.InputActions;
         _facingRight = true;
         _rigidbody = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
-        if (_inputActions == null)
-        {
-            _inputActions = new InputActions();
-            Cursor.visible = false; 
-            _inputActions.Enable();
-        }
 
     }
 
-    void Update()
+    public void SetMovement(float movementInput)
     {
+        _movementInput = movementInput;
+    }
 
-        if (_inputActions.Game.Jump.triggered && _remainingJumps > 0)
+    public void Jump()
+    {
+        if (_remainingJumps > 0)
         {
             _jumpPressed = true;
         }
-
-        if (_inputActions.Game.Roll.triggered)
-        {
-            _rollPressed = true;
-        }
-
-        if (_inputActions.Game.Attack_1.triggered)
-        {
-            _anim.SetTrigger("Attack");
-        }
     }
+
+    public void Roll()
+    {
+        _rollPressed = true;
+    }
+
+    public void Attack()
+    {
+        _anim.SetTrigger("Attack");
+    }
+
 
     private void FixedUpdate()
     {
-        _movementInput = _inputActions.Game.Movement.ReadValue<float>();
-
         if (_movementInput != 0 && IsGrounded)
             _anim.SetBool("isMoving", true);
         else

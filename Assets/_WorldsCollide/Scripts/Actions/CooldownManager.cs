@@ -8,6 +8,7 @@ public class CooldownManager : MonoBehaviour
 
     public void AddCooldown(Ability ability)
     {
+        Debug.Log("Added ability");
         _cooldowns.Add(new Cooldown(ability));
     }
 
@@ -31,6 +32,7 @@ public class CooldownManager : MonoBehaviour
             if (__cooldown._timeRemaining <= 0)
             {
                 _cooldowns.Remove(__cooldown);
+                Debug.Log(" ability");
             }
         }
     }

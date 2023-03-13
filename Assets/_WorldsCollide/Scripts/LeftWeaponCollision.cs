@@ -25,7 +25,7 @@ public class LeftWeaponCollision : MonoBehaviour
                 {
                     AI enemyAI = collider.gameObject.GetComponent<AI>();
                     enemyAI.TakeDamage(EquipmentManager.instance.Weapon.AttackPower);
-                    GameObject psGameObject = Instantiate(GameManager.instance.BloodEffect, transform.position, Quaternion.identity);
+                    GameObject psGameObject = Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity);
                 }
             }
             else

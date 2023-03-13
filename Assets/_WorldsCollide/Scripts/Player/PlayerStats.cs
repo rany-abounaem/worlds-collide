@@ -55,8 +55,8 @@ public class PlayerStats : MonoBehaviour
         Health -= value;
         onHealthUpdate.Invoke();
 
-        Instantiate(GameManager.instance.BloodEffect, transform.position, Quaternion.identity);
-        GameObject damagePopup = Instantiate(GameManager.instance.DamagePopup, transform.position, Quaternion.identity);
+        Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity);
+        GameObject damagePopup = Instantiate(GameplaySystem.instance.DamagePopup, transform.position, Quaternion.identity);
         TextPopupManager textPopupManager = damagePopup.GetComponent<TextPopupManager>();
         textPopupManager.text = value.ToString();
         damagePopup.SetActive(true);

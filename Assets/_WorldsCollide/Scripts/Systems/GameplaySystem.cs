@@ -1,15 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class GameManager : MonoBehaviour
+public class GameplaySystem : MonoBehaviour
 {
 
-    public static GameManager instance;
+    public static GameplaySystem instance;
 
     public GameObject BloodEffect;
     public GameObject ExpGainEffect;
 
     public GameObject DamagePopup;
+
+
+    // NEW GAMEPLAY SYSTEM STARTS HERE //
+    //[SerializeField]
+    //CharacterPickSystem _characterPickSystem;
+
+    [SerializeField]
+    Player _player;
+    [SerializeField]
+    PlayerController _playerController;
+
 
     void Awake()
     {
@@ -22,6 +33,8 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
 
+        //_characterPickSystem.OnCharacterPick += _playerController.Setup;
+        _playerController.Setup(_player);
     }
 
     void Start()
