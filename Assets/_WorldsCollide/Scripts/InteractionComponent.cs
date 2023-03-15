@@ -18,7 +18,7 @@ namespace WorldsCollide.Interaction
             {
                 if (collider.TryGetComponent(out LootDrop lootDrop))
                 {
-                    var __playerInventory = GetComponent<InventoryManager>();
+                    var __playerInventory = GetComponent<InventoryComponent>();
                     __playerInventory.AddItem(lootDrop.Item);
                     Destroy(lootDrop.gameObject);
                     break;

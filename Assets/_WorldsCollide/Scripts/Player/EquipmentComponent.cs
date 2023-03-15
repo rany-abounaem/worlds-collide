@@ -4,10 +4,8 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.U2D.Animation;
 
-public class EquipmentManager : MonoBehaviour
+public class EquipmentComponent : MonoBehaviour
 {
-
-    public static EquipmentManager instance;
 
     [SerializeField]
     //Item leftShoulder, leftElbow, leftWrist, leftLeg, leftBoot, leftWeapon, rightShoulder,
@@ -21,19 +19,6 @@ public class EquipmentManager : MonoBehaviour
 
     public UnityEvent onEquipmentChanged;
 
-    void Awake()
-    {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            instance = this;
-        }
-
-    }
-
     public void Equip(Armor item)
     {
         //Debug.Log(item.type.ToString());
@@ -44,53 +29,53 @@ public class EquipmentManager : MonoBehaviour
                 //InventoryManager.instance.inventory.Add(item);
                 if (!hood.ItemName.Equals(""))
                 {
-                    InventoryManager.instance.AddItem(hood);
+                    InventoryComponent.instance.AddItem(hood);
                     Debug.Log("Hood detected");
                 }
                 hood = item;
-                InventoryManager.instance.RemoveItem(item);
+                InventoryComponent.instance.RemoveItem(item);
                 hoodSR.SetCategoryAndLabel("Hood", item.SpriteId.ToString());
                 break;
             case ItemType.Shoulder:
                 //InventoryManager.instance.inventory.Add(item);
                 if(!shoulder.ItemName.Equals(""))
                 { 
-                    InventoryManager.instance.AddItem(shoulder);
+                    InventoryComponent.instance.AddItem(shoulder);
                     Debug.Log("Shoulder detected");
                 }
                 shoulder = item;
-                InventoryManager.instance.RemoveItem(item);
+                InventoryComponent.instance.RemoveItem(item);
                 leftShoulderSR.SetCategoryAndLabel("L_Shoulder", item.SpriteId.ToString());
                 rightShoulderSR.SetCategoryAndLabel("R_Shoulder", item.SpriteId.ToString());
                 break;
             case ItemType.Torso:
                 if(!torso.ItemName.Equals(""))
                 { 
-                    InventoryManager.instance.AddItem(torso);
+                    InventoryComponent.instance.AddItem(torso);
                     Debug.Log("Torso detected");
                 }
                 torso = item;
-                InventoryManager.instance.RemoveItem(item);
+                InventoryComponent.instance.RemoveItem(item);
                 torsoSR.SetCategoryAndLabel("Torso", item.SpriteId.ToString());
                 break;
             case ItemType.Pelvis:
                 if(!pelvis.ItemName.Equals(""))
                 { 
-                    InventoryManager.instance.AddItem(pelvis);
+                    InventoryComponent.instance.AddItem(pelvis);
                     Debug.Log("Pelvis detected");
                 }
                 pelvis = item;
-                InventoryManager.instance.RemoveItem(item);
+                InventoryComponent.instance.RemoveItem(item);
                 pelvisSR.SetCategoryAndLabel("Pelvis", item.SpriteId.ToString());
                 break;
             case ItemType.Boot:
                 if (!boot.ItemName.Equals(""))
                 { 
-                    InventoryManager.instance.AddItem(boot);
+                    InventoryComponent.instance.AddItem(boot);
                     Debug.Log("Boot detected");
                 }
                 boot = item;
-                InventoryManager.instance.RemoveItem(item);
+                InventoryComponent.instance.RemoveItem(item);
                 leftBootSR.SetCategoryAndLabel("L_Boot", item.SpriteId.ToString());
                 rightBootSR.SetCategoryAndLabel("R_Boot", item.SpriteId.ToString());
                 break;
@@ -100,7 +85,7 @@ public class EquipmentManager : MonoBehaviour
 
 
         }
-        PlayerStats.instance.UpdatePlayerStatsOnEquip(item);
+        StatsComponent.instance.UpdatePlayerStatsOnEquip(item);
         onEquipmentChanged.Invoke();
             
 
@@ -113,9 +98,9 @@ public class EquipmentManager : MonoBehaviour
         {
             case ItemType.Weapon:
                 if (Weapon != null)
-                    InventoryManager.instance.AddItem(Weapon);
+                    InventoryComponent.instance.AddItem(Weapon);
                 Weapon = item;
-                InventoryManager.instance.RemoveItem(item);
+                InventoryComponent.instance.RemoveItem(item);
                 break;
             default:
                 Debug.Log("Item has no type");
@@ -123,7 +108,7 @@ public class EquipmentManager : MonoBehaviour
 
 
         }
-        PlayerStats.instance.UpdatePlayerStatsOnEquip(item);
+        StatsComponent.instance.UpdatePlayerStatsOnEquip(item);
         onEquipmentChanged.Invoke();
     }
 

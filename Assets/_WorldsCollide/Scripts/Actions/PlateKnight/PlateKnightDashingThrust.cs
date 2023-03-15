@@ -25,7 +25,7 @@ public class PlateKnightDashingThrust : Ability
             {
                 if (collider.CompareTag("Player"))
                 {
-                    PlayerStats playerStats = collider.gameObject.GetComponent<PlayerStats>();
+                    StatsComponent playerStats = collider.gameObject.GetComponent<StatsComponent>();
                     playerStats.TakeDamage(20);
                 }
             }

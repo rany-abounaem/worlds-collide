@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbilityBehaviour : MonoBehaviour
+public class AbilityComponent : MonoBehaviour
 {
     List<Ability> _abilities = new List<Ability>();
     CooldownManager _cooldownManager;
@@ -17,5 +17,11 @@ public class AbilityBehaviour : MonoBehaviour
                 _cooldownManager.AddCooldown(ability);
             }
         }
+    }
+
+    public void UseAbility(int index)
+    {
+
+        _abilities[index].Use();
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using WorldsCollide.Input;
 
-public class UIManager : MonoBehaviour
+public class UIController : MonoBehaviour
 {
     public Slider playerHPSlider;
     public Image playerHPFill;
@@ -13,15 +13,26 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     RectTransform _inventoryPanel;
 
-    [SerializeField]
-    InputManager _inputManager;
+    private InputActions _input;
+    private Player _player;
     
-    void Start()
+    public void Setup(InputActions input, Player player)
     {
-        _inputManager.InputActions.UI.OpenInventory.performed += _ => ToggleInventory();
+        _input = input;
+        _player = player;
+
         if (playerHPSlider && playerHPFill)
             UpdateUIHealth();
-        PlayerStats.instance.onHealthUpdate.AddListener(() => UpdateUIHealth());
+
+        Debug.Log("Player " + player + "Stats " + player.Stats);
+        //_player.Stats.onHealthUpdate.AddListener(() => UpdateUIHealth());
+
+        _input.UI.OpenInventory.performed += _ => ToggleInventory();
+    }
+
+    private void Start()
+    {
+        
     }
     
     void Update()
@@ -31,8 +42,8 @@ public class UIManager : MonoBehaviour
 
     public void UpdateUIHealth()
     {
-        playerHPSlider.value = PlayerStats.instance.Health / PlayerStats.instance.MaxHealth;
-        playerHPFill.color = HPGradient.Evaluate(PlayerStats.instance.Health / PlayerStats.instance.MaxHealth);
+        playerHPSlider.value = StatsComponent.instance.Health / StatsComponent.instance.MaxHealth;
+        playerHPFill.color = HPGradient.Evaluate(StatsComponent.instance.Health / StatsComponent.instance.MaxHealth);
     }
 
     public void ToggleInventory()

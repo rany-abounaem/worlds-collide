@@ -23,7 +23,7 @@ public class OrcHammerSmash : Ability
             {
                 if (collider.CompareTag("Player"))
                 {
-                    PlayerStats.instance.TakeDamage(20);
+                    StatsComponent.instance.TakeDamage(20);
                 }
             }
             else

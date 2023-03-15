@@ -8,7 +8,7 @@ public class OrcAI : AI
     // Start is called before the first frame update
     void Start()
     {
-        player = PlayerStats.instance.transform;
+        player = StatsComponent.instance.transform;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         currentState = new OrcIdleState(gameObject, this, anim, player, rb);

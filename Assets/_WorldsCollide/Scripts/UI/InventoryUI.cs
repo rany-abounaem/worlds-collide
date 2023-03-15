@@ -5,7 +5,7 @@ using UnityEngine;
 public class InventoryUI : MonoBehaviour
 {
     [SerializeField]
-    InventoryManager _inventoryManager;
+    InventoryComponent _inventoryManager;
 
     [SerializeField]
     Transform _items;

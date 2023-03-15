@@ -5,26 +5,9 @@ using UnityEngine.Rendering;
 
 public class PlayerController : MonoBehaviour
 {
+
     private Player _player;
     private InputActions _input;
-
-    public void Setup(Player player)
-    {
-        _player = player;
-        InitializeInput();
-        ListenForControls();
-    }
-
-    private void InitializeInput()
-    {
-        _input = new InputActions();
-        _input.Enable();
-    }
-
-    public void Tick(float deltaTime)
-    {
-
-    }
 
     private void ListenForControls()
     {
@@ -32,6 +15,21 @@ public class PlayerController : MonoBehaviour
         _input.Game.Movement.canceled += callback => _player.Movement.SetMovement(0);
         _input.Game.Jump.performed += _ => _player.Movement.Jump();
         _input.Game.Roll.performed += _ => _player.Movement.Roll();
+
         _input.Game.Pickup.performed += _ => _player.Interaction.Interact();
+
+        _input.Game.Attack_1.performed += _ => _player.Ability.UseAbility(0);
+    }
+
+    public void Setup(InputActions inputActions, Player player)
+    {
+        _player = player;
+        _input = inputActions;
+        ListenForControls();
+    }
+
+    public void Tick(float deltaTime)
+    {
+
     }
 }

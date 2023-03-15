@@ -5,9 +5,9 @@ using UnityEngine.Events;
 
 public delegate void InventoryHandler();
 
-public class InventoryManager : MonoBehaviour
+public class InventoryComponent : MonoBehaviour
 {
-    public static InventoryManager instance;
+    public static InventoryComponent instance;
     public List<Item> inventory;
     public event InventoryHandler OnInventoryChanged;
     // Start is called before the first frame update

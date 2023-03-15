@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PlayerStats : MonoBehaviour
+public class StatsComponent : MonoBehaviour
 {
-    public static PlayerStats instance;
+    public static StatsComponent instance;
 
     public float Health { get; set; } = 100f;
     public float MaxHealth { get; set; }  = 100f;

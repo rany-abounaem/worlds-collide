@@ -6,9 +6,12 @@ using WorldsCollide.Interaction;
 public class Player : Creature
 {
     public InteractionComponent Interaction { get; private set; }
+    public InventoryComponent Inventory { get; private set; }
 
-    private void Update()
+    public override void Setup()
     {
+        base.Setup();
         Interaction = GetComponent<InteractionComponent>();
+        Inventory = GetComponent<InventoryComponent>();
     }
 }

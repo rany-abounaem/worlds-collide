@@ -17,12 +17,16 @@ public class GameplaySystem : MonoBehaviour
     //CharacterPickSystem _characterPickSystem;
 
     [SerializeField]
-    Player _player;
+    private Player _player;
     [SerializeField]
-    PlayerController _playerController;
+    private UIController _UIManager;
+    [SerializeField]
+    private PlayerController _playerController;
+
+    private InputActions _inputActions;
 
 
-    void Awake()
+    private void Start()
     {
         if (instance != null && instance != this)
         {
@@ -33,22 +37,14 @@ public class GameplaySystem : MonoBehaviour
             instance = this;
         }
 
-        //_characterPickSystem.OnCharacterPick += _playerController.Setup;
-        _playerController.Setup(_player);
-    }
+        _player.Setup();
 
-    void Start()
-    {
-        Weapon x = ScriptableObject.CreateInstance<Weapon>();
-        x.AttackPower = 10;
-        x.Type = ItemType.Weapon;
-        InventoryManager.instance.AddItem(x);
-        EquipmentManager.instance.Equip((Weapon)InventoryManager.instance.GetItem(0));
-    }
+        _inputActions = new InputActions();
+        _inputActions.Enable();
 
-    // Update is called once per frame
-    void Update()
-    {
+        _playerController.Setup(_inputActions, _player);
+        _UIManager.Setup(_inputActions, _player);
+
 
     }
 }

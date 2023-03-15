@@ -24,7 +24,7 @@ public class RightWeaponCollision : MonoBehaviour
                 if (collider.CompareTag("Enemy"))
                 {
                     AI enemyAI = collider.gameObject.GetComponent<AI>();
-                    enemyAI.TakeDamage(EquipmentManager.instance.Weapon.AttackPower);
+                    enemyAI.TakeDamage(10);
                     GameObject psGameObject = Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity);
                 }
             }
