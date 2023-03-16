@@ -5,12 +5,12 @@ using UnityEngine;
 public class Cooldown 
 {
     
-    public Ability _ability;
+    public string _name;
     public float _timeRemaining;
 
-    public Cooldown(Ability ability)
+    public Cooldown(string name, float time)
     {
-        _ability = ability;
-        _timeRemaining = ability.GetCooldown();
+        _name = name;
+        _timeRemaining = time;
     }
 }

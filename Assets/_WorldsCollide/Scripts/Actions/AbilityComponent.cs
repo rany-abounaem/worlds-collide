@@ -7,21 +7,18 @@ public class AbilityComponent : MonoBehaviour
     List<Ability> _abilities = new List<Ability>();
     CooldownManager _cooldownManager;
 
-    public void UseAbility(Ability ability)
-    {
-        foreach (var __ability in _abilities)
-        {
-            if (__ability == ability && _cooldownManager.AbilityOnCooldown(ability) == -1f)
-            {
-                ability.Use();
-                _cooldownManager.AddCooldown(ability);
-            }
-        }
-    }
-
     public void UseAbility(int index)
     {
+        var __ability = _abilities[index];
+        var __abilityName = __ability.GetAbilityName();
 
-        _abilities[index].Use();
+        if (_cooldownManager.AbilityOnCooldown(__abilityName) == -1)
+        {
+            var __cooldown = 
+            __ability.Use();
+            _cooldownManager.AddCooldown()
+        }
+        
+        _cooldownManager.
     }
 }

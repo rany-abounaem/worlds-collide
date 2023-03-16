@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using WorldsCollide.Interaction;
 
+public enum PlayerClass {Rogue, Archer, Magician, Healer, Warrior}
+
 public class Player : Creature
 {
     public InteractionComponent Interaction { get; private set; }
