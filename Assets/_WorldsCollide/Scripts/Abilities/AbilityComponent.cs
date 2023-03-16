@@ -14,11 +14,11 @@ public class AbilityComponent : MonoBehaviour
 
         if (_cooldownManager.AbilityOnCooldown(__abilityName) == -1)
         {
-            var __cooldown = 
+            var __cooldown = __ability.GetCooldown();
+            _cooldownManager.AddCooldown(__abilityName, __cooldown);
             __ability.Use();
-            _cooldownManager.AddCooldown()
         }
         
-        _cooldownManager.
+        
     }
 }

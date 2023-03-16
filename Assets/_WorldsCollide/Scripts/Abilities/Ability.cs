@@ -10,7 +10,12 @@ public abstract class Ability : ScriptableObject
     private string _name;
     [SerializeField]
     private float _range;
-    
+    [SerializeField]
+    private float _energyCost;
+    [SerializeField]
+    private float _cooldown;
+    [SerializeField]
+    private PlayerClass[] _allowedClasses;
     [SerializeField]
     public GameObject Caster { get ; private set; }
 
@@ -27,5 +32,10 @@ public abstract class Ability : ScriptableObject
     public string GetAbilityName()
     {
         return _name;
+    }
+
+    public float GetCooldown()
+    {
+        return _cooldown;
     }
 }
