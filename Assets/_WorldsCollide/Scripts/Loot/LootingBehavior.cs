@@ -31,7 +31,7 @@ public class LootingBehavior : MonoBehaviour
             {
                 var quantity = Random.Range(loot.minQuanitity, loot.maxQuantity + 1);
                 var item =  loot.lootItem;
-                item.Quantity = quantity;
+                item._quantity = quantity;
                 var __drop = Instantiate(_lootDrop, transform.position, Quaternion.identity);
                 __drop.Item = item;
                 __drop.Drop();

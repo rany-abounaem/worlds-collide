@@ -42,10 +42,10 @@ public class AI : MonoBehaviour
         else return false;
     }
 
-    public virtual void UseAction(int index)
-    {
-        actions[index].Use();
-    }
+    //public virtual void UseAction(int index)
+    //{
+    //    actions[index].Use();
+    //}
 
 
 }

@@ -17,12 +17,12 @@ public class PlateKnightAI : AI
         rb = GetComponent<Rigidbody2D>();
         currentState = new PlateKnightIdleState(gameObject, this, anim, player, rb);
 
-        PlateKnightDashingThrust action = new PlateKnightDashingThrust(gameObject, spear, shield);
-        actions.Add(action);
-        action = new PlateKnightDashingThrust(gameObject, spear, shield);
-        actions.Add(action);
-        PlateKnightThrow actionThrow = new PlateKnightThrow(gameObject, spearPrefab);
-        actions.Add(actionThrow);
+        //PlateKnightDashingThrust action = new PlateKnightDashingThrust(gameObject, spear, shield);
+        //actions.Add(action);
+        //action = new PlateKnightDashingThrust(gameObject, spear, shield);
+        //actions.Add(action);
+        //PlateKnightThrow actionThrow = new PlateKnightThrow(gameObject, spearPrefab);
+        //actions.Add(actionThrow);
     }
 
     private void Update()

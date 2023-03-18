@@ -12,6 +12,6 @@ public class SlotUI : MonoBehaviour
     public void UpdateSlot(Item item)
     {
         SlotItem = item;
-        _itemUI.sprite = item.Sprite;
+        _itemUI.sprite = item._sprite;
     }
 }

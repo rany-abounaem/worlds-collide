@@ -42,12 +42,12 @@ public class MovementComponent : MonoBehaviour
             instance = this;
         }
     }
-    void Start()
+
+    public void Setup(Animator anim, Rigidbody2D rigidbody)
     {
         _facingRight = true;
-        _rigidbody = GetComponent<Rigidbody2D>();
-        _anim = GetComponent<Animator>();
-
+        _rigidbody = rigidbody;
+        _anim = anim;
     }
 
     public void SetMovement(float movementInput)

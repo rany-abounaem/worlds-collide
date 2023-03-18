@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CooldownManager
@@ -21,11 +22,11 @@ public class CooldownManager
         return -1f;
     }
 
-    public void Tick()
+    public void Tick(float deltaTime)
     {
-        foreach (var __cooldown in _cooldowns)
+        foreach (var __cooldown in _cooldowns.ToList())
         {
-            _cooldowns[__cooldown.Key] = __cooldown.Value - Time.deltaTime;
+            _cooldowns[__cooldown.Key] = __cooldown.Value - deltaTime;
             if (_cooldowns[__cooldown.Key] <= 0)
             {
                 _cooldowns.Remove(__cooldown.Key);

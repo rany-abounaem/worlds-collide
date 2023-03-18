@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f8a7406c3f65784c82250b53ef3d936, type: 3}
   m_Name: Ability_Thrust
   m_EditorClassIdentifier: 
-  _animation: {fileID: 0}
   _name: Thrust
-  _energyCost: 10
   _range: 0
-  _cooldown: 0
   _energyCost: 0
-  _cooldown: 0
-  _allowedClasses: 0000000004000000
+  _cooldown: 2
+  _allowedClasses: 

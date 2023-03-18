@@ -9,6 +9,7 @@ public class Player : Creature
 {
     public InteractionComponent Interaction { get; private set; }
     public InventoryComponent Inventory { get; private set; }
+    public EquipmentComponent Equipment { get; private set; }
 
     public override void Setup()
     {

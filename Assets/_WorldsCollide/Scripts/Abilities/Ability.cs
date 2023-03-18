@@ -5,28 +5,32 @@ using UnityEngine;
 public abstract class Ability : ScriptableObject
 {
     [SerializeField]
-    private AnimationClip _animation;
+    protected string _name;
     [SerializeField]
-    private string _name;
+    protected float _range;
     [SerializeField]
-    private float _range;
+    protected float _energyCost;
     [SerializeField]
-    private float _energyCost;
+    protected float _cooldown;
     [SerializeField]
-    private float _cooldown;
-    [SerializeField]
-    private PlayerClass[] _allowedClasses;
-    [SerializeField]
-    public GameObject Caster { get ; private set; }
+    protected PlayerClass[] _allowedClasses;
 
-    public Ability(GameObject caster)
+    protected Creature _caster;
+    protected Animator _animator;
+    virtual public void Setup(Creature creature)
     {
-        Caster = caster;
+        _caster = creature;
+        _animator = _caster.Animator;
     }
 
     virtual public void Use()
     {
-        Debug.Log("Used action");
+        
+    }
+
+    virtual public void HandleSequence (int sequence)
+    {
+
     }
 
     public string GetAbilityName()
