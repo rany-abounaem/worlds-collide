@@ -98,8 +98,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1320
-      y: 980
+      x: 1747
+      y: 1093
       width: 140
       height: 196
     spriteID: 353c1e480acce9c42a8f1fd89378c8ed
@@ -108,17 +108,17 @@ ScriptedImporter:
     - name: L_Shoulder
       guid: f7fca98e1dd49a640ae366e6621d8472
       position: {x: 102.89111, y: 182.69263, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8112421, w: -0.5847105}
-      length: 179.89798
+      rotation: {x: 0, y: 0, z: 0.81124204, w: -0.5847105}
+      length: 179.89801
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 179.89787, y: -0.0000038543094, z: 0}
-      rotation: {x: 0, y: 0, z: -0.050106823, w: 0.9987439}
-      length: 80.41116
+      position: {x: 179.89803, y: -0.000043974636, z: 0}
+      rotation: {x: 0, y: 0, z: -0.050106864, w: 0.99874395}
+      length: 80.41121
       parentId: 0
       color:
         serializedVersion: 2
@@ -438,7 +438,7 @@ ScriptedImporter:
     - {x: 27, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1060, y: 698}
+    uvTransform: {x: 1487, y: 811}
   - name: Rogue_shoulder_l_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -446,8 +446,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 459
-      y: 980
+      x: 604
+      y: 1093
       width: 142
       height: 199
     spriteID: adb46c687000d0245998147e4d3470ce
@@ -456,17 +456,17 @@ ScriptedImporter:
     - name: L_Shoulder
       guid: f7fca98e1dd49a640ae366e6621d8472
       position: {x: 103.891174, y: 184.69263, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8112421, w: -0.5847105}
-      length: 179.89798
+      rotation: {x: 0, y: 0, z: 0.81124204, w: -0.5847105}
+      length: 179.89801
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 179.89798, y: -0.0000006087412, z: 0}
-      rotation: {x: 0, y: 0, z: -0.050106823, w: 0.9987439}
-      length: 80.41116
+      position: {x: 179.898, y: 0.00000069617454, z: 0}
+      rotation: {x: 0, y: 0, z: -0.050106864, w: 0.99874395}
+      length: 80.41121
       parentId: 0
       color:
         serializedVersion: 2
@@ -775,7 +775,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 200, y: 700}
+    uvTransform: {x: 345, y: 813}
   - name: Rogue_shoulder_l_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -793,17 +793,17 @@ ScriptedImporter:
     - name: L_Shoulder
       guid: f7fca98e1dd49a640ae366e6621d8472
       position: {x: 105.89111, y: 194.69269, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8112421, w: -0.5847105}
-      length: 179.89798
+      rotation: {x: 0, y: 0, z: 0.81124204, w: -0.5847105}
+      length: 179.89801
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 179.898, y: -0.00007886675, z: 0}
-      rotation: {x: 0, y: 0, z: -0.050106823, w: 0.9987439}
-      length: 80.41116
+      position: {x: 179.89812, y: -0.00003234081, z: 0}
+      rotation: {x: 0, y: 0, z: -0.050106864, w: 0.99874395}
+      length: 80.41121
       parentId: 0
       color:
         serializedVersion: 2
@@ -1142,8 +1142,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 155
-      y: 980
+      x: 300
+      y: 1093
       width: 144
       height: 197
     spriteID: 2086a36a2f0a9ea44bc43eb2462803bc
@@ -1152,17 +1152,17 @@ ScriptedImporter:
     - name: L_Shoulder
       guid: f7fca98e1dd49a640ae366e6621d8472
       position: {x: 103.891174, y: 183.69263, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8112421, w: -0.5847105}
-      length: 179.89798
+      rotation: {x: 0, y: 0, z: 0.81124204, w: -0.5847105}
+      length: 179.89801
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 179.89789, y: 0.000014203013, z: 0}
-      rotation: {x: 0, y: 0, z: -0.050106823, w: 0.9987439}
-      length: 80.41116
+      position: {x: 179.898, y: -0.000009436615, z: 0}
+      rotation: {x: 0, y: 0, z: -0.050106864, w: 0.99874395}
+      length: 80.41121
       parentId: 0
       color:
         serializedVersion: 2
@@ -1471,7 +1471,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -104, y: 699}
+    uvTransform: {x: 41, y: 812}
   - name: Rogue_shoulder_l_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1479,8 +1479,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1468
-      y: 980
+      x: 1895
+      y: 1093
       width: 140
       height: 193
     spriteID: 712c15c07dd30d94b8e3132e49e54116
@@ -1489,17 +1489,17 @@ ScriptedImporter:
     - name: L_Shoulder
       guid: f7fca98e1dd49a640ae366e6621d8472
       position: {x: 101.89111, y: 177.69263, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8112421, w: -0.5847105}
-      length: 179.89798
+      rotation: {x: 0, y: 0, z: 0.81124204, w: -0.5847105}
+      length: 179.89801
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 179.89792, y: 0.00002758714, z: 0}
-      rotation: {x: 0, y: 0, z: -0.050106823, w: 0.9987439}
-      length: 80.41116
+      position: {x: 179.8981, y: -0.00003926587, z: 0}
+      rotation: {x: 0, y: 0, z: -0.050106864, w: 0.99874395}
+      length: 80.41121
       parentId: 0
       color:
         serializedVersion: 2
@@ -1819,7 +1819,7 @@ ScriptedImporter:
     - {x: 27, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1207, y: 693}
+    uvTransform: {x: 1634, y: 806}
   - name: Rogue_shoulder_l_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1827,8 +1827,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1764
-      y: 980
+      x: 2191
+      y: 1093
       width: 143
       height: 181
     spriteID: 56080ebdfc216ea45a5844b86f7e3752
@@ -1837,17 +1837,17 @@ ScriptedImporter:
     - name: L_Shoulder
       guid: f7fca98e1dd49a640ae366e6621d8472
       position: {x: 103.89111, y: 171.69263, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8112421, w: -0.5847105}
-      length: 179.89798
+      rotation: {x: 0, y: 0, z: 0.81124204, w: -0.5847105}
+      length: 179.89801
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 179.89783, y: 0.0000061890732, z: 0}
-      rotation: {x: 0, y: 0, z: -0.050106823, w: 0.9987439}
-      length: 80.41116
+      position: {x: 179.89804, y: -0.00011257958, z: 0}
+      rotation: {x: 0, y: 0, z: -0.050106864, w: 0.99874395}
+      length: 80.41121
       parentId: 0
       color:
         serializedVersion: 2
@@ -2178,7 +2178,7 @@ ScriptedImporter:
     - {x: 28, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1505, y: 687}
+    uvTransform: {x: 1932, y: 800}
   - name: Rogue_wrist_l_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2196,8 +2196,8 @@ ScriptedImporter:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
       position: {x: 64.066895, y: 95.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -2524,8 +2524,8 @@ ScriptedImporter:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
       position: {x: 64.066895, y: 95.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -2842,8 +2842,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 105
-      y: 1187
+      x: 4
+      y: 2353
       width: 106
       height: 96
     spriteID: 72706e5dc81e0c64dbfe30ba99afd6b2
@@ -2851,9 +2851,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 64.06677, y: 95.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      position: {x: 64.06677, y: 95.66992, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -3162,7 +3162,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -104, y: 1062}
+    uvTransform: {x: -205, y: 2228}
   - name: Rogue_wrist_l_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3170,8 +3170,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 219
-      y: 1187
+      x: 4
+      y: 2457
       width: 106
       height: 93
     spriteID: 9bb75fe14a8b89d4d80ad86ab8495a17
@@ -3179,9 +3179,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 64.06677, y: 95.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      position: {x: 64.06677, y: 95.66992, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -3490,7 +3490,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 10, y: 1062}
+    uvTransform: {x: -205, y: 2332}
   - name: Rogue_wrist_l_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3508,8 +3508,8 @@ ScriptedImporter:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
       position: {x: 64.066895, y: 95.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -3826,8 +3826,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3961
-      y: 756
+      x: 3729
+      y: 1093
       width: 118
       height: 128
     spriteID: 0f8026a6fd0a15944bd9e7e1aa1cfb3e
@@ -3835,18 +3835,18 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 80.41111, y: 0.00003268834, z: 0}
-      rotation: {x: 0, y: 0, z: 0.1295388, w: 0.99157435}
-      length: 83.434235
+      position: {x: 80.41088, y: 0.00046660358, z: 0}
+      rotation: {x: 0, y: 0, z: 0.12953874, w: 0.99157435}
+      length: 83.43426
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 73.00244, y: 99.02643, z: 0}
+      position: {x: 73.00244, y: 99.02637, z: 0}
       rotation: {x: 0, y: 0, z: 0.839521, w: -0.5433272}
-      length: 80.411194
+      length: 80.41121
       parentId: -1
       color:
         serializedVersion: 2
@@ -4144,7 +4144,7 @@ ScriptedImporter:
     - {x: 25, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3728, y: 561}
+    uvTransform: {x: 3496, y: 898}
   - name: Rogue_elbow_l_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4152,8 +4152,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3302
-      y: 980
+      x: 3855
+      y: 1093
       width: 118
       height: 128
     spriteID: aa82c0b574afaa24ea5044b243760f64
@@ -4161,9 +4161,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 80.411064, y: 0.000098182696, z: 0}
-      rotation: {x: 0, y: 0, z: 0.1295388, w: 0.99157435}
-      length: 83.434235
+      position: {x: 80.410904, y: 0.00014505706, z: 0}
+      rotation: {x: 0, y: 0, z: 0.12953874, w: 0.99157435}
+      length: 83.43426
       parentId: 1
       color:
         serializedVersion: 2
@@ -4172,7 +4172,7 @@ ScriptedImporter:
       guid: 989592af612d59145aa146cf06a6c132
       position: {x: 73.00244, y: 99.02637, z: 0}
       rotation: {x: 0, y: 0, z: 0.839521, w: -0.5433272}
-      length: 80.411194
+      length: 80.41121
       parentId: -1
       color:
         serializedVersion: 2
@@ -4459,7 +4459,7 @@ ScriptedImporter:
     - {x: 24, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3069, y: 785}
+    uvTransform: {x: 3622, y: 898}
   - name: Rogue_elbow_l_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4467,8 +4467,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3428
-      y: 980
+      x: 4
+      y: 1317
       width: 118
       height: 128
     spriteID: 4adf643932c94fc45b74f478095fc1c4
@@ -4476,18 +4476,18 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 80.41091, y: 0.00007435656, z: 0}
-      rotation: {x: 0, y: 0, z: 0.1295388, w: 0.99157435}
-      length: 83.434235
+      position: {x: 80.41105, y: -0.00008955268, z: 0}
+      rotation: {x: 0, y: 0, z: 0.12953874, w: 0.99157435}
+      length: 83.43426
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 73.00244, y: 99.02637, z: 0}
+      position: {x: 73.0025, y: 99.02637, z: 0}
       rotation: {x: 0, y: 0, z: 0.839521, w: -0.5433272}
-      length: 80.411194
+      length: 80.41121
       parentId: -1
       color:
         serializedVersion: 2
@@ -4774,7 +4774,7 @@ ScriptedImporter:
     - {x: 24, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3195, y: 785}
+    uvTransform: {x: -229, y: 1122}
   - name: Rogue_elbow_l_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4782,8 +4782,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3554
-      y: 980
+      x: 4
+      y: 1453
       width: 118
       height: 128
     spriteID: fa01b4fef2cf7274c83f705a12d48565
@@ -4791,18 +4791,18 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 80.4108, y: 0.00009467541, z: 0}
-      rotation: {x: 0, y: 0, z: 0.1295388, w: 0.99157435}
-      length: 83.434235
+      position: {x: 80.411125, y: -0.00006872282, z: 0}
+      rotation: {x: 0, y: 0, z: 0.12953874, w: 0.99157435}
+      length: 83.43426
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 73.00244, y: 99.02637, z: 0}
+      position: {x: 73.0025, y: 99.02637, z: 0}
       rotation: {x: 0, y: 0, z: 0.839521, w: -0.5433272}
-      length: 80.411194
+      length: 80.41121
       parentId: -1
       color:
         serializedVersion: 2
@@ -5100,7 +5100,7 @@ ScriptedImporter:
     - {x: 25, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3321, y: 785}
+    uvTransform: {x: -229, y: 1258}
   - name: Rogue_elbow_l_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -5108,8 +5108,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3680
-      y: 980
+      x: 4
+      y: 1589
       width: 118
       height: 128
     spriteID: 22043fe37ec12114e921b401f2acf3c4
@@ -5117,18 +5117,18 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 80.41111, y: 0.0001708471, z: 0}
-      rotation: {x: 0, y: 0, z: 0.1295388, w: 0.99157435}
-      length: 83.434235
+      position: {x: 80.411095, y: -0.00003825556, z: 0}
+      rotation: {x: 0, y: 0, z: 0.12953874, w: 0.99157435}
+      length: 83.43426
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 73.00244, y: 99.02637, z: 0}
+      position: {x: 73.0025, y: 99.02637, z: 0}
       rotation: {x: 0, y: 0, z: 0.839521, w: -0.5433272}
-      length: 80.411194
+      length: 80.41121
       parentId: -1
       color:
         serializedVersion: 2
@@ -5426,7 +5426,7 @@ ScriptedImporter:
     - {x: 25, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3447, y: 785}
+    uvTransform: {x: -229, y: 1394}
   - name: Rogue_hood_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -7624,7 +7624,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1182
+      x: 1663
       y: 756
       width: 362
       height: 198
@@ -8241,7 +8241,7 @@ ScriptedImporter:
     - {x: 53, y: 48}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 857, y: 356}
+    uvTransform: {x: 1338, y: 356}
   - name: Rogue_face_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -8249,7 +8249,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1552
+      x: 2033
       y: 756
       width: 362
       height: 198
@@ -8258,7 +8258,7 @@ ScriptedImporter:
     spriteBone:
     - name: Head
       guid: fe83e54c975cef540a585bf6fa0b2341
-      position: {x: 180.46521, y: 29.66626, z: 0}
+      position: {x: 180.46509, y: 29.66626, z: 0}
       rotation: {x: 0, y: 0, z: 0.71773595, w: 0.69631547}
       length: 393.44406
       parentId: -1
@@ -8855,7 +8855,7 @@ ScriptedImporter:
     - {x: 52, y: 47}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1227, y: 356}
+    uvTransform: {x: 1708, y: 356}
   - name: Rogue_face_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -8863,7 +8863,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 812
+      x: 1293
       y: 756
       width: 362
       height: 213
@@ -9480,7 +9480,7 @@ ScriptedImporter:
     - {x: 53, y: 48}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 487, y: 356}
+    uvTransform: {x: 968, y: 356}
   - name: Rogue_face_04
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -10769,8 +10769,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4082
-      y: 892
+      x: 4070
+      y: 669
       width: 0
       height: 0
     spriteID: 27903928feccf114782c7f0312ad6f02
@@ -10792,7 +10792,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3058, y: -132}
+    uvTransform: {x: 3046, y: -355}
   - name: Rogue_hair_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -11249,7 +11249,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3230
+      x: 3711
       y: 869
       width: 274
       height: 103
@@ -11259,8 +11259,8 @@ ScriptedImporter:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
       position: {x: 85.066895, y: 128.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -11602,7 +11602,7 @@ ScriptedImporter:
     - {x: 29, y: 9}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3042, y: 777}
+    uvTransform: {x: 3523, y: 777}
   - name: Rogue_weapon_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -11610,8 +11610,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 609
-      y: 980
+      x: 1036
+      y: 1093
       width: 273
       height: 102
     spriteID: 072528b0a85bf674bbaf647e81be7181
@@ -11620,8 +11620,8 @@ ScriptedImporter:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
       position: {x: 84.06677, y: 128.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -11963,7 +11963,7 @@ ScriptedImporter:
     - {x: 29, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 420, y: 888}
+    uvTransform: {x: 847, y: 1001}
   - name: Rogue_weapon_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -11971,7 +11971,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1922
+      x: 2403
       y: 869
       width: 315
       height: 101
@@ -11980,9 +11980,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 84.06677, y: 125.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      position: {x: 84.066895, y: 125.6698, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -12313,7 +12313,7 @@ ScriptedImporter:
     - {x: 28, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1733, y: 774}
+    uvTransform: {x: 2214, y: 774}
   - name: Rogue_weapon_04
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -12321,7 +12321,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2636
+      x: 3117
       y: 756
       width: 289
       height: 116
@@ -12331,8 +12331,8 @@ ScriptedImporter:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
       position: {x: 85.066895, y: 135.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -12652,7 +12652,7 @@ ScriptedImporter:
     - {x: 27, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2448, y: 671}
+    uvTransform: {x: 2929, y: 671}
   - name: Rogue_weapon_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -12660,7 +12660,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1922
+      x: 2403
       y: 756
       width: 349
       height: 105
@@ -12669,9 +12669,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 85.06677, y: 132.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      position: {x: 85.066895, y: 132.6698, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -13013,7 +13013,7 @@ ScriptedImporter:
     - {x: 29, y: 6}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1734, y: 668}
+    uvTransform: {x: 2215, y: 668}
   - name: Rogue_weapon_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -13021,7 +13021,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3230
+      x: 3711
       y: 756
       width: 285
       height: 105
@@ -13031,8 +13031,8 @@ ScriptedImporter:
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
       position: {x: 94.066895, y: 132.6698, z: 0}
-      rotation: {x: 0, y: 0, z: 0.76206553, w: -0.6474999}
-      length: 83.43425
+      rotation: {x: 0, y: 0, z: 0.7620656, w: -0.6474999}
+      length: 83.43426
       parentId: -1
       color:
         serializedVersion: 2
@@ -13374,7 +13374,7 @@ ScriptedImporter:
     - {x: 29, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3051, y: 668}
+    uvTransform: {x: 3532, y: 668}
   - name: Rogue_torso_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -15514,7 +15514,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 410
+      x: 891
       y: 756
       width: 394
       height: 211
@@ -15523,7 +15523,7 @@ ScriptedImporter:
     spriteBone:
     - name: Pelvis
       guid: b59a084c0dac1514a8b35b794e4626c7
-      position: {x: 232.07257, y: 143.14276, z: 0}
+      position: {x: 232.07251, y: 143.14276, z: 0}
       rotation: {x: 0, y: 0, z: -0.6995457, w: 0.71458787}
       length: 140.75699
       parentId: -1
@@ -15532,7 +15532,7 @@ ScriptedImporter:
         rgba: 4278190335
     - name: Torso
       guid: 3821f03c3efd7ec4783edf491597b6a1
-      position: {x: -2.0699306, y: -26.909475, z: 0}
+      position: {x: -2.0699923, y: -26.909386, z: 0}
       rotation: {x: 0, y: 0, z: 0.9996364, w: 0.026965614}
       length: 194.12994
       parentId: 0
@@ -15854,7 +15854,7 @@ ScriptedImporter:
     - {x: 27, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 116, y: 665}
+    uvTransform: {x: 597, y: 665}
   - name: Rogue_pelvis_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -17690,8 +17690,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1171
-      y: 980
+      x: 1598
+      y: 1093
       width: 141
       height: 196
     spriteID: 4202dd7fb45e9674798651dd293ddfc4
@@ -17699,7 +17699,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 157.99655, y: 0.00021551282, z: 0}
+      position: {x: 157.99657, y: 0.00018338591, z: 0}
       rotation: {x: 0, y: 0, z: -0.034332376, w: 0.9994105}
       length: 69.65831
       parentId: 1
@@ -18019,7 +18019,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 577, y: 698}
+    uvTransform: {x: 1004, y: 811}
   - name: Rogue_shoulder_r_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -18027,8 +18027,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 980
+      x: 149
+      y: 1093
       width: 143
       height: 199
     spriteID: 403bbc3bae9d3ad438fe8a6965131177
@@ -18036,7 +18036,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 157.99652, y: 0.0001046756, z: 0}
+      position: {x: 157.9965, y: 0.000050394046, z: 0}
       rotation: {x: 0, y: 0, z: -0.034332376, w: 0.9994105}
       length: 69.65831
       parentId: 1
@@ -18356,7 +18356,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -590, y: 700}
+    uvTransform: {x: -445, y: 813}
   - name: Rogue_shoulder_r_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -18364,8 +18364,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3816
-      y: 756
+      x: 4
+      y: 1093
       width: 137
       height: 216
     spriteID: 4ddb76a73101c064f8a4dfd6b2536555
@@ -18373,7 +18373,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 157.99652, y: 0.00024006993, z: 0}
+      position: {x: 157.99655, y: 0.00008143436, z: 0}
       rotation: {x: 0, y: 0, z: -0.034332376, w: 0.9994105}
       length: 69.65831
       parentId: 1
@@ -18382,7 +18382,7 @@ ScriptedImporter:
         rgba: 4286578943
     - name: R_Shoulder
       guid: e2ddcf9e242cda248aa541cd76ca4aca
-      position: {x: 59.809326, y: 188.70435, z: 0}
+      position: {x: 59.809387, y: 188.70435, z: 0}
       rotation: {x: 0, y: 0, z: -0.6253267, w: 0.78036314}
       length: 157.99644
       parentId: -1
@@ -18715,7 +18715,7 @@ ScriptedImporter:
     - {x: 28, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3215, y: 486}
+    uvTransform: {x: -597, y: 823}
   - name: Rogue_shoulder_r_04
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -18723,8 +18723,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 307
-      y: 980
+      x: 452
+      y: 1093
       width: 144
       height: 197
     spriteID: c1a3d2665241ae04d96b1e452b1ec495
@@ -18732,7 +18732,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 157.99644, y: -0.000037793412, z: 0}
+      position: {x: 157.99643, y: -0.0000012557648, z: 0}
       rotation: {x: 0, y: 0, z: -0.034332376, w: 0.9994105}
       length: 69.65831
       parentId: 1
@@ -19052,7 +19052,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -286, y: 699}
+    uvTransform: {x: -141, y: 812}
   - name: Rogue_shoulder_r_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -19060,8 +19060,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1616
-      y: 980
+      x: 2043
+      y: 1093
       width: 140
       height: 193
     spriteID: 0b280e6757994614fa0142d772e01b87
@@ -19069,7 +19069,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 157.99654, y: 0.00013868243, z: 0}
+      position: {x: 157.99654, y: 0.00010655553, z: 0}
       rotation: {x: 0, y: 0, z: -0.034332376, w: 0.9994105}
       length: 69.65831
       parentId: 1
@@ -19389,7 +19389,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1024, y: 693}
+    uvTransform: {x: 1451, y: 806}
   - name: Rogue_shoulder_r_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -19397,8 +19397,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1915
-      y: 980
+      x: 2342
+      y: 1093
       width: 143
       height: 181
     spriteID: 6f3d3e568ba5bb3409379e3d478d194c
@@ -19406,7 +19406,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 157.9966, y: 0.0004143404, z: 0}
+      position: {x: 157.9965, y: 0.00014100701, z: 0}
       rotation: {x: 0, y: 0, z: -0.034332376, w: 0.9994105}
       length: 69.65831
       parentId: 1
@@ -19748,7 +19748,7 @@ ScriptedImporter:
     - {x: 28, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1324, y: 687}
+    uvTransform: {x: 1751, y: 800}
   - name: Rogue_boot_r_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -19756,8 +19756,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3949
-      y: 669
+      x: 1156
+      y: 1203
       width: 111
       height: 76
     spriteID: fc47ec3e88b53194e8b43cf9569a0f5f
@@ -19765,7 +19765,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_boot
       guid: c425ca1784e98e2439629b9980300d6f
-      position: {x: 48.873535, y: 83.88544, z: 0}
+      position: {x: 48.873657, y: 83.885376, z: 0}
       rotation: {x: 0, y: 0, z: -0.6523088, w: 0.75795335}
       length: 72.056946
       parentId: -1
@@ -19774,7 +19774,7 @@ ScriptedImporter:
         rgba: 4294901760
     - name: R_boot_2
       guid: 6b57e49f6bbdd1b4c8d9dda5cb1ed647
-      position: {x: 72.05702, y: 0.0002785371, z: 0}
+      position: {x: 72.05694, y: -0.00003149644, z: 0}
       rotation: {x: 0, y: 0, z: 0.6657334, w: 0.7461897}
       length: 37.60238
       parentId: 0
@@ -20096,7 +20096,7 @@ ScriptedImporter:
     - {x: 27, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3370, y: 643}
+    uvTransform: {x: 577, y: 1177}
   - name: Rogue_boot_r_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -20104,8 +20104,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2735
-      y: 880
+      x: 1436
+      y: 1203
       width: 105
       height: 76
     spriteID: 0b393349cdf8e3c478d13cab9f8ea039
@@ -20113,7 +20113,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_boot
       guid: c425ca1784e98e2439629b9980300d6f
-      position: {x: 45.873535, y: 84.88544, z: 0}
+      position: {x: 45.873657, y: 84.885376, z: 0}
       rotation: {x: 0, y: 0, z: -0.6523088, w: 0.75795335}
       length: 72.056946
       parentId: -1
@@ -20122,7 +20122,7 @@ ScriptedImporter:
         rgba: 4294901760
     - name: R_boot_2
       guid: 6b57e49f6bbdd1b4c8d9dda5cb1ed647
-      position: {x: 72.05704, y: 0.00024456246, z: 0}
+      position: {x: 72.0568, y: -0.00011236504, z: 0}
       rotation: {x: 0, y: 0, z: 0.6657334, w: 0.7461897}
       length: 37.60238
       parentId: 0
@@ -20433,7 +20433,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2153, y: 855}
+    uvTransform: {x: 854, y: 1178}
   - name: Rogue_boot_r_04
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -20441,8 +20441,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3961
-      y: 892
+      x: 3949
+      y: 669
       width: 113
       height: 78
     spriteID: 88da7652f13f0b9449c91977a6f86d73
@@ -20459,7 +20459,7 @@ ScriptedImporter:
         rgba: 4294901760
     - name: R_boot_2
       guid: 6b57e49f6bbdd1b4c8d9dda5cb1ed647
-      position: {x: 72.05697, y: -0.0001413776, z: 0}
+      position: {x: 72.05699, y: -0.00007961229, z: 0}
       rotation: {x: 0, y: 0, z: 0.6657334, w: 0.7461897}
       length: 37.60238
       parentId: 0
@@ -20770,7 +20770,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3383, y: 867}
+    uvTransform: {x: 3371, y: 644}
   - name: Rogue_boot_r_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -20778,8 +20778,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 729
-      y: 1090
+      x: 1317
+      y: 1203
       width: 111
       height: 76
     spriteID: 455a3b56d6f74bc4ab1b5826e222676e
@@ -20796,7 +20796,7 @@ ScriptedImporter:
         rgba: 4294901760
     - name: R_boot_2
       guid: 6b57e49f6bbdd1b4c8d9dda5cb1ed647
-      position: {x: 72.056885, y: 0.000042611275, z: 0}
+      position: {x: 72.05692, y: 0.000059043014, z: 0}
       rotation: {x: 0, y: 0, z: 0.6657334, w: 0.7461897}
       length: 37.60238
       parentId: 0
@@ -21118,7 +21118,7 @@ ScriptedImporter:
     - {x: 27, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 150, y: 1064}
+    uvTransform: {x: 738, y: 1177}
   - name: Rogue_boot_r_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -21126,8 +21126,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 609
-      y: 1090
+      x: 1036
+      y: 1203
       width: 112
       height: 83
     spriteID: b54354538d860c5419c91643987ecb5b
@@ -21144,7 +21144,7 @@ ScriptedImporter:
         rgba: 4294901760
     - name: R_boot_2
       guid: 6b57e49f6bbdd1b4c8d9dda5cb1ed647
-      position: {x: 72.05686, y: 0.00006499282, z: 0}
+      position: {x: 72.05691, y: -0.0000091148995, z: 0}
       rotation: {x: 0, y: 0, z: 0.6657334, w: 0.7461897}
       length: 37.60238
       parentId: 0
@@ -21455,7 +21455,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 31, y: 1066}
+    uvTransform: {x: 458, y: 1179}
   - name: Rogue_leg_r_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -21463,8 +21463,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2686
-      y: 980
+      x: 3113
+      y: 1093
       width: 146
       height: 160
     spriteID: 109002902b199494bb47c5462f40d8e3
@@ -21472,7 +21472,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_boot
       guid: c425ca1784e98e2439629b9980300d6f
-      position: {x: 72.24837, y: 0.00014778668, z: 0}
+      position: {x: 72.24833, y: -0.000037300644, z: 0}
       rotation: {x: 0, y: 0, z: 0.022873798, w: 0.99973834}
       length: 72.056946
       parentId: 1
@@ -21781,7 +21781,7 @@ ScriptedImporter:
     - {x: 25, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2151, y: 920}
+    uvTransform: {x: 2578, y: 1033}
   - name: Rogue_leg_r_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -21789,8 +21789,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2840
-      y: 980
+      x: 3267
+      y: 1093
       width: 146
       height: 160
     spriteID: 6a67829c683667a46806be013efb88d5
@@ -21798,7 +21798,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_boot
       guid: c425ca1784e98e2439629b9980300d6f
-      position: {x: 72.2485, y: -0.0000063618736, z: 0}
+      position: {x: 72.24834, y: 0.00006533855, z: 0}
       rotation: {x: 0, y: 0, z: 0.022873798, w: 0.99973834}
       length: 72.056946
       parentId: 1
@@ -22118,7 +22118,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2305, y: 920}
+    uvTransform: {x: 2732, y: 1033}
   - name: Rogue_leg_r_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -22126,8 +22126,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2994
-      y: 980
+      x: 3421
+      y: 1093
       width: 146
       height: 160
     spriteID: d279718ef693be640882f018d7d31016
@@ -22135,7 +22135,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_boot
       guid: c425ca1784e98e2439629b9980300d6f
-      position: {x: 72.248505, y: 0.00009627733, z: 0}
+      position: {x: 72.24855, y: 0.0003981574, z: 0}
       rotation: {x: 0, y: 0, z: 0.022873798, w: 0.99973834}
       length: 72.056946
       parentId: 1
@@ -22444,7 +22444,7 @@ ScriptedImporter:
     - {x: 25, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2459, y: 920}
+    uvTransform: {x: 2886, y: 1033}
   - name: Rogue_leg_r_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -22452,8 +22452,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3148
-      y: 980
+      x: 3575
+      y: 1093
       width: 146
       height: 160
     spriteID: 7ca20aca22b2b9744a66091fca9b4343
@@ -22461,7 +22461,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_boot
       guid: c425ca1784e98e2439629b9980300d6f
-      position: {x: 72.24833, y: -0.000032576976, z: 0}
+      position: {x: 72.24835, y: 0.000026476326, z: 0}
       rotation: {x: 0, y: 0, z: 0.022873798, w: 0.99973834}
       length: 72.056946
       parentId: 1
@@ -22770,7 +22770,7 @@ ScriptedImporter:
     - {x: 25, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2613, y: 920}
+    uvTransform: {x: 3040, y: 1033}
   - name: Rogue_weapon_01.png
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -22778,8 +22778,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3523
-      y: 869
+      x: 754
+      y: 1093
       width: 274
       height: 103
     spriteID: 087ef9c920e68de4ba7848db35d7b525
@@ -22787,7 +22787,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 185.72168, y: 130.64001, z: 0}
+      position: {x: 185.7218, y: 130.64001, z: 0}
       rotation: {x: 0, y: 0, z: -0.6609637, w: 0.7504178}
       length: 83.003334
       parentId: -1
@@ -23142,7 +23142,7 @@ ScriptedImporter:
     - {x: 30, y: 9}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3003, y: 764}
+    uvTransform: {x: 234, y: 988}
   - name: Rogue_weapon_02.png
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -23150,8 +23150,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 890
-      y: 980
+      x: 1317
+      y: 1093
       width: 273
       height: 102
     spriteID: 509605c7023a6d54b81effa7dde8a557
@@ -23492,7 +23492,7 @@ ScriptedImporter:
     - {x: 28, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 370, y: 875}
+    uvTransform: {x: 797, y: 988}
   - name: Rogue_weapon_03.png
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -23500,7 +23500,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2279
+      x: 2760
       y: 869
       width: 315
       height: 101
@@ -23853,7 +23853,7 @@ ScriptedImporter:
     - {x: 29, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1801, y: 761}
+    uvTransform: {x: 2282, y: 761}
   - name: Rogue_weapon_04.png
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -23861,7 +23861,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2933
+      x: 3414
       y: 756
       width: 289
       height: 116
@@ -24192,7 +24192,7 @@ ScriptedImporter:
     - {x: 27, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2428, y: 658}
+    uvTransform: {x: 2909, y: 658}
   - name: Rogue_weapon_05.png
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -24200,7 +24200,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2279
+      x: 2760
       y: 756
       width: 349
       height: 105
@@ -24564,7 +24564,7 @@ ScriptedImporter:
     - {x: 30, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1834, y: 655}
+    uvTransform: {x: 2315, y: 655}
   - name: Rogue_weapon_06.png
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -24572,8 +24572,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3523
-      y: 756
+      x: 4
+      y: 980
       width: 285
       height: 105
     spriteID: 4f75d23f10987fa47864ff6e089721b4
@@ -24581,7 +24581,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 187.72168, y: 134.64001, z: 0}
+      position: {x: 187.7218, y: 134.64001, z: 0}
       rotation: {x: 0, y: 0, z: -0.6609637, w: 0.7504178}
       length: 83.003334
       parentId: -1
@@ -24925,7 +24925,7 @@ ScriptedImporter:
     - {x: 29, y: 8}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3005, y: 655}
+    uvTransform: {x: -514, y: 879}
   - name: Rogue_wrist_r_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -24934,7 +24934,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1761
+      y: 2558
       width: 91
       height: 94
     spriteID: 51c4ba607dc08e8479f81310e964aa5f
@@ -24942,7 +24942,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 28.721802, y: 99.640015, z: 0}
+      position: {x: 28.721802, y: 99.64014, z: 0}
       rotation: {x: 0, y: 0, z: -0.6609637, w: 0.7504178}
       length: 83.003334
       parentId: -1
@@ -25253,7 +25253,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -673, y: 1625}
+    uvTransform: {x: -673, y: 2422}
   - name: Rogue_wrist_r_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -25262,7 +25262,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1863
+      y: 2660
       width: 91
       height: 94
     spriteID: 18ef91d4a046a39418a14967f7d911ca
@@ -25270,7 +25270,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 28.721802, y: 99.640015, z: 0}
+      position: {x: 28.721802, y: 99.64014, z: 0}
       rotation: {x: 0, y: 0, z: -0.6609637, w: 0.7504178}
       length: 83.003334
       parentId: -1
@@ -25581,7 +25581,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -673, y: 1727}
+    uvTransform: {x: -673, y: 2524}
   - name: Rogue_wrist_r_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -25589,8 +25589,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1658
+      x: 3993
+      y: 869
       width: 91
       height: 95
     spriteID: 7a9c42fa77601d04187ee7ff3b84cbea
@@ -25598,7 +25598,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 28.721802, y: 99.640015, z: 0}
+      position: {x: 28.72168, y: 99.640015, z: 0}
       rotation: {x: 0, y: 0, z: -0.6609637, w: 0.7504178}
       length: 83.003334
       parentId: -1
@@ -25909,7 +25909,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -673, y: 1522}
+    uvTransform: {x: 3316, y: 733}
   - name: Rogue_wrist_r_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -25918,7 +25918,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1965
+      y: 2762
       width: 91
       height: 94
     spriteID: cb2db3bd4672a6245b6fdd419e646a93
@@ -26237,7 +26237,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -673, y: 1829}
+    uvTransform: {x: -673, y: 2626}
   - name: Rogue_wrist_r_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -26245,7 +26245,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2636
+      x: 3117
       y: 880
       width: 91
       height: 92
@@ -26565,7 +26565,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1959, y: 744}
+    uvTransform: {x: 2440, y: 744}
   - name: Rogue_elbow_r_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -26573,8 +26573,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3806
-      y: 980
+      x: 3981
+      y: 1093
       width: 93
       height: 149
     spriteID: a2ab849b20598a144927ae7d4d92441b
@@ -26582,7 +26582,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 69.65822, y: -0.00029726047, z: 0}
+      position: {x: 69.6585, y: 0.00034206803, z: 0}
       rotation: {x: 0, y: 0, z: -0.01221278, w: 0.99992543}
       length: 83.003334
       parentId: 1
@@ -26880,7 +26880,7 @@ ScriptedImporter:
     - {x: 24, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3153, y: 809}
+    uvTransform: {x: 3328, y: 922}
   - name: Rogue_elbow_r_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -26888,8 +26888,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3907
-      y: 980
+      x: 4
+      y: 1725
       width: 93
       height: 149
     spriteID: cbbf5aa55225a254faa35e4a01ce312e
@@ -26897,7 +26897,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 69.65833, y: 0.00007288437, z: 0}
+      position: {x: 69.658516, y: -0.000019465671, z: 0}
       rotation: {x: 0, y: 0, z: -0.01221278, w: 0.99992543}
       length: 83.003334
       parentId: 1
@@ -26906,7 +26906,7 @@ ScriptedImporter:
         rgba: 4278255615
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 42.242188, y: 133.5055, z: 0}
+      position: {x: 42.242126, y: 133.5055, z: 0}
       rotation: {x: 0, y: 0, z: -0.65174973, w: 0.75843406}
       length: 69.65832
       parentId: -1
@@ -27195,7 +27195,7 @@ ScriptedImporter:
     - {x: 24, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3254, y: 809}
+    uvTransform: {x: -649, y: 1554}
   - name: Rogue_elbow_r_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -27204,7 +27204,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1187
+      y: 1882
       width: 93
       height: 149
     spriteID: c2c6aba21c3bfed40869413ace8fe146
@@ -27212,7 +27212,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 69.65819, y: -0.000046167108, z: 0}
+      position: {x: 69.658424, y: -0.000029747473, z: 0}
       rotation: {x: 0, y: 0, z: -0.01221278, w: 0.99992543}
       length: 83.003334
       parentId: 1
@@ -27510,7 +27510,7 @@ ScriptedImporter:
     - {x: 24, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -649, y: 1016}
+    uvTransform: {x: -649, y: 1711}
   - name: Rogue_elbow_r_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -27519,7 +27519,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1344
+      y: 2039
       width: 93
       height: 149
     spriteID: 06300c93b9a65fb4391cc8c5bc11932d
@@ -27527,7 +27527,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 69.65834, y: -0.000029037361, z: 0}
+      position: {x: 69.658455, y: -0.000021172871, z: 0}
       rotation: {x: 0, y: 0, z: -0.01221278, w: 0.99992543}
       length: 83.003334
       parentId: 1
@@ -27536,7 +27536,7 @@ ScriptedImporter:
         rgba: 4278255615
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 42.242126, y: 133.5055, z: 0}
+      position: {x: 42.242126, y: 133.50562, z: 0}
       rotation: {x: 0, y: 0, z: -0.65174973, w: 0.75843406}
       length: 69.65832
       parentId: -1
@@ -27825,7 +27825,7 @@ ScriptedImporter:
     - {x: 24, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -649, y: 1173}
+    uvTransform: {x: -649, y: 1868}
   - name: Rogue_elbow_r_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -27834,7 +27834,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1501
+      y: 2196
       width: 93
       height: 149
     spriteID: 0d199d2921d9d674c8cae56879566e0d
@@ -27842,7 +27842,7 @@ ScriptedImporter:
     spriteBone:
     - name: R_Wrist
       guid: c88ab95db43fd184f8d36e2647eb2542
-      position: {x: 69.65825, y: -0.000009640504, z: 0}
+      position: {x: 69.658485, y: -0.0000653962, z: 0}
       rotation: {x: 0, y: 0, z: -0.01221278, w: 0.99992543}
       length: 83.003334
       parentId: 1
@@ -27851,7 +27851,7 @@ ScriptedImporter:
         rgba: 4278255615
     - name: R_Elbow
       guid: 4b4f796b704714d4f8c2e0da32090c43
-      position: {x: 42.242126, y: 133.5055, z: 0}
+      position: {x: 42.242126, y: 133.50562, z: 0}
       rotation: {x: 0, y: 0, z: -0.65174973, w: 0.75843406}
       length: 69.65832
       parentId: -1
@@ -28140,7 +28140,7 @@ ScriptedImporter:
     - {x: 24, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -649, y: 1330}
+    uvTransform: {x: -649, y: 2025}
   - name: Rogue_boot_l_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -28148,8 +28148,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2728
-      y: 675
+      x: 3527
+      y: 880
       width: 105
       height: 68
     spriteID: eeb819dfd7522d64a8b102822e775c08
@@ -28166,7 +28166,7 @@ ScriptedImporter:
         rgba: 4278255360
     - name: L_Boot_2
       guid: 91b765656bbdbea4dbd0c84b81313624
-      position: {x: 65.87101, y: 0.3037854, z: 0}
+      position: {x: 65.87096, y: 0.3040807, z: 0}
       rotation: {x: 0, y: 0, z: 0.756048, w: 0.6545161}
       length: 23.929117
       parentId: 0
@@ -28477,7 +28477,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2434, y: 650}
+    uvTransform: {x: 3233, y: 855}
   - name: Rogue_boot_l_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -28485,7 +28485,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3047
+      x: 3414
       y: 880
       width: 105
       height: 71
@@ -28503,7 +28503,7 @@ ScriptedImporter:
         rgba: 4278255360
     - name: L_Boot_2
       guid: 91b765656bbdbea4dbd0c84b81313624
-      position: {x: 65.87094, y: 0.30413648, z: 0}
+      position: {x: 65.87095, y: 0.30409274, z: 0}
       rotation: {x: 0, y: 0, z: 0.756048, w: 0.6545161}
       length: 23.929117
       parentId: 0
@@ -28814,7 +28814,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2753, y: 858}
+    uvTransform: {x: 3120, y: 858}
   - name: Rogue_boot_l_04
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -28822,8 +28822,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2933
-      y: 880
+      x: 870
+      y: 1204
       width: 106
       height: 72
     spriteID: f8cc495c6924eb848b13a5c11d0657ee
@@ -28831,7 +28831,7 @@ ScriptedImporter:
     spriteBone:
     - name: L_Boot
       guid: 289aaa0f2898fd648b54bd68c963faf3
-      position: {x: 58.91455, y: 77.40588, z: 0}
+      position: {x: 58.914673, y: 77.40588, z: 0}
       rotation: {x: 0, y: 0, z: -0.70710695, w: 0.7071067}
       length: 65.871346
       parentId: -1
@@ -28840,7 +28840,7 @@ ScriptedImporter:
         rgba: 4278255360
     - name: L_Boot_2
       guid: 91b765656bbdbea4dbd0c84b81313624
-      position: {x: 65.87093, y: 0.3039057, z: 0}
+      position: {x: 65.87104, y: 0.30399713, z: 0}
       rotation: {x: 0, y: 0, z: 0.756048, w: 0.6545161}
       length: 23.929117
       parentId: 0
@@ -29162,7 +29162,7 @@ ScriptedImporter:
     - {x: 27, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2641, y: 858}
+    uvTransform: {x: 578, y: 1182}
   - name: Rogue_boot_l_05
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -29170,8 +29170,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1006
-      y: 1090
+      x: 754
+      y: 1204
       width: 108
       height: 71
     spriteID: f5b09a37e30e1e644ac3b5333d9f5633
@@ -29188,7 +29188,7 @@ ScriptedImporter:
         rgba: 4278255360
     - name: L_Boot_2
       guid: 91b765656bbdbea4dbd0c84b81313624
-      position: {x: 65.870964, y: 0.30403623, z: 0}
+      position: {x: 65.87097, y: 0.3040119, z: 0}
       rotation: {x: 0, y: 0, z: 0.756048, w: 0.6545161}
       length: 23.929117
       parentId: 0
@@ -29499,7 +29499,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 714, y: 1066}
+    uvTransform: {x: 462, y: 1180}
   - name: Rogue_boot_l_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -29507,8 +29507,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 890
-      y: 1090
+      x: 3216
+      y: 880
       width: 108
       height: 73
     spriteID: b5411b317634e2a4f8cc928c07695584
@@ -29516,7 +29516,7 @@ ScriptedImporter:
     spriteBone:
     - name: L_Boot
       guid: 289aaa0f2898fd648b54bd68c963faf3
-      position: {x: 58.914673, y: 75.40588, z: 0}
+      position: {x: 58.91455, y: 75.40588, z: 0}
       rotation: {x: 0, y: 0, z: -0.70710695, w: 0.7071067}
       length: 65.871346
       parentId: -1
@@ -29525,7 +29525,7 @@ ScriptedImporter:
         rgba: 4278255360
     - name: L_Boot_2
       guid: 91b765656bbdbea4dbd0c84b81313624
-      position: {x: 65.87102, y: 0.30398902, z: 0}
+      position: {x: 65.87098, y: 0.30411705, z: 0}
       rotation: {x: 0, y: 0, z: 0.756048, w: 0.6545161}
       length: 23.929117
       parentId: 0
@@ -29836,7 +29836,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 598, y: 1066}
+    uvTransform: {x: 2924, y: 856}
   - name: Rogue_leg_l_01
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -29844,8 +29844,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2066
-      y: 980
+      x: 2493
+      y: 1093
       width: 147
       height: 160
     spriteID: 1904ab04325c51c458695dae6049a5cc
@@ -29853,9 +29853,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Boot
       guid: 289aaa0f2898fd648b54bd68c963faf3
-      position: {x: 72.8508, y: 0.000105625826, z: 0}
-      rotation: {x: 0, y: 0, z: 0.08248038, w: 0.9965927}
-      length: 65.87136
+      position: {x: 72.85083, y: -0.0000024336787, z: 0}
+      rotation: {x: 0, y: 0, z: 0.082480505, w: 0.99659276}
+      length: 65.871346
       parentId: 1
       color:
         serializedVersion: 2
@@ -29863,8 +29863,8 @@ ScriptedImporter:
     - name: L_Leg
       guid: 206b1842600650a4d8cc93f63a95cf82
       position: {x: 64.89111, y: 111.2655, z: 0}
-      rotation: {x: 0, y: 0, z: -0.76302, w: 0.6463749}
-      length: 72.85086
+      rotation: {x: 0, y: 0, z: -0.7630201, w: 0.6463748}
+      length: 72.85084
       parentId: -1
       color:
         serializedVersion: 2
@@ -30162,7 +30162,7 @@ ScriptedImporter:
     - {x: 25, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1768, y: 920}
+    uvTransform: {x: 2195, y: 1033}
   - name: Rogue_leg_l_02
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -30170,8 +30170,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2221
-      y: 980
+      x: 2648
+      y: 1093
       width: 147
       height: 160
     spriteID: 3e58c91a18a53e24f9f9ffc3ae88640f
@@ -30179,9 +30179,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Boot
       guid: 289aaa0f2898fd648b54bd68c963faf3
-      position: {x: 72.850945, y: 0.00007053923, z: 0}
-      rotation: {x: 0, y: 0, z: 0.08248038, w: 0.9965927}
-      length: 65.87136
+      position: {x: 72.85098, y: 0.00017969962, z: 0}
+      rotation: {x: 0, y: 0, z: 0.082480505, w: 0.99659276}
+      length: 65.871346
       parentId: 1
       color:
         serializedVersion: 2
@@ -30189,8 +30189,8 @@ ScriptedImporter:
     - name: L_Leg
       guid: 206b1842600650a4d8cc93f63a95cf82
       position: {x: 64.89111, y: 111.2655, z: 0}
-      rotation: {x: 0, y: 0, z: -0.76302, w: 0.6463749}
-      length: 72.85086
+      rotation: {x: 0, y: 0, z: -0.7630201, w: 0.6463748}
+      length: 72.85084
       parentId: -1
       color:
         serializedVersion: 2
@@ -30499,7 +30499,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1923, y: 920}
+    uvTransform: {x: 2350, y: 1033}
   - name: Rogue_leg_l_03
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -30507,8 +30507,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2376
-      y: 980
+      x: 2803
+      y: 1093
       width: 147
       height: 160
     spriteID: 141773d551367a147afe43e5d7fec18c
@@ -30516,9 +30516,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Boot
       guid: 289aaa0f2898fd648b54bd68c963faf3
-      position: {x: 72.85084, y: 0.000015384392, z: 0}
-      rotation: {x: 0, y: 0, z: 0.08248038, w: 0.9965927}
-      length: 65.87136
+      position: {x: 72.85078, y: 0.00007755576, z: 0}
+      rotation: {x: 0, y: 0, z: 0.082480505, w: 0.99659276}
+      length: 65.871346
       parentId: 1
       color:
         serializedVersion: 2
@@ -30526,8 +30526,8 @@ ScriptedImporter:
     - name: L_Leg
       guid: 206b1842600650a4d8cc93f63a95cf82
       position: {x: 64.89111, y: 111.2655, z: 0}
-      rotation: {x: 0, y: 0, z: -0.76302, w: 0.6463749}
-      length: 72.85086
+      rotation: {x: 0, y: 0, z: -0.7630201, w: 0.6463748}
+      length: 72.85084
       parentId: -1
       color:
         serializedVersion: 2
@@ -30836,7 +30836,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2078, y: 920}
+    uvTransform: {x: 2505, y: 1033}
   - name: Rogue_leg_l_06
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -30844,8 +30844,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2531
-      y: 980
+      x: 2958
+      y: 1093
       width: 147
       height: 160
     spriteID: 85a79f70583e16347b56ac898976a5de
@@ -30853,9 +30853,9 @@ ScriptedImporter:
     spriteBone:
     - name: L_Boot
       guid: 289aaa0f2898fd648b54bd68c963faf3
-      position: {x: 72.850815, y: 0.000445189, z: 0}
-      rotation: {x: 0, y: 0, z: 0.08248038, w: 0.9965927}
-      length: 65.87135
+      position: {x: 72.85057, y: -0.00002458812, z: 0}
+      rotation: {x: 0, y: 0, z: 0.082480505, w: 0.99659276}
+      length: 65.871346
       parentId: 1
       color:
         serializedVersion: 2
@@ -30863,8 +30863,8 @@ ScriptedImporter:
     - name: L_Leg
       guid: 206b1842600650a4d8cc93f63a95cf82
       position: {x: 64.89111, y: 111.2655, z: 0}
-      rotation: {x: 0, y: 0, z: -0.76302, w: 0.6463749}
-      length: 72.85086
+      rotation: {x: 0, y: 0, z: -0.7630201, w: 0.6463748}
+      length: 72.85084
       parentId: -1
       color:
         serializedVersion: 2
@@ -31173,7 +31173,38 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2233, y: 920}
+    uvTransform: {x: 2660, y: 1033}
+  - name: Rogue_weapon_07.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 756
+      width: 473
+      height: 180
+    spriteID: 8fec7853a38d35a4499521d4f92eccd2
+    internalID: 0
+    spriteBone:
+    - name: R_Wrist
+      guid: c88ab95db43fd184f8d36e2647eb2542
+      position: {x: 384.7218, y: 201.64001, z: 0}
+      rotation: {x: 0, y: 0, z: -0.6609637, w: 0.7504178}
+      length: 83.003334
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4278255615
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 89, y: 722}
   characterData:
     bones:
     - name: Pelvis
@@ -31188,16 +31219,16 @@ ScriptedImporter:
     - name: L_Leg
       guid: 206b1842600650a4d8cc93f63a95cf82
       position: {x: 59.39182, y: -164.4819, z: 0}
-      rotation: {x: 0, y: 0, z: -0.09307604, w: 0.995659}
-      length: 72.85085
+      rotation: {x: 0, y: 0, z: -0.09307619, w: 0.995659}
+      length: 72.850845
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: L_Boot
       guid: 289aaa0f2898fd648b54bd68c963faf3
-      position: {x: 72.850845, y: 0.000019415766, z: 0}
-      rotation: {x: 0, y: 0, z: 0.082480356, w: 0.9965927}
+      position: {x: 72.85085, y: 0.00003825668, z: 0}
+      rotation: {x: 0, y: 0, z: 0.082480505, w: 0.9965927}
       length: 65.87135
       parentId: 1
       color:
@@ -31233,15 +31264,15 @@ ScriptedImporter:
     - name: L_Shoulder
       guid: f7fca98e1dd49a640ae366e6621d8472
       position: {x: 224.4814, y: 143.64183, z: 0}
-      rotation: {x: 0, y: -0, z: 0.98957187, w: 0.14403999}
-      length: 179.89798
+      rotation: {x: 0, y: -0, z: 0.9895719, w: 0.14403999}
+      length: 179.89793
       parentId: 5
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: L_Elbow
       guid: 989592af612d59145aa146cf06a6c132
-      position: {x: 179.89798, y: 0.0000030863093, z: 0}
+      position: {x: 179.89792, y: -0.000020448722, z: 0}
       rotation: {x: 0, y: 0, z: -0.05010685, w: 0.9987439}
       length: 80.41116
       parentId: 6
@@ -31250,8 +31281,8 @@ ScriptedImporter:
         rgba: 4286643968
     - name: L_Wrist
       guid: a8e4a86520ed1474f8a831aa70a81249
-      position: {x: 80.41117, y: -0.00003761073, z: 0}
-      rotation: {x: 0, y: 0, z: 0.12953883, w: 0.9915744}
+      position: {x: 80.41114, y: -0.000026815262, z: 0}
+      rotation: {x: 0, y: 0, z: 0.12953882, w: 0.9915744}
       length: 83.434235
       parentId: 7
       color:
@@ -31925,6 +31956,15 @@ ScriptedImporter:
       parentGroup: 0
       order: 0
     - spritePosition:
+        x: 321
+        y: 34
+        width: 473
+        height: 180
+      spriteId: 8fec7853a38d35a4499521d4f92eccd2
+      bones: 0b000000
+      parentGroup: 0
+      order: 0
+    - spritePosition:
         x: 677
         y: 136
         width: 91
@@ -32138,14 +32178,14 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 353c1e480acce9c42a8f1fd89378c8ed
     layerID: 1194835588
-    mosaicPosition: {x: 1320, y: 980}
+    mosaicPosition: {x: 1747, y: 1093}
   - name: Rogue_shoulder_l_02
     spriteName: Rogue_shoulder_l_02
     isGroup: 0
     parentIndex: 0
     spriteID: adb46c687000d0245998147e4d3470ce
     layerID: 1194835589
-    mosaicPosition: {x: 459, y: 980}
+    mosaicPosition: {x: 604, y: 1093}
   - name: Rogue_shoulder_l_03
     spriteName: Rogue_shoulder_l_03
     isGroup: 0
@@ -32159,21 +32199,21 @@ ScriptedImporter:
     parentIndex: 0
     spriteID: 2086a36a2f0a9ea44bc43eb2462803bc
     layerID: 1194835591
-    mosaicPosition: {x: 155, y: 980}
+    mosaicPosition: {x: 300, y: 1093}
   - name: Rogue_shoulder_l_05
     spriteName: Rogue_shoulder_l_05
     isGroup: 0
     parentIndex: 0
     spriteID: 712c15c07dd30d94b8e3132e49e54116
     layerID: 1194835592
-    mosaicPosition: {x: 1468, y: 980}
+    mosaicPosition: {x: 1895, y: 1093}
   - name: Rogue_shoulder_l_06
     spriteName: Rogue_shoulder_l_06
     isGroup: 0
     parentIndex: 0
     spriteID: 56080ebdfc216ea45a5844b86f7e3752
     layerID: 1194835593
-    mosaicPosition: {x: 1764, y: 980}
+    mosaicPosition: {x: 2191, y: 1093}
   - name: L_Wrist
     spriteName: 
     isGroup: 1
@@ -32201,14 +32241,14 @@ ScriptedImporter:
     parentIndex: 7
     spriteID: 72706e5dc81e0c64dbfe30ba99afd6b2
     layerID: -1386931939
-    mosaicPosition: {x: 105, y: 1187}
+    mosaicPosition: {x: 4, y: 2353}
   - name: Rogue_wrist_l_05
     spriteName: Rogue_wrist_l_05
     isGroup: 0
     parentIndex: 7
     spriteID: 9bb75fe14a8b89d4d80ad86ab8495a17
     layerID: 1745235943
-    mosaicPosition: {x: 219, y: 1187}
+    mosaicPosition: {x: 4, y: 2457}
   - name: Rogue_wrist_l_06
     spriteName: Rogue_wrist_l_06
     isGroup: 0
@@ -32229,35 +32269,35 @@ ScriptedImporter:
     parentIndex: 13
     spriteID: 0f8026a6fd0a15944bd9e7e1aa1cfb3e
     layerID: 258053267
-    mosaicPosition: {x: 3961, y: 756}
+    mosaicPosition: {x: 3729, y: 1093}
   - name: Rogue_elbow_l_02
     spriteName: Rogue_elbow_l_02
     isGroup: 0
     parentIndex: 13
     spriteID: aa82c0b574afaa24ea5044b243760f64
     layerID: -1308030674
-    mosaicPosition: {x: 3302, y: 980}
+    mosaicPosition: {x: 3855, y: 1093}
   - name: Rogue_elbow_l_03
     spriteName: Rogue_elbow_l_03
     isGroup: 0
     parentIndex: 13
     spriteID: 4adf643932c94fc45b74f478095fc1c4
     layerID: 1420852681
-    mosaicPosition: {x: 3428, y: 980}
+    mosaicPosition: {x: 4, y: 1317}
   - name: Rogue_elbow_l_05
     spriteName: Rogue_elbow_l_05
     isGroup: 0
     parentIndex: 13
     spriteID: fa01b4fef2cf7274c83f705a12d48565
     layerID: -2067545561
-    mosaicPosition: {x: 3554, y: 980}
+    mosaicPosition: {x: 4, y: 1453}
   - name: Rogue_elbow_l_06
     spriteName: Rogue_elbow_l_06
     isGroup: 0
     parentIndex: 13
     spriteID: 22043fe37ec12114e921b401f2acf3c4
     layerID: 661337794
-    mosaicPosition: {x: 3680, y: 980}
+    mosaicPosition: {x: 4, y: 1589}
   - name: Hood
     spriteName: 
     isGroup: 1
@@ -32313,21 +32353,21 @@ ScriptedImporter:
     parentIndex: 25
     spriteID: dc36d30a4a2a47147bc3f9e7f924715b
     layerID: 656152642
-    mosaicPosition: {x: 1182, y: 756}
+    mosaicPosition: {x: 1663, y: 756}
   - name: Rogue_face_02
     spriteName: Rogue_face_02
     isGroup: 0
     parentIndex: 25
     spriteID: 9331fac43616682438807655bf01055a
     layerID: 656152641
-    mosaicPosition: {x: 1552, y: 756}
+    mosaicPosition: {x: 2033, y: 756}
   - name: Rogue_face_03
     spriteName: Rogue_face_03
     isGroup: 0
     parentIndex: 25
     spriteID: 53bd5b0f72c3ccd40ab5a47f3f54b3c6
     layerID: 656152640
-    mosaicPosition: {x: 812, y: 756}
+    mosaicPosition: {x: 1293, y: 756}
   - name: Rogue_face_04
     spriteName: Rogue_face_04
     isGroup: 0
@@ -32369,7 +32409,7 @@ ScriptedImporter:
     parentIndex: 33
     spriteID: 27903928feccf114782c7f0312ad6f02
     layerID: 1349156458
-    mosaicPosition: {x: 4082, y: 892}
+    mosaicPosition: {x: 4070, y: 669}
   - name: Rogue_hair_01
     spriteName: Rogue_hair_01
     isGroup: 0
@@ -32390,42 +32430,42 @@ ScriptedImporter:
     parentIndex: 36
     spriteID: 5ad1087a5d51b224a800b046fdaa8d00
     layerID: 78075225
-    mosaicPosition: {x: 3230, y: 869}
+    mosaicPosition: {x: 3711, y: 869}
   - name: Rogue_weapon_02
     spriteName: Rogue_weapon_02
     isGroup: 0
     parentIndex: 36
     spriteID: 072528b0a85bf674bbaf647e81be7181
     layerID: 78075224
-    mosaicPosition: {x: 609, y: 980}
+    mosaicPosition: {x: 1036, y: 1093}
   - name: Rogue_weapon_03
     spriteName: Rogue_weapon_03
     isGroup: 0
     parentIndex: 36
     spriteID: 187e7597f6d59bd49bb6ec2031898048
     layerID: 78075223
-    mosaicPosition: {x: 1922, y: 869}
+    mosaicPosition: {x: 2403, y: 869}
   - name: Rogue_weapon_04
     spriteName: Rogue_weapon_04
     isGroup: 0
     parentIndex: 36
     spriteID: f3f0e4a1a651c554dadd48c2e32ce86e
     layerID: 78075230
-    mosaicPosition: {x: 2636, y: 756}
+    mosaicPosition: {x: 3117, y: 756}
   - name: Rogue_weapon_05
     spriteName: Rogue_weapon_05
     isGroup: 0
     parentIndex: 36
     spriteID: c0e4fb4ab2c8d434a9e8f27d0496b740
     layerID: 78075229
-    mosaicPosition: {x: 1922, y: 756}
+    mosaicPosition: {x: 2403, y: 756}
   - name: Rogue_weapon_06
     spriteName: Rogue_weapon_06
     isGroup: 0
     parentIndex: 36
     spriteID: aa32a5d26721b6043bcff6a3740a621a
     layerID: 78075228
-    mosaicPosition: {x: 3230, y: 756}
+    mosaicPosition: {x: 3711, y: 756}
   - name: Torso
     spriteName: 
     isGroup: 1
@@ -32488,7 +32528,7 @@ ScriptedImporter:
     parentIndex: 50
     spriteID: e66055b4bc1ff0346b03a594fda73dc2
     layerID: 658921822
-    mosaicPosition: {x: 410, y: 756}
+    mosaicPosition: {x: 891, y: 756}
   - name: Rogue_pelvis_02
     spriteName: Rogue_pelvis_02
     isGroup: 0
@@ -32537,42 +32577,42 @@ ScriptedImporter:
     parentIndex: 57
     spriteID: 4202dd7fb45e9674798651dd293ddfc4
     layerID: 865714750
-    mosaicPosition: {x: 1171, y: 980}
+    mosaicPosition: {x: 1598, y: 1093}
   - name: Rogue_shoulder_r_02
     spriteName: Rogue_shoulder_r_02
     isGroup: 0
     parentIndex: 57
     spriteID: 403bbc3bae9d3ad438fe8a6965131177
     layerID: 865714751
-    mosaicPosition: {x: 4, y: 980}
+    mosaicPosition: {x: 149, y: 1093}
   - name: Rogue_shoulder_r_03
     spriteName: Rogue_shoulder_r_03
     isGroup: 0
     parentIndex: 57
     spriteID: 4ddb76a73101c064f8a4dfd6b2536555
     layerID: 865714752
-    mosaicPosition: {x: 3816, y: 756}
+    mosaicPosition: {x: 4, y: 1093}
   - name: Rogue_shoulder_r_04
     spriteName: Rogue_shoulder_r_04
     isGroup: 0
     parentIndex: 57
     spriteID: c1a3d2665241ae04d96b1e452b1ec495
     layerID: 865714753
-    mosaicPosition: {x: 307, y: 980}
+    mosaicPosition: {x: 452, y: 1093}
   - name: Rogue_shoulder_r_05
     spriteName: Rogue_shoulder_r_05
     isGroup: 0
     parentIndex: 57
     spriteID: 0b280e6757994614fa0142d772e01b87
     layerID: 865714754
-    mosaicPosition: {x: 1616, y: 980}
+    mosaicPosition: {x: 2043, y: 1093}
   - name: Rogue_shoulder_r_06
     spriteName: Rogue_shoulder_r_06
     isGroup: 0
     parentIndex: 57
     spriteID: 6f3d3e568ba5bb3409379e3d478d194c
     layerID: 865714755
-    mosaicPosition: {x: 1915, y: 980}
+    mosaicPosition: {x: 2342, y: 1093}
   - name: R_Boot
     spriteName: 
     isGroup: 1
@@ -32586,35 +32626,35 @@ ScriptedImporter:
     parentIndex: 64
     spriteID: fc47ec3e88b53194e8b43cf9569a0f5f
     layerID: -1479420346
-    mosaicPosition: {x: 3949, y: 669}
+    mosaicPosition: {x: 1156, y: 1203}
   - name: Rogue_boot_r_03
     spriteName: Rogue_boot_r_03
     isGroup: 0
     parentIndex: 64
     spriteID: 0b393349cdf8e3c478d13cab9f8ea039
     layerID: -1479420344
-    mosaicPosition: {x: 2735, y: 880}
+    mosaicPosition: {x: 1436, y: 1203}
   - name: Rogue_boot_r_04
     spriteName: Rogue_boot_r_04
     isGroup: 0
     parentIndex: 64
     spriteID: 88da7652f13f0b9449c91977a6f86d73
     layerID: -1479420343
-    mosaicPosition: {x: 3961, y: 892}
+    mosaicPosition: {x: 3949, y: 669}
   - name: Rogue_boot_r_05
     spriteName: Rogue_boot_r_05
     isGroup: 0
     parentIndex: 64
     spriteID: 455a3b56d6f74bc4ab1b5826e222676e
     layerID: -1479420342
-    mosaicPosition: {x: 729, y: 1090}
+    mosaicPosition: {x: 1317, y: 1203}
   - name: Rogue_boot_r_06
     spriteName: Rogue_boot_r_06
     isGroup: 0
     parentIndex: 64
     spriteID: b54354538d860c5419c91643987ecb5b
     layerID: -1479420341
-    mosaicPosition: {x: 609, y: 1090}
+    mosaicPosition: {x: 1036, y: 1203}
   - name: R_Leg
     spriteName: 
     isGroup: 1
@@ -32628,28 +32668,28 @@ ScriptedImporter:
     parentIndex: 70
     spriteID: 109002902b199494bb47c5462f40d8e3
     layerID: 1502596864
-    mosaicPosition: {x: 2686, y: 980}
+    mosaicPosition: {x: 3113, y: 1093}
   - name: Rogue_leg_r_02
     spriteName: Rogue_leg_r_02
     isGroup: 0
     parentIndex: 70
     spriteID: 6a67829c683667a46806be013efb88d5
     layerID: 1905881391
-    mosaicPosition: {x: 2840, y: 980}
+    mosaicPosition: {x: 3267, y: 1093}
   - name: Rogue_leg_r_03
     spriteName: Rogue_leg_r_03
     isGroup: 0
     parentIndex: 70
     spriteID: d279718ef693be640882f018d7d31016
     layerID: 339797450
-    mosaicPosition: {x: 2994, y: 980}
+    mosaicPosition: {x: 3421, y: 1093}
   - name: Rogue_leg_r_06
     spriteName: Rogue_leg_r_06
     isGroup: 0
     parentIndex: 70
     spriteID: 7ca20aca22b2b9744a66091fca9b4343
     layerID: -63487077
-    mosaicPosition: {x: 3148, y: 980}
+    mosaicPosition: {x: 3575, y: 1093}
   - name: R_Weapon
     spriteName: 
     isGroup: 1
@@ -32663,42 +32703,49 @@ ScriptedImporter:
     parentIndex: 75
     spriteID: 087ef9c920e68de4ba7848db35d7b525
     layerID: -673398804
-    mosaicPosition: {x: 3523, y: 869}
+    mosaicPosition: {x: 754, y: 1093}
   - name: Rogue_weapon_02.png
     spriteName: Rogue_weapon_02.png
     isGroup: 0
     parentIndex: 75
     spriteID: 509605c7023a6d54b81effa7dde8a557
     layerID: -673397779
-    mosaicPosition: {x: 890, y: 980}
+    mosaicPosition: {x: 1317, y: 1093}
   - name: Rogue_weapon_03.png
     spriteName: Rogue_weapon_03.png
     isGroup: 0
     parentIndex: 75
     spriteID: ef3c8843dae15774bbf68558cbe6231a
     layerID: -673396754
-    mosaicPosition: {x: 2279, y: 869}
+    mosaicPosition: {x: 2760, y: 869}
   - name: Rogue_weapon_04.png
     spriteName: Rogue_weapon_04.png
     isGroup: 0
     parentIndex: 75
     spriteID: 3407abd93753e8d47b2bed4eddda14d0
     layerID: -673387033
-    mosaicPosition: {x: 2933, y: 756}
+    mosaicPosition: {x: 3414, y: 756}
   - name: Rogue_weapon_05.png
     spriteName: Rogue_weapon_05.png
     isGroup: 0
     parentIndex: 75
     spriteID: fcd0864ad5a721f498e14bfdf86e2e7e
     layerID: -673394456
-    mosaicPosition: {x: 2279, y: 756}
+    mosaicPosition: {x: 2760, y: 756}
   - name: Rogue_weapon_06.png
     spriteName: Rogue_weapon_06.png
     isGroup: 0
     parentIndex: 75
     spriteID: 4f75d23f10987fa47864ff6e089721b4
     layerID: -673393431
-    mosaicPosition: {x: 3523, y: 756}
+    mosaicPosition: {x: 4, y: 980}
+  - name: Rogue_weapon_07.png
+    spriteName: Rogue_weapon_07.png
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 8fec7853a38d35a4499521d4f92eccd2
+    layerID: -673392406
+    mosaicPosition: {x: 410, y: 756}
   - name: R_Wrist
     spriteName: 
     isGroup: 1
@@ -32709,38 +32756,38 @@ ScriptedImporter:
   - name: Rogue_wrist_r_01
     spriteName: Rogue_wrist_r_01
     isGroup: 0
-    parentIndex: 82
+    parentIndex: 83
     spriteID: 51c4ba607dc08e8479f81310e964aa5f
     layerID: -224132691
-    mosaicPosition: {x: 4, y: 1761}
+    mosaicPosition: {x: 4, y: 2558}
   - name: Rogue_wrist_r_02
     spriteName: Rogue_wrist_r_02
     isGroup: 0
-    parentIndex: 82
+    parentIndex: 83
     spriteID: 18ef91d4a046a39418a14967f7d911ca
     layerID: 179151836
-    mosaicPosition: {x: 4, y: 1863}
+    mosaicPosition: {x: 4, y: 2660}
   - name: Rogue_wrist_r_03
     spriteName: Rogue_wrist_r_03
     isGroup: 0
-    parentIndex: 82
+    parentIndex: 83
     spriteID: 7a9c42fa77601d04187ee7ff3b84cbea
     layerID: -1386932105
-    mosaicPosition: {x: 4, y: 1658}
+    mosaicPosition: {x: 3993, y: 869}
   - name: Rogue_wrist_r_05
     spriteName: Rogue_wrist_r_05
     isGroup: 0
-    parentIndex: 82
+    parentIndex: 83
     spriteID: cb2db3bd4672a6245b6fdd419e646a93
     layerID: 1745235777
-    mosaicPosition: {x: 4, y: 1965}
+    mosaicPosition: {x: 4, y: 2762}
   - name: Rogue_wrist_r_06
     spriteName: Rogue_wrist_r_06
     isGroup: 0
-    parentIndex: 82
+    parentIndex: 83
     spriteID: c6f81ef7cb9999d4f868cbe42e152260
     layerID: -2146446992
-    mosaicPosition: {x: 2636, y: 880}
+    mosaicPosition: {x: 3117, y: 880}
   - name: R_Elbow
     spriteName: 
     isGroup: 1
@@ -32751,38 +32798,38 @@ ScriptedImporter:
   - name: Rogue_elbow_r_01
     spriteName: Rogue_elbow_r_01
     isGroup: 0
-    parentIndex: 88
+    parentIndex: 89
     spriteID: a2ab849b20598a144927ae7d4d92441b
     layerID: 258053697
-    mosaicPosition: {x: 3806, y: 980}
+    mosaicPosition: {x: 3981, y: 1093}
   - name: Rogue_elbow_r_02
     spriteName: Rogue_elbow_r_02
     isGroup: 0
-    parentIndex: 88
+    parentIndex: 89
     spriteID: cbbf5aa55225a254faa35e4a01ce312e
     layerID: -1308030244
-    mosaicPosition: {x: 3907, y: 980}
+    mosaicPosition: {x: 4, y: 1725}
   - name: Rogue_elbow_r_03
     spriteName: Rogue_elbow_r_03
     isGroup: 0
-    parentIndex: 88
+    parentIndex: 89
     spriteID: c2c6aba21c3bfed40869413ace8fe146
     layerID: 1420853111
-    mosaicPosition: {x: 4, y: 1187}
+    mosaicPosition: {x: 4, y: 1882}
   - name: Rogue_elbow_r_05
     spriteName: Rogue_elbow_r_05
     isGroup: 0
-    parentIndex: 88
+    parentIndex: 89
     spriteID: 06300c93b9a65fb4391cc8c5bc11932d
     layerID: -2067545131
-    mosaicPosition: {x: 4, y: 1344}
+    mosaicPosition: {x: 4, y: 2039}
   - name: Rogue_elbow_r_06
     spriteName: Rogue_elbow_r_06
     isGroup: 0
-    parentIndex: 88
+    parentIndex: 89
     spriteID: 0d199d2921d9d674c8cae56879566e0d
     layerID: 661338224
-    mosaicPosition: {x: 4, y: 1501}
+    mosaicPosition: {x: 4, y: 2196}
   - name: L_Boot
     spriteName: 
     isGroup: 1
@@ -32793,38 +32840,38 @@ ScriptedImporter:
   - name: Rogue_boot_l_01
     spriteName: Rogue_boot_l_01
     isGroup: 0
-    parentIndex: 94
+    parentIndex: 95
     spriteID: eeb819dfd7522d64a8b102822e775c08
     layerID: 1921776108
-    mosaicPosition: {x: 2728, y: 675}
+    mosaicPosition: {x: 3527, y: 880}
   - name: Rogue_boot_l_03
     spriteName: Rogue_boot_l_03
     isGroup: 0
-    parentIndex: 94
+    parentIndex: 95
     spriteID: 3a7c49a403adef1429f21d0fd7c7d86a
     layerID: 1921776110
-    mosaicPosition: {x: 3047, y: 880}
+    mosaicPosition: {x: 3414, y: 880}
   - name: Rogue_boot_l_04
     spriteName: Rogue_boot_l_04
     isGroup: 0
-    parentIndex: 94
+    parentIndex: 95
     spriteID: f8cc495c6924eb848b13a5c11d0657ee
     layerID: 1921776111
-    mosaicPosition: {x: 2933, y: 880}
+    mosaicPosition: {x: 870, y: 1204}
   - name: Rogue_boot_l_05
     spriteName: Rogue_boot_l_05
     isGroup: 0
-    parentIndex: 94
+    parentIndex: 95
     spriteID: f5b09a37e30e1e644ac3b5333d9f5633
     layerID: 1921776112
-    mosaicPosition: {x: 1006, y: 1090}
+    mosaicPosition: {x: 754, y: 1204}
   - name: Rogue_boot_l_06
     spriteName: Rogue_boot_l_06
     isGroup: 0
-    parentIndex: 94
+    parentIndex: 95
     spriteID: b5411b317634e2a4f8cc928c07695584
     layerID: 1921776113
-    mosaicPosition: {x: 890, y: 1090}
+    mosaicPosition: {x: 3216, y: 880}
   - name: L_Leg
     spriteName: 
     isGroup: 1
@@ -32835,31 +32882,31 @@ ScriptedImporter:
   - name: Rogue_leg_l_01
     spriteName: Rogue_leg_l_01
     isGroup: 0
-    parentIndex: 100
+    parentIndex: 101
     spriteID: 1904ab04325c51c458695dae6049a5cc
     layerID: 1502597030
-    mosaicPosition: {x: 2066, y: 980}
+    mosaicPosition: {x: 2493, y: 1093}
   - name: Rogue_leg_l_02
     spriteName: Rogue_leg_l_02
     isGroup: 0
-    parentIndex: 100
+    parentIndex: 101
     spriteID: 3e58c91a18a53e24f9f9ffc3ae88640f
     layerID: 1905881557
-    mosaicPosition: {x: 2221, y: 980}
+    mosaicPosition: {x: 2648, y: 1093}
   - name: Rogue_leg_l_03
     spriteName: Rogue_leg_l_03
     isGroup: 0
-    parentIndex: 100
+    parentIndex: 101
     spriteID: 141773d551367a147afe43e5d7fec18c
     layerID: 339797616
-    mosaicPosition: {x: 2376, y: 980}
+    mosaicPosition: {x: 2803, y: 1093}
   - name: Rogue_leg_l_06
     spriteName: Rogue_leg_l_06
     isGroup: 0
-    parentIndex: 100
+    parentIndex: 101
     spriteID: 85a79f70583e16347b56ac898976a5de
     layerID: -63486911
-    mosaicPosition: {x: 2531, y: 980}
+    mosaicPosition: {x: 2958, y: 1093}
   sharedRigPSDLayers: []
   generateGOHierarchy: 0
   textureAssetName: Revived_Rogue_04 Texture

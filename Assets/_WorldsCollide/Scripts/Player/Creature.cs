@@ -11,7 +11,8 @@ public class Creature : MonoBehaviour, IDamageable
 
     virtual public StatsComponent Stats { get; private set; }
 
-    virtual public void Setup()
+    [ContextMenu("Setup")]
+    public virtual void Setup()
     {
         Animator = GetComponent<Animator>();
         Rigidbody = GetComponent<Rigidbody2D>();
@@ -21,6 +22,16 @@ public class Creature : MonoBehaviour, IDamageable
         Ability.Setup(this);
         Stats = GetComponent<StatsComponent>();
         
+    }
+
+    public virtual void Tick()
+    {
+
+    }
+
+    public void TakeDamage(float damage)
+    {
+        Stats.TakeDamage(damage);
     }
 
 }

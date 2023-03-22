@@ -19,29 +19,11 @@ public class MovementComponent : MonoBehaviour
 
     private float _movementInput;
     private bool _facingRight;
-    private bool _jumpPressed;
+    private bool _jumpInput;
     private int _remainingJumps;
-    private bool _rollPressed;
+    private bool _rollInput;
 
     public bool IsGrounded { get; private set; }
-    
-
-    public static MovementComponent instance;
-
-    public UnityEvent leftWeaponHit, rightWeaponHit,
-        throwWeapon, rightClickPressed;
-
-    void Awake()
-    {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            instance = this;
-        }
-    }
 
     public void Setup(Animator anim, Rigidbody2D rigidbody)
     {
@@ -59,20 +41,14 @@ public class MovementComponent : MonoBehaviour
     {
         if (_remainingJumps > 0)
         {
-            _jumpPressed = true;
+            _jumpInput = true;
         }
     }
 
     public void Roll()
     {
-        _rollPressed = true;
+        _rollInput = true;
     }
-
-    public void Attack()
-    {
-        _anim.SetTrigger("Attack");
-    }
-
 
     private void FixedUpdate()
     {
@@ -94,41 +70,22 @@ public class MovementComponent : MonoBehaviour
             transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
 
-        if (_jumpPressed)
+        if (_jumpInput)
         {
             _rigidbody.AddForce(Vector2.up * _jumpForce, ForceMode2D.Impulse);
             _remainingJumps--;
-            _jumpPressed = false;
+            _jumpInput = false;
         }
 
-        if (_rollPressed)
+        if (_rollInput)
         {
             _rigidbody.AddForce(new Vector2(_facingRight ? 1 : -1, 0.5f) * _rollForce, ForceMode2D.Impulse);
             _anim.SetTrigger("Roll");
-            _rollPressed = false;
+            _rollInput = false;
         }
 
     }
 
-    public void InvokeLeftHit()
-    {
-        leftWeaponHit.Invoke();
-    }
-
-    public void InvokeRightHit()
-    {
-        rightWeaponHit.Invoke();
-    }
-
-    public void InvokeThrow()
-    {
-        throwWeapon.Invoke();
-    }
-
-    public void InvokeRightClickPressed()
-    {
-        rightClickPressed.Invoke();
-    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))

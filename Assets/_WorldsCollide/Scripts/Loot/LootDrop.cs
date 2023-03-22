@@ -24,7 +24,7 @@ public class LootDrop : MonoBehaviour
         var randomY = Random.Range(1f, 3f);
         _rigidbody.AddForce(new Vector2(randomX, randomY) * 200f);
         _rigidbody.AddTorque(randomX * 10f);
-        _spriteRenderer.sprite = Item._sprite;
+        _spriteRenderer.sprite = Item.GetSprite();
         _boxCollider.size = new Vector2(0.5f, 0.5f);
 
 

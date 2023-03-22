@@ -29,11 +29,11 @@ public class LootingBehavior : MonoBehaviour
             var chance = Random.Range(0, 100);
             if (chance <= loot.probability)
             {
-                var quantity = Random.Range(loot.minQuanitity, loot.maxQuantity + 1);
-                var item =  loot.lootItem;
-                item._quantity = quantity;
+                var __quantity = Random.Range(loot.minQuanitity, loot.maxQuantity + 1);
+                var __item =  loot.lootItem;
+                __item.SetQuantity(__quantity);
                 var __drop = Instantiate(_lootDrop, transform.position, Quaternion.identity);
-                __drop.Item = item;
+                __drop.Item = __item;
                 __drop.Drop();
             }
         }

@@ -42,8 +42,10 @@ public class UIController : MonoBehaviour
 
     public void UpdateUIHealth()
     {
-        playerHPSlider.value = StatsComponent.instance.Health / StatsComponent.instance.MaxHealth;
-        playerHPFill.color = HPGradient.Evaluate(StatsComponent.instance.Health / StatsComponent.instance.MaxHealth);
+        var __playerHealth= _player.Stats.Health;
+        var __playerMaxHealth = _player.Stats.MaxHealth;
+        playerHPSlider.value = __playerHealth / __playerMaxHealth;
+        playerHPFill.color = HPGradient.Evaluate(__playerHealth / __playerMaxHealth);
     }
 
     public void ToggleInventory()

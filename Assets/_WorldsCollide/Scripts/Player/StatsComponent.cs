@@ -5,37 +5,12 @@ using UnityEngine.Events;
 
 public class StatsComponent : MonoBehaviour
 {
-    public static StatsComponent instance;
-
     public float Health { get; set; } = 100f;
     public float MaxHealth { get; set; }  = 100f;
     public int DefensePower { get; set; } = 1;
     public int AttackPower { get; set; } = 1;
 
     public UnityEvent onHealthUpdate;
-
-    void Awake()
-    {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            instance = this;
-        }
-
-    }
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 
     public void UpdatePlayerStatsOnEquip(Weapon weapon)
     {
@@ -50,7 +25,7 @@ public class StatsComponent : MonoBehaviour
     {
     }
 
-    public bool TakeDamage (int value)
+    public bool TakeDamage (float value)
     {
         Health -= value;
         onHealthUpdate.Invoke();

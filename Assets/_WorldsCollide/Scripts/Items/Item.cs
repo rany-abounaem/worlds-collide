@@ -7,24 +7,34 @@ using UnityEngine;
 public class Item : ScriptableObject
 {
     [SerializeField]
-    public string _itemName { get; set; }
+    private string _itemName;
     [SerializeField]
-    public int _spriteId { get; set; }
+    private int _spriteId;
     [SerializeField]
-    public int _quantity { get; set; }
+    private int _quantity;
     [SerializeField]
-    public int _cost { get; set; }
+    private int _cost;
     [SerializeField]
-    public Sprite _sprite { get; set; }
+    private Sprite _sprite;
 
     public string GetItemName()
     {
         return _itemName;
     }
 
+    public Sprite GetSprite()
+    {
+        return _sprite;
+    }
+
     public int GetItemSpriteId()
     {
         return _spriteId;
+    }
+
+    public void SetQuantity(int quantity)
+    {
+        _quantity= quantity;
     }
 }
 

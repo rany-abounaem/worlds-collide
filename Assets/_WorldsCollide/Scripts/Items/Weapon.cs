@@ -2,11 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public struct Hitbox
+{
+    public Vector2 center;
+    public Vector2 size;
+}
+
+[CreateAssetMenu(fileName = "Weapon", menuName = "ScriptableObjects/Items/Weapon")]
 public class Weapon : Item
 {
+
+    [SerializeField]
+    private Hitbox _hitbox;
+    
     public int AttackPower { get; set; }
-    //public Weapon(string name, int spriteId, int cost, ItemType type, List <Action> actions, int attackPower): base(name, spriteId, cost, type, actions)
-    //{
-    //    this.AttackPower = attackPower;
-    //}
+
+    public Hitbox GetHitbox() 
+    {
+        return _hitbox; 
+    }
+
 }

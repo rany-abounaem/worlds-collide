@@ -9,7 +9,7 @@ public class CooldownManager
 
     public void AddCooldown(string name, float cooldown)
     {
-        Debug.Log("Added ability");
+        Debug.Log("Added ability to cooldown");
         _cooldowns.Add(name, cooldown);
     }
 
@@ -30,7 +30,7 @@ public class CooldownManager
             if (_cooldowns[__cooldown.Key] <= 0)
             {
                 _cooldowns.Remove(__cooldown.Key);
-                Debug.Log("ability removed from cooldown");
+                Debug.Log("Ability removed from cooldown");
             }
         }
     }

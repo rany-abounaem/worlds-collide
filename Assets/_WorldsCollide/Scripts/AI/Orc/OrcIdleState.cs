@@ -19,11 +19,11 @@ public class OrcIdleState : State
     public override void Update()
     {
         // Random chance to patrol
-        if (Random.Range(0, 1000) < 10)
-        {
-            nextState = new OrcPatrolState(npc, ai, anim, player, rb);
-            stage = EVENT.EXIT;
-        }
+        //if (Random.Range(0, 1000) < 10)
+        //{
+        //    nextState = new OrcPatrolState(npc, ai, anim, player, rb);
+        //    stage = EVENT.EXIT;
+        //}
 
     }
 

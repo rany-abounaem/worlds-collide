@@ -16,16 +16,16 @@ public class PlateKnightMeleeState : State
     //Set trigger based on best action trigger string
     public override void Enter()
     {
-        if (MovementComponent.instance.IsGrounded)
-        {
-            anim.SetBool("isAttacking", true);
-            upSpear = false;
-        }
-        else
-        {
-            upSpear = true;
-            anim.SetBool("isAttacking1", true);
-        }
+        //if (MovementComponent.instance.IsGrounded)
+        //{
+        //    anim.SetBool("isAttacking", true);
+        //    upSpear = false;
+        //}
+        //else
+        //{
+        //    upSpear = true;
+        //    anim.SetBool("isAttacking1", true);
+        //}
         Debug.Log("Attack set");
         base.Enter();
     }
@@ -50,18 +50,18 @@ public class PlateKnightMeleeState : State
         }
 
         //Condition: If the player is on the ground and plate knight is attacking upwards
-        else if (MovementComponent.instance.IsGrounded && upSpear)
-        {
-            nextState = new PlateKnightMeleeState(npc, ai, anim, player, rb);
-            stage = EVENT.EXIT;
-        }
+        //else if (MovementComponent.instance.IsGrounded && upSpear)
+        //{
+        //    nextState = new PlateKnightMeleeState(npc, ai, anim, player, rb);
+        //    stage = EVENT.EXIT;
+        //}
 
-        //Condition: If the player is in the air and plate knight is attacking downwards
-        else if (!MovementComponent.instance.IsGrounded && !upSpear)
-        {
-            nextState = new PlateKnightMeleeState(npc, ai, anim, player, rb);
-            stage = EVENT.EXIT;
-        }
+        ////Condition: If the player is in the air and plate knight is attacking downwards
+        //else if (!MovementComponent.instance.IsGrounded && !upSpear)
+        //{
+        //    nextState = new PlateKnightMeleeState(npc, ai, anim, player, rb);
+        //    stage = EVENT.EXIT;
+        //}
     }
 
     public override void Exit()

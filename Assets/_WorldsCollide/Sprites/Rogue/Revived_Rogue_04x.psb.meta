@@ -1,0 +1,2782 @@
+fileFormatVersion: 2
+guid: 509c8416d275bb84e8ff86bd71dd09d5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Rogue_shoulder_l_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1320
+      y: 980
+      width: 140
+      height: 196
+    spriteID: dc20bf296f75baf4880c2310d8d60120
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1060, y: 698}
+  - name: Rogue_shoulder_l_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 980
+      width: 142
+      height: 199
+    spriteID: 95c86b7796c5c6044bf375b1a431a89e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 200, y: 700}
+  - name: Rogue_shoulder_l_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3949
+      y: 445
+      width: 138
+      height: 216
+    spriteID: 799097869f67160408702c66cabd217d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3692, y: 175}
+  - name: Rogue_shoulder_l_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 980
+      width: 144
+      height: 197
+    spriteID: 2f461c69fceb7004da642b956a076828
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -104, y: 699}
+  - name: Rogue_shoulder_l_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1468
+      y: 980
+      width: 140
+      height: 193
+    spriteID: 36b0369bd6d676145a87ddc2398e6c56
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1207, y: 693}
+  - name: Rogue_shoulder_l_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1764
+      y: 980
+      width: 143
+      height: 181
+    spriteID: 25e9856ff38b9df43850e540c3e4b324
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1505, y: 687}
+  - name: Rogue_wrist_l_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3366
+      y: 343
+      width: 106
+      height: 93
+    spriteID: 9ea2349b2c2a91841b5daaa77aac3c2d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3157, y: 218}
+  - name: Rogue_wrist_l_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3480
+      y: 343
+      width: 106
+      height: 93
+    spriteID: 165bc307522579e4eb2b4c4b90b2a1c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3271, y: 218}
+  - name: Rogue_wrist_l_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 1187
+      width: 106
+      height: 96
+    spriteID: 92f408638d69879458234c1ee8c35850
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -104, y: 1062}
+  - name: Rogue_wrist_l_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 219
+      y: 1187
+      width: 106
+      height: 93
+    spriteID: 3baebebba0d93d2488f9a3287e6acacb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10, y: 1062}
+  - name: Rogue_wrist_l_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3252
+      y: 343
+      width: 106
+      height: 94
+    spriteID: 3331d687dd1381d48a74d3a8117cd527
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3043, y: 218}
+  - name: Rogue_elbow_l_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3961
+      y: 756
+      width: 118
+      height: 128
+    spriteID: a732bb3594fb77945b13d01339b340b8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3728, y: 561}
+  - name: Rogue_elbow_l_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3302
+      y: 980
+      width: 118
+      height: 128
+    spriteID: aed398c4a92bab248b601f561e74c985
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3069, y: 785}
+  - name: Rogue_elbow_l_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3428
+      y: 980
+      width: 118
+      height: 128
+    spriteID: 0dd7f93bdc6af7c4fa526e6f5c610c37
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3195, y: 785}
+  - name: Rogue_elbow_l_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3554
+      y: 980
+      width: 118
+      height: 128
+    spriteID: 5880c60e27f5f4947b29bce57c668baf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3321, y: 785}
+  - name: Rogue_elbow_l_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3680
+      y: 980
+      width: 118
+      height: 128
+    spriteID: 40a076cf0f0737f49a192ae9c43b2a8d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3447, y: 785}
+  - name: Rogue_hood_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 488
+      height: 433
+    spriteID: 52f8714455a0b704bbca4a832907c043
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -242, y: -400}
+  - name: Rogue_hood_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 4
+      width: 488
+      height: 433
+    spriteID: 1a4b11496c0bf0b4392f1f20dfe5e542
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 254, y: -400}
+  - name: Rogue_hood_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 4
+      width: 488
+      height: 433
+    spriteID: 9f3cdd86bdb9a3c40ba0e40a4329baeb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 750, y: -400}
+  - name: Rogue_hood_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 4
+      width: 488
+      height: 433
+    spriteID: d7ddc4e4477e117418fa6099a9dc5441
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1246, y: -400}
+  - name: Rogue_hood_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1988
+      y: 4
+      width: 488
+      height: 433
+    spriteID: 5c0e9f802b6378c4e8ca14513995f18c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1742, y: -400}
+  - name: Rogue_face_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1182
+      y: 756
+      width: 362
+      height: 198
+    spriteID: 864be9ad76500c64a827c87566357e95
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 857, y: 356}
+  - name: Rogue_face_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1552
+      y: 756
+      width: 362
+      height: 198
+    spriteID: 31d4145716d91af46aacf60bd545437b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1227, y: 356}
+  - name: Rogue_face_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 812
+      y: 756
+      width: 362
+      height: 213
+    spriteID: ec52d2d5198137c458524f38593ed9c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 487, y: 356}
+  - name: Rogue_face_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3673
+      y: 4
+      width: 362
+      height: 350
+    spriteID: 198e7f1e0857df643b5de344ce1dd0bc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3348, y: -396}
+  - name: Rogue_face_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2484
+      y: 4
+      width: 376
+      height: 368
+    spriteID: e6e22173cd5e58f4e83ce5dd22ae137e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2168, y: -399}
+  - name: Rogue_head_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2868
+      y: 4
+      width: 376
+      height: 368
+    spriteID: 1f76baf81f819744b9a19e1e75d8f542
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2552, y: -399}
+  - name: Rogue_hair_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4082
+      y: 892
+      width: 0
+      height: 0
+    spriteID: c459c2b008249c341be507c2ba7d6941
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3058, y: -132}
+  - name: Rogue_hair_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3252
+      y: 4
+      width: 413
+      height: 331
+    spriteID: 4f431049997ed804c89a6cc3b0d2c562
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2964, y: -515}
+  - name: Rogue_weapon_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3230
+      y: 869
+      width: 274
+      height: 103
+    spriteID: fdbe31cd49bb9c24f82bf06072cfdba9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3042, y: 777}
+  - name: Rogue_weapon_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 609
+      y: 980
+      width: 273
+      height: 102
+    spriteID: 22b7fd0c72b395c46995146ec421ec6f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 420, y: 888}
+  - name: Rogue_weapon_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1922
+      y: 869
+      width: 315
+      height: 101
+    spriteID: 22dc972674713044d88e89cb50abb026
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1733, y: 774}
+  - name: Rogue_weapon_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2636
+      y: 756
+      width: 289
+      height: 116
+    spriteID: d5b65b3b8aabc6e4396da55e69d8ffc2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2448, y: 671}
+  - name: Rogue_weapon_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1922
+      y: 756
+      width: 349
+      height: 105
+    spriteID: 68e75815673a54b4a88f80bdf12636a5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1734, y: 668}
+  - name: Rogue_weapon_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3230
+      y: 756
+      width: 285
+      height: 105
+    spriteID: e35c42c45de6cb54fa163acc6bdb2792
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3051, y: 668}
+  - name: Rogue_torso_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1935
+      y: 445
+      width: 377
+      height: 298
+    spriteID: e13c6c7dce4325c4a9cf45bc00bfa7e3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1631, y: 249}
+  - name: Rogue_torso_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 775
+      y: 445
+      width: 378
+      height: 302
+    spriteID: 4a554202ee6ddc546babe90f52d423aa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 471, y: 254}
+  - name: Rogue_torso_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1548
+      y: 445
+      width: 379
+      height: 300
+    spriteID: 2f7bf9921f87a374ca1f3272366ac40c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1245, y: 250}
+  - name: Rogue_torso_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 445
+      width: 378
+      height: 303
+    spriteID: 8344d3bbf0eb9f94e9a06bf9c5eb83fd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -300, y: 253}
+  - name: Rogue_torso_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1161
+      y: 445
+      width: 379
+      height: 301
+    spriteID: b43307bc1e51d9a408d761be0e4ebaf8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 859, y: 250}
+  - name: Rogue_torso_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 390
+      y: 445
+      width: 377
+      height: 303
+    spriteID: c7dcb075bf4dc3c4f88edcf8a8d050ca
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 86, y: 249}
+  - name: Rogue_pelvis_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 756
+      width: 394
+      height: 211
+    spriteID: 8af02aa8e3af39842ac73184800d4631
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 116, y: 665}
+  - name: Rogue_pelvis_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2728
+      y: 445
+      width: 396
+      height: 222
+    spriteID: 9d6e74ee0bccabe4cb0577c0eb756f42
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2435, y: 366}
+  - name: Rogue_pelvis_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3537
+      y: 445
+      width: 404
+      height: 215
+    spriteID: 37ed098405b46904c8f23dd21a9f96aa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3250, y: 358}
+  - name: Rogue_pelvis_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 756
+      width: 398
+      height: 216
+    spriteID: 4620ed9b8b6586940a78f20f2d45ecf9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -289, y: 671}
+  - name: Rogue_pelvis_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3132
+      y: 445
+      width: 397
+      height: 219
+    spriteID: 5eaeb7280a43f5b44851ed30fdcf11d4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2838, y: 364}
+  - name: Rogue_pelvis_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2320
+      y: 445
+      width: 400
+      height: 220
+    spriteID: 6250af7b9ec85db4d93c3f88dd9f39f7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2028, y: 363}
+  - name: Rogue_shoulder_r_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1171
+      y: 980
+      width: 141
+      height: 196
+    spriteID: 79a70b2bc5bfa17439750d8526c88347
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 577, y: 698}
+  - name: Rogue_shoulder_r_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 980
+      width: 143
+      height: 199
+    spriteID: b04814bc70135bc43914df706464c08f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -590, y: 700}
+  - name: Rogue_shoulder_r_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3816
+      y: 756
+      width: 137
+      height: 216
+    spriteID: 09beef25b58a6a44aa41efa9a0ed9769
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3215, y: 486}
+  - name: Rogue_shoulder_r_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 307
+      y: 980
+      width: 144
+      height: 197
+    spriteID: 4af06bbd91738354ba4e744606ae7932
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -286, y: 699}
+  - name: Rogue_shoulder_r_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1616
+      y: 980
+      width: 140
+      height: 193
+    spriteID: dc45e134197d24e4e8f7995a497d74b6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1024, y: 693}
+  - name: Rogue_shoulder_r_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1915
+      y: 980
+      width: 143
+      height: 181
+    spriteID: e21bfd7effd1a494abf8366a0e7a7462
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1324, y: 687}
+  - name: Rogue_boot_r_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3949
+      y: 669
+      width: 111
+      height: 76
+    spriteID: e91d8b2a68e630544a81058443152239
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3370, y: 643}
+  - name: Rogue_boot_r_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2735
+      y: 880
+      width: 105
+      height: 76
+    spriteID: 4e9737d58eb6e114c9aa103b7dafb784
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2153, y: 855}
+  - name: Rogue_boot_r_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3961
+      y: 892
+      width: 113
+      height: 78
+    spriteID: efc99304f14d5db418960b2f92005176
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3383, y: 867}
+  - name: Rogue_boot_r_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 729
+      y: 1090
+      width: 111
+      height: 76
+    spriteID: 865a8496011e59440ad4137b1628b89d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 150, y: 1064}
+  - name: Rogue_boot_r_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 609
+      y: 1090
+      width: 112
+      height: 83
+    spriteID: d656e0c5199d08c46b188b794d886f6e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 31, y: 1066}
+  - name: Rogue_leg_r_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2686
+      y: 980
+      width: 146
+      height: 160
+    spriteID: 21d1c0cb44d26924db78d0726955b54e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2151, y: 920}
+  - name: Rogue_leg_r_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2840
+      y: 980
+      width: 146
+      height: 160
+    spriteID: 965daea5c09514747986accd3a101b99
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2305, y: 920}
+  - name: Rogue_leg_r_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2994
+      y: 980
+      width: 146
+      height: 160
+    spriteID: ac8299813b2761a4d8cbf9c4a068da81
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2459, y: 920}
+  - name: Rogue_leg_r_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3148
+      y: 980
+      width: 146
+      height: 160
+    spriteID: ff9bb45e831d2dd428500bb72d1caae5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2613, y: 920}
+  - name: Rogue_weapon_01.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3523
+      y: 869
+      width: 274
+      height: 103
+    spriteID: 5d38b01e266dd954baa27103201f8c94
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3003, y: 764}
+  - name: Rogue_weapon_02.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 890
+      y: 980
+      width: 273
+      height: 102
+    spriteID: e78cc3d6403d39d41ad16bd1a29c0ff5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 370, y: 875}
+  - name: Rogue_weapon_03.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2279
+      y: 869
+      width: 315
+      height: 101
+    spriteID: c16eb952a6a6229438c5c054766fa2f0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1801, y: 761}
+  - name: Rogue_weapon_04.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2933
+      y: 756
+      width: 289
+      height: 116
+    spriteID: b010f4f444b72d2448a689ad36174e85
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2428, y: 658}
+  - name: Rogue_weapon_05.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2279
+      y: 756
+      width: 349
+      height: 105
+    spriteID: 58e04d7d7e535ed429cc469f92a68913
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1834, y: 655}
+  - name: Rogue_weapon_06.png
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3523
+      y: 756
+      width: 285
+      height: 105
+    spriteID: 103485f93ed2abe4a8762a851802f2be
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3005, y: 655}
+  - name: Rogue_wrist_r_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1761
+      width: 91
+      height: 94
+    spriteID: 575b5f24fecd74a4b822bcbeaec9808e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -673, y: 1625}
+  - name: Rogue_wrist_r_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1863
+      width: 91
+      height: 94
+    spriteID: 9fa4c976794bdb94daf8f045ff020b9b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -673, y: 1727}
+  - name: Rogue_wrist_r_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1658
+      width: 91
+      height: 95
+    spriteID: 180131f38eb865844a4174db9c9c85fa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -673, y: 1522}
+  - name: Rogue_wrist_r_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1965
+      width: 91
+      height: 94
+    spriteID: baa8a46026784f146b721bfb424db4f1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -673, y: 1829}
+  - name: Rogue_wrist_r_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2636
+      y: 880
+      width: 91
+      height: 92
+    spriteID: 3eaf38d4e7619aa469952555b9e58037
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1959, y: 744}
+  - name: Rogue_elbow_r_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3806
+      y: 980
+      width: 93
+      height: 149
+    spriteID: 2d006233f9ad6d34197d9d288475b5dd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3153, y: 809}
+  - name: Rogue_elbow_r_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3907
+      y: 980
+      width: 93
+      height: 149
+    spriteID: 4174e8243b71f214e8c87a74e68366f0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3254, y: 809}
+  - name: Rogue_elbow_r_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1187
+      width: 93
+      height: 149
+    spriteID: 79d81d27b3dab704cbc10c9735a519da
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -649, y: 1016}
+  - name: Rogue_elbow_r_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1344
+      width: 93
+      height: 149
+    spriteID: 3b4466df9fb72f14c87c26d279361a80
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -649, y: 1173}
+  - name: Rogue_elbow_r_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1501
+      width: 93
+      height: 149
+    spriteID: 1d39a5b9e05efcb4d96525a85e3f304b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -649, y: 1330}
+  - name: Rogue_boot_l_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2728
+      y: 675
+      width: 105
+      height: 68
+    spriteID: 84e78c55d7521df409bcf9402e403a93
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2434, y: 650}
+  - name: Rogue_boot_l_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3047
+      y: 880
+      width: 105
+      height: 71
+    spriteID: 54de8273a2ad60e40be690ca349d3a36
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2753, y: 858}
+  - name: Rogue_boot_l_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2933
+      y: 880
+      width: 106
+      height: 72
+    spriteID: a159e13b691345f4f9365cc33b96b6d6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2641, y: 858}
+  - name: Rogue_boot_l_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1006
+      y: 1090
+      width: 108
+      height: 71
+    spriteID: 186e82db57a32324e88ab83d350e0a37
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 714, y: 1066}
+  - name: Rogue_boot_l_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 890
+      y: 1090
+      width: 108
+      height: 73
+    spriteID: 7c5288bc5ca12b142894088da7a053c8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 598, y: 1066}
+  - name: Rogue_leg_l_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2066
+      y: 980
+      width: 147
+      height: 160
+    spriteID: 47c1ba226abfaf5458831f17751bd54e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1768, y: 920}
+  - name: Rogue_leg_l_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2221
+      y: 980
+      width: 147
+      height: 160
+    spriteID: 4b7aeef069a50ec4d92fe4824718704e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1923, y: 920}
+  - name: Rogue_leg_l_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2376
+      y: 980
+      width: 147
+      height: 160
+    spriteID: bbd3ec3c9dc8ef945b2cb0c68f8f1986
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2078, y: 920}
+  - name: Rogue_leg_l_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2531
+      y: 980
+      width: 147
+      height: 160
+    spriteID: 6cdca02fceb19c24993a4c8d5c4c7c77
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2233, y: 920}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1024, y: 1024}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 4096
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: L_Shoulder
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_shoulder_l_01
+    spriteName: Rogue_shoulder_l_01
+    isGroup: 0
+    parentIndex: 0
+    spriteID: dc20bf296f75baf4880c2310d8d60120
+    layerID: 1194835588
+    mosaicPosition: {x: 1320, y: 980}
+  - name: Rogue_shoulder_l_02
+    spriteName: Rogue_shoulder_l_02
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 95c86b7796c5c6044bf375b1a431a89e
+    layerID: 1194835589
+    mosaicPosition: {x: 459, y: 980}
+  - name: Rogue_shoulder_l_03
+    spriteName: Rogue_shoulder_l_03
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 799097869f67160408702c66cabd217d
+    layerID: 1194835590
+    mosaicPosition: {x: 3949, y: 445}
+  - name: Rogue_shoulder_l_04
+    spriteName: Rogue_shoulder_l_04
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2f461c69fceb7004da642b956a076828
+    layerID: 1194835591
+    mosaicPosition: {x: 155, y: 980}
+  - name: Rogue_shoulder_l_05
+    spriteName: Rogue_shoulder_l_05
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 36b0369bd6d676145a87ddc2398e6c56
+    layerID: 1194835592
+    mosaicPosition: {x: 1468, y: 980}
+  - name: Rogue_shoulder_l_06
+    spriteName: Rogue_shoulder_l_06
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 25e9856ff38b9df43850e540c3e4b324
+    layerID: 1194835593
+    mosaicPosition: {x: 1764, y: 980}
+  - name: L_Wrist
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -991312790
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_wrist_l_01
+    spriteName: Rogue_wrist_l_01
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 9ea2349b2c2a91841b5daaa77aac3c2d
+    layerID: -224132525
+    mosaicPosition: {x: 3366, y: 343}
+  - name: Rogue_wrist_l_02
+    spriteName: Rogue_wrist_l_02
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 165bc307522579e4eb2b4c4b90b2a1c1
+    layerID: 179152002
+    mosaicPosition: {x: 3480, y: 343}
+  - name: Rogue_wrist_l_03
+    spriteName: Rogue_wrist_l_03
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 92f408638d69879458234c1ee8c35850
+    layerID: -1386931939
+    mosaicPosition: {x: 105, y: 1187}
+  - name: Rogue_wrist_l_05
+    spriteName: Rogue_wrist_l_05
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 3baebebba0d93d2488f9a3287e6acacb
+    layerID: 1745235943
+    mosaicPosition: {x: 219, y: 1187}
+  - name: Rogue_wrist_l_06
+    spriteName: Rogue_wrist_l_06
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 3331d687dd1381d48a74d3a8117cd527
+    layerID: -2146446826
+    mosaicPosition: {x: 3252, y: 343}
+  - name: L_Elbow
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 292680918
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_elbow_l_01
+    spriteName: Rogue_elbow_l_01
+    isGroup: 0
+    parentIndex: 13
+    spriteID: a732bb3594fb77945b13d01339b340b8
+    layerID: 258053267
+    mosaicPosition: {x: 3961, y: 756}
+  - name: Rogue_elbow_l_02
+    spriteName: Rogue_elbow_l_02
+    isGroup: 0
+    parentIndex: 13
+    spriteID: aed398c4a92bab248b601f561e74c985
+    layerID: -1308030674
+    mosaicPosition: {x: 3302, y: 980}
+  - name: Rogue_elbow_l_03
+    spriteName: Rogue_elbow_l_03
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 0dd7f93bdc6af7c4fa526e6f5c610c37
+    layerID: 1420852681
+    mosaicPosition: {x: 3428, y: 980}
+  - name: Rogue_elbow_l_05
+    spriteName: Rogue_elbow_l_05
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 5880c60e27f5f4947b29bce57c668baf
+    layerID: -2067545561
+    mosaicPosition: {x: 3554, y: 980}
+  - name: Rogue_elbow_l_06
+    spriteName: Rogue_elbow_l_06
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 40a076cf0f0737f49a192ae9c43b2a8d
+    layerID: 661337794
+    mosaicPosition: {x: 3680, y: 980}
+  - name: Hood
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -151837624
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_hood_01
+    spriteName: Rogue_hood_01
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 52f8714455a0b704bbca4a832907c043
+    layerID: 1017264547
+    mosaicPosition: {x: 4, y: 4}
+  - name: Rogue_hood_02
+    spriteName: Rogue_hood_02
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 1a4b11496c0bf0b4392f1f20dfe5e542
+    layerID: 1017264550
+    mosaicPosition: {x: 500, y: 4}
+  - name: Rogue_hood_03
+    spriteName: Rogue_hood_03
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 9f3cdd86bdb9a3c40ba0e40a4329baeb
+    layerID: 1017264549
+    mosaicPosition: {x: 996, y: 4}
+  - name: Rogue_hood_04
+    spriteName: Rogue_hood_04
+    isGroup: 0
+    parentIndex: 19
+    spriteID: d7ddc4e4477e117418fa6099a9dc5441
+    layerID: 1017264544
+    mosaicPosition: {x: 1492, y: 4}
+  - name: Rogue_hood_06
+    spriteName: Rogue_hood_06
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 5c0e9f802b6378c4e8ca14513995f18c
+    layerID: 1017264546
+    mosaicPosition: {x: 1988, y: 4}
+  - name: Face
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -1966747611
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_face_01
+    spriteName: Rogue_face_01
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 864be9ad76500c64a827c87566357e95
+    layerID: 656152642
+    mosaicPosition: {x: 1182, y: 756}
+  - name: Rogue_face_02
+    spriteName: Rogue_face_02
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 31d4145716d91af46aacf60bd545437b
+    layerID: 656152641
+    mosaicPosition: {x: 1552, y: 756}
+  - name: Rogue_face_03
+    spriteName: Rogue_face_03
+    isGroup: 0
+    parentIndex: 25
+    spriteID: ec52d2d5198137c458524f38593ed9c1
+    layerID: 656152640
+    mosaicPosition: {x: 812, y: 756}
+  - name: Rogue_face_04
+    spriteName: Rogue_face_04
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 198e7f1e0857df643b5de344ce1dd0bc
+    layerID: 656152639
+    mosaicPosition: {x: 3673, y: 4}
+  - name: Rogue_face_06
+    spriteName: Rogue_face_06
+    isGroup: 0
+    parentIndex: 25
+    spriteID: e6e22173cd5e58f4e83ce5dd22ae137e
+    layerID: 656152637
+    mosaicPosition: {x: 2484, y: 4}
+  - name: Head
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -158744160
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_head_01
+    spriteName: Rogue_head_01
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 1f76baf81f819744b9a19e1e75d8f542
+    layerID: -1727750873
+    mosaicPosition: {x: 2868, y: 4}
+  - name: Hair
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 856244530
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_hair_00
+    spriteName: Rogue_hair_00
+    isGroup: 0
+    parentIndex: 33
+    spriteID: c459c2b008249c341be507c2ba7d6941
+    layerID: 1349156458
+    mosaicPosition: {x: 4082, y: 892}
+  - name: Rogue_hair_01
+    spriteName: Rogue_hair_01
+    isGroup: 0
+    parentIndex: 33
+    spriteID: 4f431049997ed804c89a6cc3b0d2c562
+    layerID: 1349156457
+    mosaicPosition: {x: 3252, y: 4}
+  - name: L_Weapon
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 1209125589
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_weapon_01
+    spriteName: Rogue_weapon_01
+    isGroup: 0
+    parentIndex: 36
+    spriteID: fdbe31cd49bb9c24f82bf06072cfdba9
+    layerID: 78075225
+    mosaicPosition: {x: 3230, y: 869}
+  - name: Rogue_weapon_02
+    spriteName: Rogue_weapon_02
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 22b7fd0c72b395c46995146ec421ec6f
+    layerID: 78075224
+    mosaicPosition: {x: 609, y: 980}
+  - name: Rogue_weapon_03
+    spriteName: Rogue_weapon_03
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 22dc972674713044d88e89cb50abb026
+    layerID: 78075223
+    mosaicPosition: {x: 1922, y: 869}
+  - name: Rogue_weapon_04
+    spriteName: Rogue_weapon_04
+    isGroup: 0
+    parentIndex: 36
+    spriteID: d5b65b3b8aabc6e4396da55e69d8ffc2
+    layerID: 78075230
+    mosaicPosition: {x: 2636, y: 756}
+  - name: Rogue_weapon_05
+    spriteName: Rogue_weapon_05
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 68e75815673a54b4a88f80bdf12636a5
+    layerID: 78075229
+    mosaicPosition: {x: 1922, y: 756}
+  - name: Rogue_weapon_06
+    spriteName: Rogue_weapon_06
+    isGroup: 0
+    parentIndex: 36
+    spriteID: e35c42c45de6cb54fa163acc6bdb2792
+    layerID: 78075228
+    mosaicPosition: {x: 3230, y: 756}
+  - name: Torso
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 82816617
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_torso_01
+    spriteName: Rogue_torso_01
+    isGroup: 0
+    parentIndex: 43
+    spriteID: e13c6c7dce4325c4a9cf45bc00bfa7e3
+    layerID: -1389800602
+    mosaicPosition: {x: 1935, y: 445}
+  - name: Rogue_torso_02
+    spriteName: Rogue_torso_02
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 4a554202ee6ddc546babe90f52d423aa
+    layerID: 1339082753
+    mosaicPosition: {x: 775, y: 445}
+  - name: Rogue_torso_03
+    spriteName: Rogue_torso_03
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 2f7bf9921f87a374ca1f3272366ac40c
+    layerID: -227001188
+    mosaicPosition: {x: 1548, y: 445}
+  - name: Rogue_torso_04
+    spriteName: Rogue_torso_04
+    isGroup: 0
+    parentIndex: 43
+    spriteID: 8344d3bbf0eb9f94e9a06bf9c5eb83fd
+    layerID: 2145651807
+    mosaicPosition: {x: 4, y: 445}
+  - name: Rogue_torso_05
+    spriteName: Rogue_torso_05
+    isGroup: 0
+    parentIndex: 43
+    spriteID: b43307bc1e51d9a408d761be0e4ebaf8
+    layerID: 579567866
+    mosaicPosition: {x: 1161, y: 445}
+  - name: Rogue_torso_06
+    spriteName: Rogue_torso_06
+    isGroup: 0
+    parentIndex: 43
+    spriteID: c7dcb075bf4dc3c4f88edcf8a8d050ca
+    layerID: -986516075
+    mosaicPosition: {x: 390, y: 445}
+  - name: Pelvis
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 723517801
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_pelvis_01
+    spriteName: Rogue_pelvis_01
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 8af02aa8e3af39842ac73184800d4631
+    layerID: 658921822
+    mosaicPosition: {x: 410, y: 756}
+  - name: Rogue_pelvis_02
+    spriteName: Rogue_pelvis_02
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 9d6e74ee0bccabe4cb0577c0eb756f42
+    layerID: 658921821
+    mosaicPosition: {x: 2728, y: 445}
+  - name: Rogue_pelvis_03
+    spriteName: Rogue_pelvis_03
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 37ed098405b46904c8f23dd21a9f96aa
+    layerID: 658921820
+    mosaicPosition: {x: 3537, y: 445}
+  - name: Rogue_pelvis_04
+    spriteName: Rogue_pelvis_04
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 4620ed9b8b6586940a78f20f2d45ecf9
+    layerID: 658921819
+    mosaicPosition: {x: 4, y: 756}
+  - name: Rogue_pelvis_05
+    spriteName: Rogue_pelvis_05
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 5eaeb7280a43f5b44851ed30fdcf11d4
+    layerID: 658921818
+    mosaicPosition: {x: 3132, y: 445}
+  - name: Rogue_pelvis_06
+    spriteName: Rogue_pelvis_06
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 6250af7b9ec85db4d93c3f88dd9f39f7
+    layerID: 658921817
+    mosaicPosition: {x: 2320, y: 445}
+  - name: R_Shoulder
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 721446007
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_shoulder_r_01
+    spriteName: Rogue_shoulder_r_01
+    isGroup: 0
+    parentIndex: 57
+    spriteID: 79a70b2bc5bfa17439750d8526c88347
+    layerID: 865714750
+    mosaicPosition: {x: 1171, y: 980}
+  - name: Rogue_shoulder_r_02
+    spriteName: Rogue_shoulder_r_02
+    isGroup: 0
+    parentIndex: 57
+    spriteID: b04814bc70135bc43914df706464c08f
+    layerID: 865714751
+    mosaicPosition: {x: 4, y: 980}
+  - name: Rogue_shoulder_r_03
+    spriteName: Rogue_shoulder_r_03
+    isGroup: 0
+    parentIndex: 57
+    spriteID: 09beef25b58a6a44aa41efa9a0ed9769
+    layerID: 865714752
+    mosaicPosition: {x: 3816, y: 756}
+  - name: Rogue_shoulder_r_04
+    spriteName: Rogue_shoulder_r_04
+    isGroup: 0
+    parentIndex: 57
+    spriteID: 4af06bbd91738354ba4e744606ae7932
+    layerID: 865714753
+    mosaicPosition: {x: 307, y: 980}
+  - name: Rogue_shoulder_r_05
+    spriteName: Rogue_shoulder_r_05
+    isGroup: 0
+    parentIndex: 57
+    spriteID: dc45e134197d24e4e8f7995a497d74b6
+    layerID: 865714754
+    mosaicPosition: {x: 1616, y: 980}
+  - name: Rogue_shoulder_r_06
+    spriteName: Rogue_shoulder_r_06
+    isGroup: 0
+    parentIndex: 57
+    spriteID: e21bfd7effd1a494abf8366a0e7a7462
+    layerID: 865714755
+    mosaicPosition: {x: 1915, y: 980}
+  - name: R_Boot
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 850362431
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_boot_r_01
+    spriteName: Rogue_boot_r_01
+    isGroup: 0
+    parentIndex: 64
+    spriteID: e91d8b2a68e630544a81058443152239
+    layerID: -1479420346
+    mosaicPosition: {x: 3949, y: 669}
+  - name: Rogue_boot_r_03
+    spriteName: Rogue_boot_r_03
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 4e9737d58eb6e114c9aa103b7dafb784
+    layerID: -1479420344
+    mosaicPosition: {x: 2735, y: 880}
+  - name: Rogue_boot_r_04
+    spriteName: Rogue_boot_r_04
+    isGroup: 0
+    parentIndex: 64
+    spriteID: efc99304f14d5db418960b2f92005176
+    layerID: -1479420343
+    mosaicPosition: {x: 3961, y: 892}
+  - name: Rogue_boot_r_05
+    spriteName: Rogue_boot_r_05
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 865a8496011e59440ad4137b1628b89d
+    layerID: -1479420342
+    mosaicPosition: {x: 729, y: 1090}
+  - name: Rogue_boot_r_06
+    spriteName: Rogue_boot_r_06
+    isGroup: 0
+    parentIndex: 64
+    spriteID: d656e0c5199d08c46b188b794d886f6e
+    layerID: -1479420341
+    mosaicPosition: {x: 609, y: 1090}
+  - name: R_Leg
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -1657410793
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_leg_r_01
+    spriteName: Rogue_leg_r_01
+    isGroup: 0
+    parentIndex: 70
+    spriteID: 21d1c0cb44d26924db78d0726955b54e
+    layerID: 1502596864
+    mosaicPosition: {x: 2686, y: 980}
+  - name: Rogue_leg_r_02
+    spriteName: Rogue_leg_r_02
+    isGroup: 0
+    parentIndex: 70
+    spriteID: 965daea5c09514747986accd3a101b99
+    layerID: 1905881391
+    mosaicPosition: {x: 2840, y: 980}
+  - name: Rogue_leg_r_03
+    spriteName: Rogue_leg_r_03
+    isGroup: 0
+    parentIndex: 70
+    spriteID: ac8299813b2761a4d8cbf9c4a068da81
+    layerID: 339797450
+    mosaicPosition: {x: 2994, y: 980}
+  - name: Rogue_leg_r_06
+    spriteName: Rogue_leg_r_06
+    isGroup: 0
+    parentIndex: 70
+    spriteID: ff9bb45e831d2dd428500bb72d1caae5
+    layerID: -63487077
+    mosaicPosition: {x: 3148, y: 980}
+  - name: R_Weapon
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 1209441555
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_weapon_01.png
+    spriteName: Rogue_weapon_01.png
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 5d38b01e266dd954baa27103201f8c94
+    layerID: -673398804
+    mosaicPosition: {x: 3523, y: 869}
+  - name: Rogue_weapon_02.png
+    spriteName: Rogue_weapon_02.png
+    isGroup: 0
+    parentIndex: 75
+    spriteID: e78cc3d6403d39d41ad16bd1a29c0ff5
+    layerID: -673397779
+    mosaicPosition: {x: 890, y: 980}
+  - name: Rogue_weapon_03.png
+    spriteName: Rogue_weapon_03.png
+    isGroup: 0
+    parentIndex: 75
+    spriteID: c16eb952a6a6229438c5c054766fa2f0
+    layerID: -673396754
+    mosaicPosition: {x: 2279, y: 869}
+  - name: Rogue_weapon_04.png
+    spriteName: Rogue_weapon_04.png
+    isGroup: 0
+    parentIndex: 75
+    spriteID: b010f4f444b72d2448a689ad36174e85
+    layerID: -673387033
+    mosaicPosition: {x: 2933, y: 756}
+  - name: Rogue_weapon_05.png
+    spriteName: Rogue_weapon_05.png
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 58e04d7d7e535ed429cc469f92a68913
+    layerID: -673394456
+    mosaicPosition: {x: 2279, y: 756}
+  - name: Rogue_weapon_06.png
+    spriteName: Rogue_weapon_06.png
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 103485f93ed2abe4a8762a851802f2be
+    layerID: -673393431
+    mosaicPosition: {x: 3523, y: 756}
+  - name: R_Wrist
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -990996284
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_wrist_r_01
+    spriteName: Rogue_wrist_r_01
+    isGroup: 0
+    parentIndex: 82
+    spriteID: 575b5f24fecd74a4b822bcbeaec9808e
+    layerID: -224132691
+    mosaicPosition: {x: 4, y: 1761}
+  - name: Rogue_wrist_r_02
+    spriteName: Rogue_wrist_r_02
+    isGroup: 0
+    parentIndex: 82
+    spriteID: 9fa4c976794bdb94daf8f045ff020b9b
+    layerID: 179151836
+    mosaicPosition: {x: 4, y: 1863}
+  - name: Rogue_wrist_r_03
+    spriteName: Rogue_wrist_r_03
+    isGroup: 0
+    parentIndex: 82
+    spriteID: 180131f38eb865844a4174db9c9c85fa
+    layerID: -1386932105
+    mosaicPosition: {x: 4, y: 1658}
+  - name: Rogue_wrist_r_05
+    spriteName: Rogue_wrist_r_05
+    isGroup: 0
+    parentIndex: 82
+    spriteID: baa8a46026784f146b721bfb424db4f1
+    layerID: 1745235777
+    mosaicPosition: {x: 4, y: 1965}
+  - name: Rogue_wrist_r_06
+    spriteName: Rogue_wrist_r_06
+    isGroup: 0
+    parentIndex: 82
+    spriteID: 3eaf38d4e7619aa469952555b9e58037
+    layerID: -2146446992
+    mosaicPosition: {x: 2636, y: 880}
+  - name: R_Elbow
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 293035908
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_elbow_r_01
+    spriteName: Rogue_elbow_r_01
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 2d006233f9ad6d34197d9d288475b5dd
+    layerID: 258053697
+    mosaicPosition: {x: 3806, y: 980}
+  - name: Rogue_elbow_r_02
+    spriteName: Rogue_elbow_r_02
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 4174e8243b71f214e8c87a74e68366f0
+    layerID: -1308030244
+    mosaicPosition: {x: 3907, y: 980}
+  - name: Rogue_elbow_r_03
+    spriteName: Rogue_elbow_r_03
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 79d81d27b3dab704cbc10c9735a519da
+    layerID: 1420853111
+    mosaicPosition: {x: 4, y: 1187}
+  - name: Rogue_elbow_r_05
+    spriteName: Rogue_elbow_r_05
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 3b4466df9fb72f14c87c26d279361a80
+    layerID: -2067545131
+    mosaicPosition: {x: 4, y: 1344}
+  - name: Rogue_elbow_r_06
+    spriteName: Rogue_elbow_r_06
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 1d39a5b9e05efcb4d96525a85e3f304b
+    layerID: 661338224
+    mosaicPosition: {x: 4, y: 1501}
+  - name: L_Boot
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 850351529
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_boot_l_01
+    spriteName: Rogue_boot_l_01
+    isGroup: 0
+    parentIndex: 94
+    spriteID: 84e78c55d7521df409bcf9402e403a93
+    layerID: 1921776108
+    mosaicPosition: {x: 2728, y: 675}
+  - name: Rogue_boot_l_03
+    spriteName: Rogue_boot_l_03
+    isGroup: 0
+    parentIndex: 94
+    spriteID: 54de8273a2ad60e40be690ca349d3a36
+    layerID: 1921776110
+    mosaicPosition: {x: 3047, y: 880}
+  - name: Rogue_boot_l_04
+    spriteName: Rogue_boot_l_04
+    isGroup: 0
+    parentIndex: 94
+    spriteID: a159e13b691345f4f9365cc33b96b6d6
+    layerID: 1921776111
+    mosaicPosition: {x: 2933, y: 880}
+  - name: Rogue_boot_l_05
+    spriteName: Rogue_boot_l_05
+    isGroup: 0
+    parentIndex: 94
+    spriteID: 186e82db57a32324e88ab83d350e0a37
+    layerID: 1921776112
+    mosaicPosition: {x: 1006, y: 1090}
+  - name: Rogue_boot_l_06
+    spriteName: Rogue_boot_l_06
+    isGroup: 0
+    parentIndex: 94
+    spriteID: 7c5288bc5ca12b142894088da7a053c8
+    layerID: 1921776113
+    mosaicPosition: {x: 890, y: 1090}
+  - name: L_Leg
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: -1657422083
+    mosaicPosition: {x: 0, y: 0}
+  - name: Rogue_leg_l_01
+    spriteName: Rogue_leg_l_01
+    isGroup: 0
+    parentIndex: 100
+    spriteID: 47c1ba226abfaf5458831f17751bd54e
+    layerID: 1502597030
+    mosaicPosition: {x: 2066, y: 980}
+  - name: Rogue_leg_l_02
+    spriteName: Rogue_leg_l_02
+    isGroup: 0
+    parentIndex: 100
+    spriteID: 4b7aeef069a50ec4d92fe4824718704e
+    layerID: 1905881557
+    mosaicPosition: {x: 2221, y: 980}
+  - name: Rogue_leg_l_03
+    spriteName: Rogue_leg_l_03
+    isGroup: 0
+    parentIndex: 100
+    spriteID: bbd3ec3c9dc8ef945b2cb0c68f8f1986
+    layerID: 339797616
+    mosaicPosition: {x: 2376, y: 980}
+  - name: Rogue_leg_l_06
+    spriteName: Rogue_leg_l_06
+    isGroup: 0
+    parentIndex: 100
+    spriteID: 6cdca02fceb19c24993a4c8d5c4c7c77
+    layerID: -63486911
+    mosaicPosition: {x: 2531, y: 980}
+  sharedRigPSDLayers: []
+  generateGOHierarchy: 0
+  textureAssetName: Revived_Rogue_04x Texture
+  prefabAssetName: Revived_Rogue_04x Prefab
+  spriteLibAssetName: Revived_Rogue_04x Sprite Lib
+  skeletonAssetName: Revived_Rogue_04x Skeleton
+  secondarySpriteTextures: []

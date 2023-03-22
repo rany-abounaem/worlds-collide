@@ -14,8 +14,8 @@ public class EquipmentComponent : MonoBehaviour
     public Armor Leggings { get; private set; }
     public Armor Boots { get; private set; }
 
-    public Weapon LeftWeapon { get; private set; }
-    public Weapon RightWeapon { get; private set; }
+    [SerializeField]
+    private WeaponComponent _rightWeapon;
 
     [SerializeField]
     private SpriteResolver hoodSR;
@@ -36,11 +36,16 @@ public class EquipmentComponent : MonoBehaviour
     [SerializeField]
     private SpriteResolver pelvisSR;
 
+    public WeaponComponent GetLeftWeapon()
+    {
+        return _rightWeapon;
+    }
+
     public UnityEvent onEquipmentChanged;
 
     public void Setup()
     {
-
+        _rightWeapon.Setup();
     }
 
     public void Equip(Armor item)
@@ -48,8 +53,9 @@ public class EquipmentComponent : MonoBehaviour
 
     }
 
-    public void Equip(Weapon item)
+    public void Equip(Weapon weapon)
     {
+        _rightWeapon.SetWeapon(weapon);
     }
 
     public void SwapSprites()

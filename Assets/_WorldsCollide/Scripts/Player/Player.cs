@@ -16,5 +16,8 @@ public class Player : Creature
         base.Setup();
         Interaction = GetComponent<InteractionComponent>();
         Inventory = GetComponent<InventoryComponent>();
+        Equipment = GetComponent<EquipmentComponent>();
+        Equipment.Setup();
+        Equipment.Equip((Weapon)Inventory.GetItem(0));
     }
 }

@@ -12,7 +12,7 @@ public class PlateKnightAI : AI
 
     private void Start()
     {
-        player = StatsComponent.instance.transform;
+        player = null;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         currentState = new PlateKnightIdleState(gameObject, this, anim, player, rb);
