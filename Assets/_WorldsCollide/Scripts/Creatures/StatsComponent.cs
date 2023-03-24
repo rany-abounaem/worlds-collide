@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+public delegate void DeathCallback(GameObject obj);
+
 public class StatsComponent : MonoBehaviour
 {
     public float Health { get; set; } = 100f;
@@ -11,6 +13,8 @@ public class StatsComponent : MonoBehaviour
     public int AttackPower { get; set; } = 1;
 
     public UnityEvent onHealthUpdate;
+
+    public event DeathCallback OnDeath;
 
     public void UpdatePlayerStatsOnEquip(Weapon weapon)
     {
@@ -25,7 +29,7 @@ public class StatsComponent : MonoBehaviour
     {
     }
 
-    public bool TakeDamage (float value)
+    public void TakeDamage (float value)
     {
         Health -= value;
         onHealthUpdate.Invoke();
@@ -39,8 +43,7 @@ public class StatsComponent : MonoBehaviour
         if (Health <= 0)
         {
             Health = 0;
-            return true;
+            OnDeath?.Invoke(gameObject);
         }
-        else return false;
     }
 }

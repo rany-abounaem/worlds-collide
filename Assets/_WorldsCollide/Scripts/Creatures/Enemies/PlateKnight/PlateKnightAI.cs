@@ -4,7 +4,7 @@ using UnityEngine;
 
 //Different AI scripts for each AI, and have specific checks inside it then call them in states?
 
-public class PlateKnightAI : AI
+public class PlateKnight : Enemy
 {
     public GameObject spear;
     public GameObject shield;
@@ -12,10 +12,10 @@ public class PlateKnightAI : AI
 
     private void Start()
     {
-        player = null;
-        anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        currentState = new PlateKnightIdleState(gameObject, this, anim, player, rb);
+        //player = null;
+        //anim = GetComponent<Animator>();
+        //rb = GetComponent<Rigidbody2D>();
+        //currentState = new PlateKnightIdleState(gameObject, this, anim, player, rb);
 
         //PlateKnightDashingThrust action = new PlateKnightDashingThrust(gameObject, spear, shield);
         //actions.Add(action);
@@ -27,7 +27,7 @@ public class PlateKnightAI : AI
 
     private void Update()
     {
-        currentState = currentState.Process();
+        //currentState = currentState.Process();
     }
 }
 

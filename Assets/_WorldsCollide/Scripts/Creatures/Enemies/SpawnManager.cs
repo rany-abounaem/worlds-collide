@@ -5,21 +5,22 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     [SerializeField]
-    private List<Creature> _creatures;
+    private List<Enemy> _enemies;
+
     private void Start()
     {
-        foreach (var __creature in _creatures)
+        foreach (var __enemy in _enemies)
         {
-            __creature.Setup();
+            __enemy.Setup();
         }
     }
 
-    // Update is called once per frame
     private void Update()
     {
-        foreach (var __creature in _creatures)
+        foreach (var __enemy in _enemies)
         {
-            __creature.Tick();
+            Debug.Log("Enemy tick");
+            __enemy.Tick();
         }
     }
 }

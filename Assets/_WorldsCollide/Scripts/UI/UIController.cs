@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using WorldsCollide.Input;
 
 public class UIController : MonoBehaviour
 {
