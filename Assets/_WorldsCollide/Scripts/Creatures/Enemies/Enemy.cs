@@ -6,6 +6,10 @@ public abstract class Enemy : Creature
 {
     [SerializeField]
     HealthUI _healthUI;
+
+    [SerializeField]
+    DetectionArea _detectionArea;
+
     public State CurrentState { get; protected set; }
 
     public override void Setup()
