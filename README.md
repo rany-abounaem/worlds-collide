@@ -1,7 +1,7 @@
 # Worlds Collide
 ## Setup
 ### Genre
-Platformer role-playing game
+Side-scroller role-playing game
 
 ### Graphics
 2D
