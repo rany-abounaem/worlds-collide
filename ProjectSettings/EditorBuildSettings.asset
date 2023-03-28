@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_WorldsCollide/Scenes/MainMenu.unity
+    guid: 04f11185b49f56c4db7ec95c0a149ceb
+  - enabled: 1
     path: Assets/_WorldsCollide/Scenes/Cave.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/_WorldsCollide/Scenes/MainMenu.unity
-    guid: 04f11185b49f56c4db7ec95c0a149ceb
+    path: Assets/_WorldsCollide/Scenes/HomeVillage.unity
+    guid: 4ef4dc1a4c9976f4f8247bee10fa71ca
   m_configObjects: {}

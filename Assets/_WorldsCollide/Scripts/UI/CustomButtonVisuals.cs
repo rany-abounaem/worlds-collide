@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace WorldsCollide.MainMenu
+namespace WorldsCollide.UI
 {
     public class CustomButtonVisuals : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IUIFade
     {
@@ -25,9 +25,9 @@ namespace WorldsCollide.MainMenu
             _fadeCoroutine = StartCoroutine(StartFade(duration));
         }
 
-        public void FadeLoop(float duration, int repetitions)
+        public void FadeLoop(float target, float duration, int repetitions)
         {
-            _fadeLoopCoroutine = StartCoroutine(StartFadeLoop(duration, repetitions));
+            _fadeLoopCoroutine = StartCoroutine(StartFadeLoop(target, duration, repetitions));
         }
 
         IEnumerator StartFade(float duration)
@@ -43,29 +43,70 @@ namespace WorldsCollide.MainMenu
                 _canvasGroup.alpha = _curve.Evaluate(time);
                 yield return null;
             }
+
+            _fadeCoroutine = null;
         }
-        IEnumerator StartFadeLoop(float duration, int repetitions)
+        IEnumerator StartFadeLoop(float target, float duration, int repetitions)
         {
-            if (_fadeCoroutine != null)
-                StopCoroutine(_fadeCoroutine);
+            if (_fadeLoopCoroutine != null)
+                StopCoroutine(_fadeLoopCoroutine);
 
-            float time = 0;
-
-            while (true)
+            if (repetitions == -1)
             {
-                time += Time.deltaTime;
-                yield return null;
+                while (true)
+                {
+                    if (_fadeCoroutine == null)
+                    {
+                        if (_canvasGroup.alpha > 0.5f)
+                        {
+                            Fade(0.5f, duration);
+                        }
+                        else
+                        {
+                            Fade(1, duration);
+                        }
+                    }
+                    yield return null;
+                }
             }
+
+            else
+            {
+                while (repetitions > 0)
+                {
+                    if (_fadeCoroutine == null)
+                    {
+                        repetitions--;
+                        if (_canvasGroup.alpha > 0.5f)
+                        {
+                            Fade(0.5f, duration);
+                        }
+                        else
+                        {
+                            Fade(1, duration);
+                        }
+                    }
+                    yield return null;
+                }
+            }
+            
         }
 
         public void OnPointerEnter(PointerEventData eventData)
         {
-            Fade(0, 2);
+            if (_fadeLoopCoroutine != null)
+                StopCoroutine(_fadeLoopCoroutine);
+            FadeLoop(0, 1f, -1);
         }
 
         public void OnPointerExit(PointerEventData eventData)
         {
-            Fade(1, 2);
+            if (_fadeLoopCoroutine != null)
+            {
+                StopCoroutine(_fadeLoopCoroutine);
+                _fadeLoopCoroutine = null;
+            }
+            Fade(1, 1);
         }
     }
 }

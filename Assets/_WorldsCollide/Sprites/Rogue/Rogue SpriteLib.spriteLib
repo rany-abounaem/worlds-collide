@@ -435,8 +435,13 @@ MonoBehaviour:
       m_Sprite: {fileID: -889542729808091930, guid: 667dc926ea10d3d4096782dc745eb420, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: -889542729808091930, guid: 667dc926ea10d3d4096782dc745eb420, type: 3}
+    - m_Name: 7
+      m_Hash: 1790921346
+      m_Sprite: {fileID: -9108861176043507133, guid: 667dc926ea10d3d4096782dc745eb420, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -9108861176043507133, guid: 667dc926ea10d3d4096782dc745eb420, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 6
+    m_EntryOverrideCount: 7
   - m_Name: R_Wrist
     m_Hash: -1954051663
     m_CategoryList: []
