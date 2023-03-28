@@ -15,6 +15,8 @@ public class MovementComponent : MonoBehaviour
     private float _jumpForce;
     [SerializeField]
     private float _rollForce;
+    [SerializeField]
+    Transform _body;
 
     private float _movementInput;
     private bool _facingRight;
@@ -61,12 +63,12 @@ public class MovementComponent : MonoBehaviour
         if (_movementInput < 0 && _facingRight)
         {
             _facingRight = false;
-            transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+            _body.localScale = new Vector2(-_body.localScale.x, _body.localScale.y);
         }
         else if (_movementInput > 0 && !_facingRight)
         {
             _facingRight = true;
-            transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+            _body.localScale = new Vector2(-_body.localScale.x, _body.localScale.y);
         }
 
         if (_jumpInput)

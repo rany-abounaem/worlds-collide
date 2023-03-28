@@ -4,11 +4,14 @@ using UnityEngine;
 
 public abstract class Enemy : Creature
 {
+    [SerializeField]
+    HealthUI _healthUI;
     public State CurrentState { get; protected set; }
 
     public override void Setup()
     {
         base.Setup();
+        _healthUI.Setup(this);
     }
 
     public override void Tick()

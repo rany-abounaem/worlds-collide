@@ -380,18 +380,7 @@ MonoBehaviour:
   _movementSpeed: 65
   _jumpForce: 25
   _rollForce: 25
-  leftWeaponHit:
-    m_PersistentCalls:
-      m_Calls: []
-  rightWeaponHit:
-    m_PersistentCalls:
-      m_Calls: []
-  throwWeapon:
-    m_PersistentCalls:
-      m_Calls: []
-  rightClickPressed:
-    m_PersistentCalls:
-      m_Calls: []
+  _body: {fileID: 8387788502768526160}
 --- !u!114 &7791122385712096148
 MonoBehaviour:
   m_ObjectHideFlags: 0

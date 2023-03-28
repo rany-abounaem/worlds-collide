@@ -19,7 +19,6 @@ public class SpawnManager : MonoBehaviour
     {
         foreach (var __enemy in _enemies)
         {
-            Debug.Log("Enemy tick");
             __enemy.Tick();
         }
     }

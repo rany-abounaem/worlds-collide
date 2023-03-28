@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OrcPatrolState : State
 {
-    float moveSpeed = 7;
+    private float _movementInput;
 
     public OrcPatrolState(Orc self) : base(self)
     {
@@ -26,24 +26,25 @@ public class OrcPatrolState : State
 
     public override void Exit()
     {
-        _self.Rigidbody.velocity = new Vector2(0, 0);
         base.Exit();
     }
 
     void Walk()
     {
-        int factor = _self.transform.localScale.x > 0 ? 1 : -1;
-        _self.Rigidbody.velocity = new Vector2(factor * moveSpeed, _self.Rigidbody.velocity.y);
+        _self.Movement.SetMovement(_movementInput);
     }
 
     void CheckLocation()
     {
-        if ((_self.transform.position.x < ((Orc)_self).GetWaypoints()[0].position.x && _self.transform.localScale.x < 0) ||
-            _self.transform.position.x > ((Orc)_self).GetWaypoints()[1].position.x && _self.transform.localScale.x > 0)
+        if (_self.transform.position.x < ((Orc)_self).GetWaypoints()[0].position.x)
         {
-
-            _self.transform.localScale = new Vector2(-_self.transform.localScale.x, _self.transform.localScale.y);
-            _self.SetState(new OrcIdleState((Orc)_self));
+            _movementInput = 1;
+            
+        }
+        else if (_self.transform.position.x > ((Orc)_self).GetWaypoints()[1].position.x)
+        {
+            _movementInput = -1;
+            
         }
     }
 

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public delegate void DeathCallback(GameObject obj);
+public delegate void HealthUpdateCallback(float value, float maxValue);
 
 public class StatsComponent : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class StatsComponent : MonoBehaviour
     public int DefensePower { get; set; } = 1;
     public int AttackPower { get; set; } = 1;
 
-    public UnityEvent onHealthUpdate;
+    public event HealthUpdateCallback OnHealthUpdate;
 
     public event DeathCallback OnDeath;
 
@@ -32,7 +33,7 @@ public class StatsComponent : MonoBehaviour
     public void TakeDamage (float value)
     {
         Health -= value;
-        onHealthUpdate.Invoke();
+        OnHealthUpdate.Invoke(Health, MaxHealth);
 
         Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity);
         GameObject damagePopup = Instantiate(GameplaySystem.instance.DamagePopup, transform.position, Quaternion.identity);
