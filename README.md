@@ -1,6 +1,4 @@
 # Worlds Collide
-##GDD Guidelines
-Red text: feature that is planned to be created
 ## Setup
 ### Genre
 Platformer role-playing game
