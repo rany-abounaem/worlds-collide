@@ -27,7 +27,7 @@ public abstract class Enemy : Creature
     public void SetState(State state)
     {
         CurrentState?.Exit();
+        state.Enter();
         CurrentState = state;
-        CurrentState.Enter();
     }
 }

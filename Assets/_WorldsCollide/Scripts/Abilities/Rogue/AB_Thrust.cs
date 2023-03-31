@@ -43,7 +43,7 @@ public class AB_Thrust : Ability
                 var __damageables = ((Player)_caster).Equipment.GetLeftWeapon().GetCollisions();
                 foreach (var __damageable in __damageables)
                 {
-                    __damageable.TakeDamage(_caster.Stats.AttackPower * 10);
+                    __damageable.TakeDamage(new DamageDetails(_caster, DamageType.Physical, _caster.Stats.AttackPower * 10));
                 }
                 break;
             case 2:

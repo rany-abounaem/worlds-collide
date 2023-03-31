@@ -99,7 +99,7 @@ public class MovementComponent : MonoBehaviour
         {
             _anim.SetBool("isWallHanging", true);
             _remainingJumps = 2;
-            _rigidbody.gravityScale -= 1;
+            _rigidbody.gravityScale -= 2;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -112,7 +112,7 @@ public class MovementComponent : MonoBehaviour
         else if (collision.gameObject.CompareTag("Wall"))
         {
             _anim.SetBool("isWallHanging", false);
-            _rigidbody.gravityScale += 1;
+            _rigidbody.gravityScale += 2;
         }
     }
 }

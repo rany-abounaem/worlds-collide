@@ -20,7 +20,7 @@ public abstract class Ability : ScriptableObject
     virtual public void Setup(Creature creature)
     {
         _caster = creature;
-        _animator = _caster.Animator;
+        _animator = _caster.Anim;
     }
 
     virtual public void Use()

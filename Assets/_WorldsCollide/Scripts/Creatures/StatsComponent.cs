@@ -8,10 +8,10 @@ public delegate void HealthUpdateCallback(float value, float maxValue);
 
 public class StatsComponent : MonoBehaviour
 {
-    public float Health { get; set; } = 100f;
-    public float MaxHealth { get; set; }  = 100f;
-    public int DefensePower { get; set; } = 1;
-    public int AttackPower { get; set; } = 1;
+    public float Health { get; private set; } = 100f;
+    public float MaxHealth { get; private set; }  = 100f;
+    public int DefensePower { get; private set; } = 1;
+    public int AttackPower { get; private set; } = 1;
 
     public event HealthUpdateCallback OnHealthUpdate;
 
@@ -30,17 +30,11 @@ public class StatsComponent : MonoBehaviour
     {
     }
 
-    public void TakeDamage (float value)
+    public void ReduceHealth(float value)
     {
         Health -= value;
         OnHealthUpdate.Invoke(Health, MaxHealth);
 
-        Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity);
-        GameObject damagePopup = Instantiate(GameplaySystem.instance.DamagePopup, transform.position, Quaternion.identity);
-        TextPopupManager textPopupManager = damagePopup.GetComponent<TextPopupManager>();
-        textPopupManager.text = value.ToString();
-        damagePopup.SetActive(true);
-        
         if (Health <= 0)
         {
             Health = 0;

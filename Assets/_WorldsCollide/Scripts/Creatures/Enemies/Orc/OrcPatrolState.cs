@@ -5,28 +5,36 @@ using UnityEngine;
 public class OrcPatrolState : State
 {
     private float _movementInput;
-
+    private float _lastMovementInput;
+    private bool _takenDamage = false;
     public OrcPatrolState(Orc self) : base(self)
     {
-        
     }
 
     public override void Enter()
     {
-        _self.Animator.Play("Walk");
         base.Enter();
+        _self.Anim.Play("Walk");
+        _self.OnTakeDamage += TransitionToHitState;
     }
 
     public override void Update()
     {
+        base.Update();
         Walk();
         CheckLocation();
-        //CheckSurrounding();
     }
 
     public override void Exit()
     {
         base.Exit();
+        StopWalking();
+        _self.OnTakeDamage -= TransitionToHitState;
+    }
+
+    private void TransitionToHitState()
+    {
+        _self.SetState(new OrcHitState((Orc)_self, this));
     }
 
     void Walk()
@@ -34,17 +42,26 @@ public class OrcPatrolState : State
         _self.Movement.SetMovement(_movementInput);
     }
 
+    void StopWalking()
+    {
+        _self.Movement.SetMovement(0);
+    }
+
     void CheckLocation()
     {
         if (_self.transform.position.x < ((Orc)_self).GetWaypoints()[0].position.x)
         {
             _movementInput = 1;
-            
+            _lastMovementInput = 1;
+
+
         }
         else if (_self.transform.position.x > ((Orc)_self).GetWaypoints()[1].position.x)
         {
             _movementInput = -1;
-            
+            _lastMovementInput = 1;
+
+
         }
     }
 
