@@ -5,19 +5,20 @@ using UnityEngine;
 
 public class OrcHitState : State
 {
-    private float _cliplength;
-    private float _time = 0;
-
     private State _previousState;
-    public OrcHitState(Orc self, State previousState) : base(self)
+    private DamageDetails _damageDetails;
+
+    public OrcHitState(Orc self, State previousState, DamageDetails damageDetails) : base(self)
     {
         _previousState = previousState;
+        _damageDetails = damageDetails;
     }
 
     public override void Enter()
     {
         base.Enter();
-        _self.Anim.Play("Hit", 0, 0);
+        var __playDuration = 1 - _damageDetails.StaggerDuration;
+        _self.Anim.Play("Hit", 0, __playDuration);
         _self.Anim.Update(Time.deltaTime);
     }
 
@@ -27,6 +28,7 @@ public class OrcHitState : State
         {
             if (_self.Anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
             {
+                Debug.Log("Normalized time " + _self.Anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
                 _self.SetState(_previousState);
             }
         }

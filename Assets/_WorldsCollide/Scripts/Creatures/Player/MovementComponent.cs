@@ -33,9 +33,19 @@ public class MovementComponent : MonoBehaviour
         _anim = anim;
     }
 
-    public void SetMovement(float movementInput)
+    public void SetMovementInput(float movementInput)
     {
         _movementInput = movementInput;
+    }
+
+    public void SetMovementSpeed(float movementSpeed)
+    {
+        _movementSpeed = movementSpeed; 
+    }
+
+    public float GetMovementSpeed()
+    {
+        return _movementSpeed;
     }
 
     public void Jump()

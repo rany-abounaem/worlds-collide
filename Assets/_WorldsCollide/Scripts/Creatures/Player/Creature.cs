@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public delegate void HitHandler();
+public delegate void HitCallback(DamageDetails damageDetails);
 
 public abstract class Creature : MonoBehaviour, IDamageable
 {
@@ -12,7 +12,7 @@ public abstract class Creature : MonoBehaviour, IDamageable
     public Animator Anim { get; private set; }
     virtual public StatsComponent Stats { get; private set; }
 
-    public event HitHandler OnTakeDamage;
+    public event HitCallback OnTakeDamage;
 
     [ContextMenu("Setup")]
     public virtual void Setup()
@@ -35,7 +35,7 @@ public abstract class Creature : MonoBehaviour, IDamageable
     {
         var __damage = damageDetails.Damage;
         Stats.ReduceHealth(__damage);
-        OnTakeDamage?.Invoke();
+        OnTakeDamage?.Invoke(damageDetails);
         Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity, transform);
         GameObject damagePopup = Instantiate(GameplaySystem.instance.DamagePopup, transform.position, Quaternion.identity);
         TextPopupManager textPopupManager = damagePopup.GetComponent<TextPopupManager>();

@@ -33,7 +33,7 @@ public class StatsComponent : MonoBehaviour
     public void ReduceHealth(float value)
     {
         Health -= value;
-        OnHealthUpdate.Invoke(Health, MaxHealth);
+        OnHealthUpdate?.Invoke(Health, MaxHealth);
 
         if (Health <= 0)
         {

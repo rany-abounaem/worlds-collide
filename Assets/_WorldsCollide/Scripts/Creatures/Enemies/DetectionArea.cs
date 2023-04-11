@@ -3,17 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public delegate void DetectionCallback();
+public delegate void DetectionCallback(Creature player);
 public class DetectionArea : MonoBehaviour
 {
     public event DetectionCallback OnDetection;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.TryGetComponent(out Player __player))
         {
             Debug.Log("Player detected");
-            OnDetection?.Invoke();
+            OnDetection?.Invoke(__player);
         }
     }
 }

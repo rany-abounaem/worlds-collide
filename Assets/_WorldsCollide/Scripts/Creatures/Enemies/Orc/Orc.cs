@@ -6,6 +6,10 @@ public class Orc : Enemy
 {
     [SerializeField]
     Transform[] _waypoints;
+
+    [SerializeField]
+    BoxCollider2D _hammerCollider;
+
     public override void Setup()
     {
         base.Setup();
@@ -16,6 +20,11 @@ public class Orc : Enemy
     public Transform[] GetWaypoints()
     {
         return _waypoints;
+    }
+
+    public BoxCollider2D GetHammerCollider()
+    {
+        return _hammerCollider;
     }
 
 }
