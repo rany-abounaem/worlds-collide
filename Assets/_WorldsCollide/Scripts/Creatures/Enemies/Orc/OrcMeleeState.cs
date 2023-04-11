@@ -1,36 +1,51 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
+using System.Collections;
+using UnityEngine;
 
-//public class OrcMeleeState : State
-//{
-//    public OrcMeleeState(GameObject _npc, AI _ai, Animator _anim, Transform _player, Rigidbody2D _rb) : base(_npc, _ai, _anim, _player, _rb)
-//    {
-//        name = STATE.MELEE;
-//    }
+public class OrcMeleeState : State
+{
+    private Creature _target;
+    private OrcChaseState _chaseState;
+    private Coroutine _abilityCoroutine;
 
-//    public override void Enter()
-//    {
-//        anim.SetBool("isAttacking", true);
-//        base.Enter();
-//    }
+    public OrcMeleeState(Orc self, Creature target, OrcChaseState chaseState) : base(self)
+    {
+        _self = self;
+        _target = target;
+        _chaseState = chaseState;
+    }
 
+    public override void Enter()
+    {
+        base.Enter();
+        _self.Rigidbody.velocity = Vector3.zero;
+        _self.Ability.UseAbility("Melee");
+        _self.Anim.Update(Time.deltaTime);
+        _self.OnTakeDamage += TransitionToHitState;
+    }
 
-//    public override void Update()
-//    {
-//        if (Vector2.Distance(npc.transform.position, player.transform.position) < 1.4f ||
-//            (npc.transform.localScale.x < 0 && npc.transform.position.x < player.transform.position.x) ||
-//            (npc.transform.localScale.x > 0 && npc.transform.position.x > player.transform.position.x) ||
-//            Vector2.Distance(npc.transform.position, player.transform.position) > 2.5f)
-//        {
-//            nextState = new OrcPatrolState(npc, ai, anim, player, rb);
-//            stage = EVENT.EXIT;
-//        }
-//    }
+    public override void Update()
+    {
+        base.Update();
+        CheckAbilityAnim();
+    }
 
-//    public override void Exit()
-//    {
-//        anim.SetBool("isAttacking", false);
-//        base.Exit();
-//    }
-//}
+    public override void Exit()
+    {
+        base.Exit();
+        _self.OnTakeDamage -= TransitionToHitState;
+    }
+
+    private void CheckAbilityAnim()
+    {
+        var __normalizedTime = _self.Anim.GetCurrentAnimatorStateInfo(0).normalizedTime;
+        if (__normalizedTime >= 1f)
+        {
+            _self.SetState(_chaseState);
+        }
+    }
+
+    private void TransitionToHitState(DamageDetails damageDetails)
+    {
+        _self.SetState(new OrcHitState((Orc)_self, this, damageDetails));
+    }
+}

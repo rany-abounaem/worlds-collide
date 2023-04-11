@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Village Set_Platformer - Ground 10
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 21300000, guid: f34c5f912d69cfd4fb04f0cdc9c2051e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.32941177, b: 0, a: 1}
   m_Transform:
     e00: 1
     e01: 0

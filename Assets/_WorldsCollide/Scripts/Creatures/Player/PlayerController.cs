@@ -11,8 +11,8 @@ public class PlayerController : MonoBehaviour
 
     private void ListenForControls()
     {
-        _input.Game.Movement.performed += callback => _player.Movement.SetMovement(callback.ReadValue<float>());
-        _input.Game.Movement.canceled += callback => _player.Movement.SetMovement(0);
+        _input.Game.Movement.performed += callback => _player.Movement.SetMovementInput(callback.ReadValue<float>());
+        _input.Game.Movement.canceled += callback => _player.Movement.SetMovementInput(0);
         _input.Game.Jump.performed += _ => _player.Movement.Jump();
         _input.Game.Roll.performed += _ => _player.Movement.Roll();
 

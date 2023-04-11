@@ -3540,8 +3540,8 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 0
+  documentPivot: {x: 0.4, y: 0.5}
+  documentAlignment: 9
   importHiddenLayers: 0
   importedTextureWidth: 2048
   importedTextureHeight: 2048

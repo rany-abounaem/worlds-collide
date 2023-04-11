@@ -2,26 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Creature : MonoBehaviour, IDamageable
+public delegate void HitCallback(DamageDetails damageDetails);
+
+public abstract class Creature : MonoBehaviour, IDamageable
 {
     public Rigidbody2D Rigidbody { get; private set; }
     public MovementComponent Movement { get; private set; }
     public AbilityComponent Ability { get; private set; }
-    public Animator Animator { get; private set; }
-
+    public Animator Anim { get; private set; }
     virtual public StatsComponent Stats { get; private set; }
+
+    public event HitCallback OnTakeDamage;
 
     [ContextMenu("Setup")]
     public virtual void Setup()
     {
-        Animator = GetComponent<Animator>();
+        Anim = GetComponent<Animator>();
         Rigidbody = GetComponent<Rigidbody2D>();
         Movement = GetComponent<MovementComponent>();
-        Movement.Setup(Animator, Rigidbody);
+        Movement.Setup(Anim, Rigidbody);
         Ability = GetComponent<AbilityComponent>();
         Ability.Setup(this);
         Stats = GetComponent<StatsComponent>();
-        
     }
 
     public virtual void Tick()
@@ -29,9 +31,16 @@ public class Creature : MonoBehaviour, IDamageable
 
     }
 
-    public void TakeDamage(float damage)
+    public virtual void TakeDamage(DamageDetails damageDetails)
     {
-        Stats.TakeDamage(damage);
+        var __damage = damageDetails.Damage;
+        Stats.ReduceHealth(__damage);
+        OnTakeDamage?.Invoke(damageDetails);
+        Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity, transform);
+        GameObject damagePopup = Instantiate(GameplaySystem.instance.DamagePopup, transform.position, Quaternion.identity);
+        TextPopupManager textPopupManager = damagePopup.GetComponent<TextPopupManager>();
+        textPopupManager.text = __damage.ToString();
+        damagePopup.SetActive(true);
     }
 
 }

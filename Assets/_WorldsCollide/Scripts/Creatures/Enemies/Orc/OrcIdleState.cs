@@ -11,7 +11,7 @@ public class OrcIdleState : State
 
     public override void Enter()
     {
-        _self.Animator.Play("Idle");
+        _self.Anim.Play("Idle");
         base.Enter();
     }
 

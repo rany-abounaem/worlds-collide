@@ -13,7 +13,7 @@ public class AB_Thrust : Ability
 
         var __animEvent = new AnimationEvent
         {
-            time = 0.333f,
+            time = 0.3333f,
             intParameter = 1,
             functionName = "HandleAbilitySequence"
         };
@@ -43,7 +43,14 @@ public class AB_Thrust : Ability
                 var __damageables = ((Player)_caster).Equipment.GetLeftWeapon().GetCollisions();
                 foreach (var __damageable in __damageables)
                 {
-                    __damageable.TakeDamage(_caster.Stats.AttackPower * 10);
+                    var __damageDetails = new DamageDetails
+                        (
+                        _caster,
+                        DamageType.Physical,
+                        _caster.Stats.AttackPower * 10,
+                        0.2f
+                        );
+                    __damageable.TakeDamage(__damageDetails);
                 }
                 break;
             case 2:

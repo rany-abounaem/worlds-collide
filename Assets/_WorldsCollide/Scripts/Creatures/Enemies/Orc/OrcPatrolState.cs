@@ -5,33 +5,48 @@ using UnityEngine;
 public class OrcPatrolState : State
 {
     private float _movementInput;
+    private OrcChaseState _chaseState;
 
     public OrcPatrolState(Orc self) : base(self)
     {
-        
     }
 
     public override void Enter()
     {
-        _self.Animator.Play("Walk");
         base.Enter();
+        _self.Target = null;
+        _self.Anim.Play("Walk");
+        _self.OnTakeDamage += TransitionToHitState;
+        _self.GetDetectionArea().OnDetection += HandleDetection;
     }
 
     public override void Update()
     {
+        base.Update();
         Walk();
         CheckLocation();
-        //CheckSurrounding();
     }
 
     public override void Exit()
     {
         base.Exit();
+        StopWalking();
+        _self.OnTakeDamage -= TransitionToHitState;
+    }
+
+    private void TransitionToHitState(DamageDetails damageDetails)
+    {
+        _self.SetState(new OrcHitState((Orc)_self, this, damageDetails));
     }
 
     void Walk()
     {
-        _self.Movement.SetMovement(_movementInput);
+        _self.Movement.SetMovementInput(_movementInput);
+    }
+
+    void StopWalking()
+    {
+        _self.Movement.SetMovementInput(0);
     }
 
     void CheckLocation()
@@ -39,13 +54,21 @@ public class OrcPatrolState : State
         if (_self.transform.position.x < ((Orc)_self).GetWaypoints()[0].position.x)
         {
             _movementInput = 1;
-            
         }
         else if (_self.transform.position.x > ((Orc)_self).GetWaypoints()[1].position.x)
         {
             _movementInput = -1;
-            
         }
+    }
+
+    void HandleDetection(Creature player)
+    {
+        if (_chaseState == null)
+        {
+            _chaseState = new OrcChaseState((Orc)_self, player, this);
+        }
+        _self.SetState(_chaseState);
+
     }
 
     //void CheckSurrounding()

@@ -5,7 +5,14 @@ using UnityEngine;
 public abstract class Enemy : Creature
 {
     [SerializeField]
-    HealthUI _healthUI;
+    private float AggroRange;
+    [SerializeField]
+    private HealthUI _healthUI;
+
+    [SerializeField]
+    private DetectionArea _detectionArea;
+
+    public Creature Target { get; set; }
     public State CurrentState { get; protected set; }
 
     public override void Setup()
@@ -23,7 +30,17 @@ public abstract class Enemy : Creature
     public void SetState(State state)
     {
         CurrentState?.Exit();
+        state.Enter();
         CurrentState = state;
-        CurrentState.Enter();
+    }
+
+    public DetectionArea GetDetectionArea()
+    {
+        return _detectionArea;
+    }
+
+    public float GetAggroRange()
+    {
+        return AggroRange;
     }
 }

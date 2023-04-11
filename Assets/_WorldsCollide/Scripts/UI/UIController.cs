@@ -11,6 +11,8 @@ public class UIController : MonoBehaviour
 
     [SerializeField]
     RectTransform _inventoryPanel;
+    [SerializeField]
+    HealthUI _healthUI;
 
     private InputActions _input;
     private Player _player;
@@ -19,6 +21,7 @@ public class UIController : MonoBehaviour
     {
         _input = input;
         _player = player;
+        _healthUI.Setup(player);
 
         if (playerHPSlider && playerHPFill)
             UpdateUIHealth();
