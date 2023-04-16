@@ -2,8 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public delegate void DeathCallback();
+
 public abstract class Enemy : Creature
 {
+    public LootComponent Loot { get; private set; }
+
+    [SerializeField]
+    private float _experienceDrop;
     [SerializeField]
     private float AggroRange;
     [SerializeField]
@@ -12,12 +18,14 @@ public abstract class Enemy : Creature
     [SerializeField]
     private DetectionArea _detectionArea;
 
+    public event DeathCallback OnDeath;
     public Creature Target { get; set; }
     public State CurrentState { get; protected set; }
 
     public override void Setup()
     {
         base.Setup();
+        Loot = GetComponent<LootComponent>();
         _healthUI.Setup(this);
     }
 
@@ -42,5 +50,19 @@ public abstract class Enemy : Creature
     public float GetAggroRange()
     {
         return AggroRange;
+    }
+
+    public float GetExperienceDrop()
+    {
+        return _experienceDrop;
+    }
+
+    public override void TakeDamage(DamageDetails damageDetails)
+    {
+        base.TakeDamage(damageDetails);
+        if (Stats.Health == 0)
+        {
+            OnDeath?.Invoke();
+        }
     }
 }

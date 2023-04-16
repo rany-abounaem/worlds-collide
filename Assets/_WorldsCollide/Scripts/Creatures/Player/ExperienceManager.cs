@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class ExperienceManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private GameObject _expParticlePrefab;
+
+    private Player _player;
+    private float _experience;
+
+    public void Setup(Player player, EnemiesManager enemiesManager)
     {
-        
+        _player = player;
+        enemiesManager.OnEnemyDeath += AddExperience;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void AddExperience(Enemy enemy)
     {
-        
+        _experience += enemy.GetExperienceDrop();
+        Instantiate(_expParticlePrefab, _player.transform).GetComponent<ParticleSystem>().Play();
     }
 }

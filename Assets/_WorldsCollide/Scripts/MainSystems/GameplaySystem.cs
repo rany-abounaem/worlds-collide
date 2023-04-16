@@ -19,9 +19,16 @@ public class GameplaySystem : MonoBehaviour
     [SerializeField]
     private Player _player;
     [SerializeField]
-    private UIController _UIManager;
+    private UIManager _UIManager;
     [SerializeField]
-    private PlayerController _playerController;
+    private PlayerManager _playerController;
+    [SerializeField]
+    private EnemiesManager _enemiesManager;
+    [SerializeField]
+    private LootingManager _lootingManager;
+    [SerializeField]
+    private ExperienceManager _experienceManager;
+
 
     private InputActions _inputActions;
 
@@ -44,8 +51,16 @@ public class GameplaySystem : MonoBehaviour
 
         _playerController.Setup(_inputActions, _player);
         _UIManager.Setup(_inputActions, _player);
+        _enemiesManager.Setup();
+        _lootingManager.Setup(_enemiesManager);
+        _experienceManager.Setup(_player, _enemiesManager);
 
 
+    }
+
+    private void Update()
+    {
+        _enemiesManager.Tick();
     }
 }
 
