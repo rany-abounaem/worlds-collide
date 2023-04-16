@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class LootDrop : MonoBehaviour
 {
@@ -29,4 +30,5 @@ public class LootDrop : MonoBehaviour
 
 
     }
+
 }

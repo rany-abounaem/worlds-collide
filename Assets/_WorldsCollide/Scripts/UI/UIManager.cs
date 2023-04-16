@@ -3,12 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIController : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
-    public Slider playerHPSlider;
-    public Image playerHPFill;
-    public Gradient HPGradient;
-
     [SerializeField]
     RectTransform _inventoryPanel;
     [SerializeField]
@@ -22,9 +18,6 @@ public class UIController : MonoBehaviour
         _input = input;
         _player = player;
         _healthUI.Setup(player);
-
-        if (playerHPSlider && playerHPFill)
-            UpdateUIHealth();
 
         Debug.Log("Player " + player + "Stats " + player.Stats);
         //_player.Stats.onHealthUpdate.AddListener(() => UpdateUIHealth());
@@ -40,14 +33,6 @@ public class UIController : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void UpdateUIHealth()
-    {
-        var __playerHealth= _player.Stats.Health;
-        var __playerMaxHealth = _player.Stats.MaxHealth;
-        playerHPSlider.value = __playerHealth / __playerMaxHealth;
-        playerHPFill.color = HPGradient.Evaluate(__playerHealth / __playerMaxHealth);
     }
 
     public void ToggleInventory()

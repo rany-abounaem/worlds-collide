@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public delegate void DeathCallback(GameObject obj);
 public delegate void HealthUpdateCallback(float value, float maxValue);
 
 public class StatsComponent : MonoBehaviour
@@ -38,7 +37,6 @@ public class StatsComponent : MonoBehaviour
         if (Health <= 0)
         {
             Health = 0;
-            OnDeath?.Invoke(gameObject);
         }
     }
 }

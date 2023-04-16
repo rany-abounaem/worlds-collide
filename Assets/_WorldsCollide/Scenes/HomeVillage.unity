@@ -20950,6 +20950,9 @@ MonoBehaviour:
   _player: {fileID: 1463261885}
   _UIManager: {fileID: 830350179}
   _playerController: {fileID: 51796361}
+  _enemiesManager: {fileID: 904117792}
+  _lootingManager: {fileID: 542856177}
+  _experienceManager: {fileID: 1180324596}
 --- !u!4 &371885261
 Transform:
   m_ObjectHideFlags: 0
@@ -21783,6 +21786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lootRate: 1
+  _lootDrop: {fileID: 1591456814984709173, guid: 42a3dc900985d74448f7bb96035948cf, type: 3}
 --- !u!114 &550139565 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5179674460904462921, guid: 0cdcb75ac169a454b9fda81b9440690b, type: 3}
@@ -37071,40 +37075,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 830350178}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 622dc6f144d92a44598d3f6453ce72f5, type: 3}
+  m_Script: {fileID: 11500000, guid: 3879089a3f01c534aaefb5a626400c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHPSlider: {fileID: 589669158}
-  playerHPFill: {fileID: 978977602}
-  HPGradient:
-    serializedVersion: 2
-    key0: {r: 1, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 0.923081, b: 0, a: 1}
-    key2: {r: 0.08940792, g: 1, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 32768
-    ctime2: 65535
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_NumColorKeys: 3
-    m_NumAlphaKeys: 2
   _inventoryPanel: {fileID: 2014809571}
   _healthUI: {fileID: 589669159}
 --- !u!4 &830350180
@@ -37199,7 +37172,7 @@ GameObject:
   - component: {fileID: 904117791}
   - component: {fileID: 904117792}
   m_Layer: 0
-  m_Name: SpawnManager
+  m_Name: EnemiesManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37228,7 +37201,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 904117790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c792ecb010111f8488d49dc406252c1d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4fe577db404c7684691461c51c93a719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _enemies:
@@ -53044,6 +53017,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171542574}
   m_CullTransparentMesh: 1
+--- !u!1 &1180324594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1180324595}
+  - component: {fileID: 1180324596}
+  m_Layer: 0
+  m_Name: ExperienceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1180324595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180324594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1614145702}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1180324596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180324594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f83a069260a47544ae8baa0c8eacec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _expParticlePrefab: {fileID: 529623448473036655, guid: 6e6c7a2e3374ffa47999e07c098ff473, type: 3}
 --- !u!1 &1186992316
 GameObject:
   m_ObjectHideFlags: 0
@@ -64217,6 +64234,7 @@ Transform:
   - {fileID: 830350180}
   - {fileID: 51796362}
   - {fileID: 904117791}
+  - {fileID: 1180324595}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
