@@ -27,8 +27,6 @@ public class LootDrop : MonoBehaviour
         _rigidbody.AddTorque(randomX * 10f);
         _spriteRenderer.sprite = Item.GetSprite();
         _boxCollider.size = new Vector2(0.5f, 0.5f);
-
-
     }
 
 }

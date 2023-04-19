@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField]
-    RectTransform _inventoryPanel;
-    [SerializeField]
     HealthUI _healthUI;
+    [SerializeField]
+    InventoryUI _inventoryUI;
 
     private InputActions _input;
     private Player _player;
@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
         _input = input;
         _player = player;
         _healthUI.Setup(player);
+        _inventoryUI.Setup(player.Inventory);
 
         Debug.Log("Player " + player + "Stats " + player.Stats);
         //_player.Stats.onHealthUpdate.AddListener(() => UpdateUIHealth());
@@ -37,9 +38,9 @@ public class UIManager : MonoBehaviour
 
     public void ToggleInventory()
     {
-        var _inventoryUI = _inventoryPanel.gameObject;
-        _inventoryUI.SetActive(!_inventoryUI.activeSelf);
-        if (_inventoryUI.activeSelf)
+        var __inventoryUI = _inventoryUI.gameObject;
+        __inventoryUI.gameObject.SetActive(!__inventoryUI.activeSelf);
+        if (__inventoryUI.activeSelf)
         {
             Cursor.visible = true;
         }

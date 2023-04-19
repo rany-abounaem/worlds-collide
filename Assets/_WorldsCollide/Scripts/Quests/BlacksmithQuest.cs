@@ -19,14 +19,14 @@ public class BlacksmithQuest : Quest
                 return QuestResponse.CLOSE_DIALOGUE;
 
             case 1:
-                if (InventoryComponent.instance.RemoveItem(blacksmithHammer))
-                {
-                    state = QuestState.DONE;
-                    stage++;
-                    return QuestResponse.CONTINUE_DIALOGUE;
-                }
-                else
-                    return QuestResponse.CLOSE_DIALOGUE;
+                //if (InventoryComponent.instance.RemoveItem(blacksmithHammer))
+                //{
+                //    state = QuestState.DONE;
+                //    stage++;
+                //    return QuestResponse.CONTINUE_DIALOGUE;
+                //}
+                //else
+                //    return QuestResponse.CLOSE_DIALOGUE;
             case 2:
                 return QuestResponse.CLOSE_DIALOGUE;
             default:

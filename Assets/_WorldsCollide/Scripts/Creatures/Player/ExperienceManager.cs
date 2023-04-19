@@ -19,6 +19,9 @@ public class ExperienceManager : MonoBehaviour
     private void AddExperience(Enemy enemy)
     {
         _experience += enemy.GetExperienceDrop();
-        Instantiate(_expParticlePrefab, _player.transform).GetComponent<ParticleSystem>().Play();
+        var __expParticlePrefab = Instantiate(_expParticlePrefab, enemy.transform.position, Quaternion.identity);
+        var __experienceParticles = __expParticlePrefab.GetComponent<ExperienceParticles>();
+        __experienceParticles.Setup(_player.transform);
+
     }
 }

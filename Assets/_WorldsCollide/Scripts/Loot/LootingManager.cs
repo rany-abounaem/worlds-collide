@@ -32,7 +32,7 @@ public class LootingManager : MonoBehaviour
                 var __quantity = Random.Range(loot.minQuanitity, loot.maxQuantity + 1);
                 var __item = loot.lootItem;
                 __item.SetQuantity(__quantity);
-                var __drop = Instantiate(_lootDrop, transform.position, Quaternion.identity);
+                var __drop = Instantiate(_lootDrop, enemy.transform.position, Quaternion.identity);
                 __drop.Item = __item;
                 __drop.Drop();
             }

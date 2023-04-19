@@ -7,8 +7,6 @@ public class GameplaySystem : MonoBehaviour
     public static GameplaySystem instance;
 
     public GameObject BloodEffect;
-    public GameObject ExpGainEffect;
-
     public GameObject DamagePopup;
 
 
@@ -50,11 +48,10 @@ public class GameplaySystem : MonoBehaviour
         _inputActions.Enable();
 
         _playerController.Setup(_inputActions, _player);
-        _UIManager.Setup(_inputActions, _player);
         _enemiesManager.Setup();
         _lootingManager.Setup(_enemiesManager);
         _experienceManager.Setup(_player, _enemiesManager);
-
+        _UIManager.Setup(_inputActions, _player);
 
     }
 

@@ -7,23 +7,8 @@ public delegate void InventoryHandler();
 
 public class InventoryComponent : MonoBehaviour
 {
-    public static InventoryComponent instance;
-    public List<Item> inventory;
+    public List<Item> inventory = new List<Item>();
     public event InventoryHandler OnInventoryChanged;
-    // Start is called before the first frame update
-
-    void Awake()
-    {
-        if (instance != null && instance != this)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            instance = this;
-        }
-        
-    }
 
     public void AddItem(Item item)
     {

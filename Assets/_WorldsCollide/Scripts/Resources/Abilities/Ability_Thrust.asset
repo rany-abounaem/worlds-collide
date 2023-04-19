@@ -15,5 +15,5 @@ MonoBehaviour:
   _name: Thrust
   _range: 0
   _energyCost: 0
-  _cooldown: 2
+  _cooldown: 0.5
   _allowedClasses: 
