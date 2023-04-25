@@ -8,6 +8,10 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     HealthUI _healthUI;
     [SerializeField]
+    ManaUI _manaUI;
+    [SerializeField]
+    LevelUI _levelUI;
+    [SerializeField]
     InventoryUI _inventoryUI;
 
     private InputActions _input;
@@ -18,6 +22,8 @@ public class UIManager : MonoBehaviour
         _input = input;
         _player = player;
         _healthUI.Setup(player);
+        _manaUI.Setup(player);
+        _levelUI.Setup(player);
         _inventoryUI.Setup(player.Inventory);
 
         Debug.Log("Player " + player + "Stats " + player.Stats);

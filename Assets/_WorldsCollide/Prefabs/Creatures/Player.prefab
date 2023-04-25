@@ -240,7 +240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1116964661157500465}
   m_LocalRotation: {x: -0, y: -0, z: 0.07233421, w: 0.9973805}
-  m_LocalPosition: {x: -0.537809, y: -0.10465473, z: 0}
+  m_LocalPosition: {x: -0.537809, y: -0.1046547, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 1307929828985658099}
@@ -260,11 +260,11 @@ GameObject:
   - component: {fileID: 320758601}
   - component: {fileID: 1080835843800573258}
   - component: {fileID: 3560159503607365659}
-  - component: {fileID: 7791122385712096148}
   - component: {fileID: 75604468798979148}
   - component: {fileID: 4767978138736495235}
   - component: {fileID: 444365304}
   - component: {fileID: 5414845202046207871}
+  - component: {fileID: 1132842568881474429}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -382,18 +382,6 @@ MonoBehaviour:
   _jumpForce: 25
   _rollForce: 25
   _body: {fileID: 8387788502768526160}
---- !u!114 &7791122385712096148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415117383841600397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0911f0311630bce44862151720daf684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &75604468798979148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,6 +446,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _abilities:
   - {fileID: 11400000, guid: bff54e75fbbec8d4985c230415725d0b, type: 2}
+--- !u!114 &1132842568881474429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415117383841600397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bfc45659057ccf4bae6768cada156bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 100
+  _maxHealth: 100
+  _mana: 100
+  _maxMana: 100
+  _experiencePoints: 0
+  _level: 1
 --- !u!1 &1586443809214663665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,7 +1104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7270014937931452786}
   m_LocalRotation: {x: -0, y: -0, z: 0.040727526, w: 0.99917036}
-  m_LocalPosition: {x: -0.25390387, y: 0.056329638, z: 0}
+  m_LocalPosition: {x: -0.2539039, y: 0.05632964, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 8607658339192111829}
