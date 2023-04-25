@@ -3,16 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public delegate void HealthUpdateCallback(float value, float maxValue);
+public delegate void BarUpdateCallback(float value, float maxValue);
 
 public class StatsComponent : MonoBehaviour
 {
-    public float Health { get; private set; } = 100f;
-    public float MaxHealth { get; private set; }  = 100f;
+    [SerializeField]
+    private float _health;
+    [SerializeField]
+    private float _maxHealth;
     public int DefensePower { get; private set; } = 1;
     public int AttackPower { get; private set; } = 1;
 
-    public event HealthUpdateCallback OnHealthUpdate;
+    [SerializeField]
+    private float _mana;
+    [SerializeField]
+    private float _maxMana;
+
+    public event BarUpdateCallback OnHealthUpdate;
+    public event BarUpdateCallback OnManaUpdate;
 
     public event DeathCallback OnDeath;
 
@@ -29,14 +37,43 @@ public class StatsComponent : MonoBehaviour
     {
     }
 
+    public float GetHealth()
+    {
+        return _health;
+    }
+
+    public float GetMaxHealth()
+    {
+        return _maxHealth;
+    }
+
     public void ReduceHealth(float value)
     {
-        Health -= value;
-        OnHealthUpdate?.Invoke(Health, MaxHealth);
-
-        if (Health <= 0)
+        _health -= value;
+        if (_health <= 0)
         {
-            Health = 0;
+            _health = 0;
         }
+        OnHealthUpdate?.Invoke(_health, _maxHealth);
+    }
+
+    public float GetMana()
+    {
+        return _mana;
+    }
+
+    public float GetMaxMana()
+    {
+        return _maxMana;
+    }
+
+    public void ReduceMana(float value)
+    {
+        _mana -= value;
+        if (_mana <= 0)
+        {
+            _mana = 0;
+        }
+        OnManaUpdate?.Invoke(_mana, _maxMana);
     }
 }

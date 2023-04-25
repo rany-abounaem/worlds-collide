@@ -60,7 +60,7 @@ public abstract class Enemy : Creature
     public override void TakeDamage(DamageDetails damageDetails)
     {
         base.TakeDamage(damageDetails);
-        if (Stats.Health == 0)
+        if (Stats.GetHealth() == 0)
         {
             OnDeath?.Invoke();
         }

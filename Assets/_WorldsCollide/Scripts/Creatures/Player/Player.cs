@@ -18,6 +18,6 @@ public class Player : Creature
         Inventory = GetComponent<InventoryComponent>();
         Equipment = GetComponent<EquipmentComponent>();
         Equipment.Setup();
-        Equipment.Equip((Weapon)Inventory.GetItem(0));
+        //Equipment.Equip((Weapon)Inventory.GetItem(0));
     }
 }

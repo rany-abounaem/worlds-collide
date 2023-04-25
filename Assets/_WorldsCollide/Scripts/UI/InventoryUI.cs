@@ -4,29 +4,42 @@ using UnityEngine;
 
 public class InventoryUI : MonoBehaviour
 {
-    [SerializeField]
-    InventoryComponent _inventoryManager;
+    private InventoryComponent _playerInventory;
 
     [SerializeField]
-    Transform _items;
+    private Transform _items;
 
-    private void Awake()
+    public void Setup(InventoryComponent playerInventory)
     {
-        _inventoryManager.OnInventoryChanged += UpdateSlots;
+        _playerInventory = playerInventory;
+        _playerInventory.OnInventoryChanged += UpdateSlots;
     }
 
-    private void OnEnable()
-    {
-        UpdateSlots();
-    }
-
-    void UpdateSlots()
+    private void UpdateSlots()
     {
         SlotUI __currentSlot;
-        for (int __i = 0; __i < _inventoryManager.inventory.Count; __i++)
+        for (int __i = 0; __i < _playerInventory.inventory.Count; __i++)
         {
             __currentSlot = _items.GetChild(__i).GetComponent<SlotUI>();
-            __currentSlot.UpdateSlot(_inventoryManager.GetItem(__i));
+            var __item = _playerInventory.GetItem(__i);
+            if (__item != null)
+            {
+                __currentSlot.UpdateSlot(__item);
+            }
+            
+        }
+    }
+
+    public void Toggle()
+    {
+        gameObject.SetActive(!gameObject.activeSelf);
+        if (gameObject.activeSelf)
+        {
+            Cursor.visible = true;
+        }
+        else
+        {
+            Cursor.visible = false;
         }
     }
 }

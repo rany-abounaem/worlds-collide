@@ -615,6 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f76259e5bd00e6249afa55b6feb21c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _experienceDrop: 10
   AggroRange: 10
   _healthUI: {fileID: 5216822241899041293}
   _detectionArea: {fileID: 5282730726980494504}
@@ -653,6 +654,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0911f0311630bce44862151720daf684, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _health: 20
+  _maxHealth: 20
+  _mana: 0
+  _maxMana: 0
 --- !u!114 &1400951651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -670,7 +675,6 @@ MonoBehaviour:
     minQuanitity: 1
     maxQuantity: 1
     probability: 100
-  _lootDrop: {fileID: 1591456814984709173, guid: 42a3dc900985d74448f7bb96035948cf, type: 3}
 --- !u!114 &1400951658
 MonoBehaviour:
   m_ObjectHideFlags: 0
