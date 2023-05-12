@@ -13,6 +13,10 @@ public class UIManager : MonoBehaviour
     LevelUI _levelUI;
     [SerializeField]
     InventoryUI _inventoryUI;
+    [SerializeField]
+    ActionsBarUI _actionsUI;
+    [SerializeField]
+    ActionsMenuUI _actionsMenuUI;
 
     private InputActions _input;
     private Player _player;
@@ -25,6 +29,8 @@ public class UIManager : MonoBehaviour
         _manaUI.Setup(player);
         _levelUI.Setup(player);
         _inventoryUI.Setup(player.Inventory);
+        _actionsUI.Setup(player.Ability);
+        //_actionsMenuUI.Setup();
 
         Debug.Log("Player " + player + "Stats " + player.Stats);
         //_player.Stats.onHealthUpdate.AddListener(() => UpdateUIHealth());
