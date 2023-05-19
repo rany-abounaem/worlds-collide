@@ -144,9 +144,17 @@ public class @InputActions : IInputActionCollection, IDisposable
             ""id"": ""e8d13009-271d-47d3-8885-6cdaad84c307"",
             ""actions"": [
                 {
-                    ""name"": ""OpenInventory"",
+                    ""name"": ""Inventory"",
                     ""type"": ""Button"",
                     ""id"": ""32014775-6db7-409a-83ee-f593ae1c95bc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""AbilityMenu"",
+                    ""type"": ""Button"",
+                    ""id"": ""22626560-1062-44e3-8c15-498233919fdb"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -160,7 +168,18 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""OpenInventory"",
+                    ""action"": ""Inventory"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e9f919b9-451e-44c2-b3bb-065a1b624beb"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""AbilityMenu"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -178,7 +197,8 @@ public class @InputActions : IInputActionCollection, IDisposable
         m_Game_Pickup = m_Game.FindAction("Pickup", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
-        m_UI_OpenInventory = m_UI.FindAction("OpenInventory", throwIfNotFound: true);
+        m_UI_Inventory = m_UI.FindAction("Inventory", throwIfNotFound: true);
+        m_UI_AbilityMenu = m_UI.FindAction("AbilityMenu", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -293,12 +313,14 @@ public class @InputActions : IInputActionCollection, IDisposable
     // UI
     private readonly InputActionMap m_UI;
     private IUIActions m_UIActionsCallbackInterface;
-    private readonly InputAction m_UI_OpenInventory;
+    private readonly InputAction m_UI_Inventory;
+    private readonly InputAction m_UI_AbilityMenu;
     public struct UIActions
     {
         private @InputActions m_Wrapper;
         public UIActions(@InputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @OpenInventory => m_Wrapper.m_UI_OpenInventory;
+        public InputAction @Inventory => m_Wrapper.m_UI_Inventory;
+        public InputAction @AbilityMenu => m_Wrapper.m_UI_AbilityMenu;
         public InputActionMap Get() { return m_Wrapper.m_UI; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -308,16 +330,22 @@ public class @InputActions : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_UIActionsCallbackInterface != null)
             {
-                @OpenInventory.started -= m_Wrapper.m_UIActionsCallbackInterface.OnOpenInventory;
-                @OpenInventory.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnOpenInventory;
-                @OpenInventory.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnOpenInventory;
+                @Inventory.started -= m_Wrapper.m_UIActionsCallbackInterface.OnInventory;
+                @Inventory.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnInventory;
+                @Inventory.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnInventory;
+                @AbilityMenu.started -= m_Wrapper.m_UIActionsCallbackInterface.OnAbilityMenu;
+                @AbilityMenu.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnAbilityMenu;
+                @AbilityMenu.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnAbilityMenu;
             }
             m_Wrapper.m_UIActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @OpenInventory.started += instance.OnOpenInventory;
-                @OpenInventory.performed += instance.OnOpenInventory;
-                @OpenInventory.canceled += instance.OnOpenInventory;
+                @Inventory.started += instance.OnInventory;
+                @Inventory.performed += instance.OnInventory;
+                @Inventory.canceled += instance.OnInventory;
+                @AbilityMenu.started += instance.OnAbilityMenu;
+                @AbilityMenu.performed += instance.OnAbilityMenu;
+                @AbilityMenu.canceled += instance.OnAbilityMenu;
             }
         }
     }
@@ -332,6 +360,7 @@ public class @InputActions : IInputActionCollection, IDisposable
     }
     public interface IUIActions
     {
-        void OnOpenInventory(InputAction.CallbackContext context);
+        void OnInventory(InputAction.CallbackContext context);
+        void OnAbilityMenu(InputAction.CallbackContext context);
     }
 }

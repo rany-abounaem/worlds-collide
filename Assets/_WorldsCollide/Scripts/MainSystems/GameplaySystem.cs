@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 public class GameplaySystem : MonoBehaviour
 {
 
@@ -46,7 +48,6 @@ public class GameplaySystem : MonoBehaviour
 
         _inputActions = new InputActions();
         _inputActions.Enable();
-
         _playerController.Setup(_inputActions, _player);
         _enemiesManager.Setup();
         _lootingManager.Setup(_enemiesManager);

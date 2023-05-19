@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SlotUI : MonoBehaviour
+public abstract class SlotUI : MonoBehaviour
 {
     [SerializeField]
     Image _itemUI;
-    public Item SlotItem { get; private set; }
+    public IStorable SlotItem { get; private set; }
 
-    public void UpdateSlot(Item item)
+    public void UpdateSlot(IStorable storableItem)
     {
-        SlotItem = item;
-        _itemUI.sprite = item.GetSprite();
+        SlotItem = storableItem;
+        _itemUI.sprite = storableItem.GetSprite();
     }
 }

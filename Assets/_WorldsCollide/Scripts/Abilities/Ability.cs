@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Ability : ScriptableObject
+public abstract class Ability : ScriptableObject, IStorable
 {
     [SerializeField]
     protected string _name;
@@ -14,6 +14,8 @@ public abstract class Ability : ScriptableObject
     protected float _cooldown;
     [SerializeField]
     protected PlayerClass[] _allowedClasses;
+    [SerializeField]
+    protected Sprite _icon;
 
     protected Creature _caster;
     protected Animator _animator;
@@ -41,5 +43,10 @@ public abstract class Ability : ScriptableObject
     public float GetCooldown()
     {
         return _cooldown;
+    }
+
+    public Sprite GetSprite()
+    {
+        return _icon;
     }
 }

@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ActionSlotUI : MonoBehaviour
+public class ActionsBarSlotUI : SlotUI
 {
     private string _slotHotkey;
 
@@ -19,6 +19,4 @@ public class ActionSlotUI : MonoBehaviour
     {
         _slotHotkey = slotHotkey;
     }
-
-    //public void UpdateCooldown()
 }
