@@ -15,11 +15,10 @@ namespace WorldsCollide.Interaction
             Physics2D.OverlapArea(pointA, pointB, new ContactFilter2D(), results);
             foreach (var collider in results)
             {
-                if (collider.TryGetComponent(out LootDrop lootDrop))
+                if (collider.TryGetComponent(out IInteractable interactable))
                 {
-                    var __playerInventory = GetComponent<InventoryComponent>();
-                    __playerInventory.AddItem(lootDrop.Item);
-                    Destroy(lootDrop.gameObject);
+                    var __player = GetComponent<Player>();
+                    interactable.Interact(__player);
                     break;
                 }
             }

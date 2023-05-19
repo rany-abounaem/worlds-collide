@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryUI : MonoBehaviour
+public class InventoryUI : UIPanel
 {
     private InventoryComponent _playerInventory;
 
     [SerializeField]
     private Transform _items;
 
-    public void Setup(InventoryComponent playerInventory)
+    public override void Setup(Player player)
     {
-        _playerInventory = playerInventory;
+        _playerInventory = player.Inventory;
         _playerInventory.OnInventoryChanged += UpdateSlots;
     }
 

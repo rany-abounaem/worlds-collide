@@ -131,9 +131,17 @@
             "id": "e8d13009-271d-47d3-8885-6cdaad84c307",
             "actions": [
                 {
-                    "name": "OpenInventory",
+                    "name": "Inventory",
                     "type": "Button",
                     "id": "32014775-6db7-409a-83ee-f593ae1c95bc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AbilityMenu",
+                    "type": "Button",
+                    "id": "22626560-1062-44e3-8c15-498233919fdb",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -147,7 +155,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "OpenInventory",
+                    "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9f919b9-451e-44c2-b3bb-065a1b624beb",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AbilityMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

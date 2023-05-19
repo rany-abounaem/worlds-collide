@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActionsMenuUI : MonoBehaviour
+public class ActionsMenuSlotUI : SlotUI
 {
-    public void Setup(AbilityComponent abilities)
+    private Ability _action;
+
+    public void Setup()
     {
 
     }

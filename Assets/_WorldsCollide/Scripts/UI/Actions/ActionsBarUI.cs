@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActionsBarUI : MonoBehaviour
+public class ActionsBarUI : UIPanel
 {
-    List<ActionSlotUI> _actionSlots;
-    public void Setup(AbilityComponent abilities)
+    List<ActionsBarSlotUI> _actionSlots;
+    public override void Setup(Player player)
     {
         //playerAbilities.on
     }

@@ -46,7 +46,6 @@ public class AB_OrcMelee : Ability
                 {
                     if (__result.TryGetComponent(out Player __player))
                     {
-                        Debug.Log("Help");
                         var __damageDetails = new DamageDetails
                         (
                         _caster,

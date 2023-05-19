@@ -6,17 +6,9 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField]
-    HealthUI _healthUI;
-    [SerializeField]
-    ManaUI _manaUI;
-    [SerializeField]
-    LevelUI _levelUI;
-    [SerializeField]
-    InventoryUI _inventoryUI;
-    [SerializeField]
-    ActionsBarUI _actionsUI;
-    [SerializeField]
-    ActionsMenuUI _actionsMenuUI;
+    List<UIPanel> _panels;
+
+    private UIPanel _currentActivePanel;
 
     private InputActions _input;
     private Player _player;
@@ -25,34 +17,40 @@ public class UIManager : MonoBehaviour
     {
         _input = input;
         _player = player;
-        _healthUI.Setup(player);
-        _manaUI.Setup(player);
-        _levelUI.Setup(player);
-        _inventoryUI.Setup(player.Inventory);
-        _actionsUI.Setup(player.Ability);
-        //_actionsMenuUI.Setup();
 
-        Debug.Log("Player " + player + "Stats " + player.Stats);
-        //_player.Stats.onHealthUpdate.AddListener(() => UpdateUIHealth());
+        foreach (var __panel in _panels)
+        {
+            __panel.Setup(player);
 
-        _input.UI.OpenInventory.performed += _ => ToggleInventory();
-    }
+            if (__panel is InventoryUI)
+            {
+                _input.UI.Inventory.performed += _ => ToggleUIPanel(__panel);
+            }
 
-    private void Start()
-    {
-        
-    }
-    
-    void Update()
-    {
+            if (__panel is ActionsMenuUI)
+            {
+                _input.UI.AbilityMenu.performed += _ => ToggleUIPanel(__panel);
+            }
+        }
         
     }
 
-    public void ToggleInventory()
+    private void ToggleUIPanel(UIPanel panel)
     {
-        var __inventoryUI = _inventoryUI.gameObject;
-        __inventoryUI.gameObject.SetActive(!__inventoryUI.activeSelf);
-        if (__inventoryUI.activeSelf)
+        var __panelGameObject = panel.gameObject;
+        if (_currentActivePanel == panel)
+        {
+            __panelGameObject.SetActive(false);
+            _currentActivePanel = null;
+        }
+        else
+        {
+            __panelGameObject.SetActive(true);
+            _currentActivePanel?.gameObject.SetActive(false);
+            _currentActivePanel = panel;
+        }
+
+        if (__panelGameObject.activeSelf)
         {
             Cursor.visible = true;
         }
