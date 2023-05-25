@@ -29,10 +29,24 @@ public class UIManager : MonoBehaviour
 
             if (__panel is ActionsMenuUI)
             {
+                var __actionsMenuPanel = __panel as ActionsMenuUI;
                 _input.UI.AbilityMenu.performed += _ => ToggleUIPanel(__panel);
+                _input.UI.DragAndDrop.performed += _ => __actionsMenuPanel.ActionMenuDrag();
+                _input.UI.DragAndDrop.canceled += _ => __actionsMenuPanel.ActionMenuToBarDrop();
+            }
+
+            if (__panel is ActionsBarUI)
+            {
+                var __actionsBarPanel = __panel as ActionsBarUI;
+                _input.UI.ActionsBar_1.performed += _ => __actionsBarPanel.UseActionSlot(0);
+                _input.UI.DragAndDrop.performed += _ => __actionsBarPanel.ActionBarDrag();
+                _input.UI.DragAndDrop.canceled += _ => __actionsBarPanel.ActionBarDrop();
             }
         }
         
+
+
+
     }
 
     private void ToggleUIPanel(UIPanel panel)
@@ -45,9 +59,10 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-            __panelGameObject.SetActive(true);
             _currentActivePanel?.gameObject.SetActive(false);
             _currentActivePanel = panel;
+            __panelGameObject.SetActive(true);
+            panel.Open();
         }
 
         if (__panelGameObject.activeSelf)

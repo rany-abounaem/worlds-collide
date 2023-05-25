@@ -4,7 +4,7 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "Item", menuName = "ScriptableObjects/Items/Item", order = 1)]
 
-public class Item : ScriptableObject, IStorable
+public class Item : ScriptableObject, ISlottable
 {
     [SerializeField]
     private string _itemName;
@@ -17,7 +17,7 @@ public class Item : ScriptableObject, IStorable
     [SerializeField]
     private Sprite _sprite;
 
-    public string GetItemName()
+    public string GetName()
     {
         return _itemName;
     }
@@ -27,7 +27,7 @@ public class Item : ScriptableObject, IStorable
         return _sprite;
     }
 
-    public int GetItemSpriteId()
+    public int GetSpriteId()
     {
         return _spriteId;
     }

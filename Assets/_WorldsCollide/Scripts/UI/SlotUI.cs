@@ -1,17 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public abstract class SlotUI : MonoBehaviour
 {
+    protected int _slotIndex;
     [SerializeField]
-    Image _itemUI;
-    public IStorable SlotItem { get; private set; }
+    private Sprite _emptySlotSprite;
+    [SerializeField]
+    private Image _itemUI;
 
-    public void UpdateSlot(IStorable storableItem)
+    private ISlottable _slottable;
+    public ISlottable GetSlottable() { return _slottable; }
+
+    public virtual void UpdateSlot(ISlottable slottable)
     {
-        SlotItem = storableItem;
-        _itemUI.sprite = storableItem.GetSprite();
+        _slottable = slottable;
+        if (slottable == null)
+        {
+            _itemUI.sprite = _emptySlotSprite;
+            return;
+        }
+        _itemUI.sprite = slottable.GetSprite();
     }
+
+    public Image GetImage()
+    {
+        return _itemUI;
+    }
+
+    public void SetSlotIndex(int index)
+    {
+        _slotIndex = index;
+    }
+
+    public int GetSlotIndex() { return _slotIndex;}
 }

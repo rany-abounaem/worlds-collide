@@ -10,6 +10,11 @@ public abstract class UIPanel : MonoBehaviour
     }
     public virtual void Open()
     {
+        RefreshPage();
+    }
+
+    protected virtual void RefreshPage()
+    {
 
     }
 }

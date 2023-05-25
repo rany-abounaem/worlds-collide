@@ -145,6 +145,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "DragAndDrop",
+                    "type": "Button",
+                    "id": "6ef9113c-d32e-4ee8-8a8e-ee2bca8f7e48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold"
+                },
+                {
+                    "name": "ActionsBar_1",
+                    "type": "Button",
+                    "id": "91e9e818-49e4-4436-9c2a-5851d682fa7a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -167,6 +183,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "AbilityMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e66ac8c-88c9-4f2d-a116-f97901ece632",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DragAndDrop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "64b708b3-553f-4d27-ad5a-a1af7e521bbc",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActionsBar_1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

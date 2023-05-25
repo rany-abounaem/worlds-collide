@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ActionsBarSlotUI : SlotUI
+public class ActionsBarSlotUI : SlotUI, IPointerClickHandler
 {
     private string _slotHotkey;
 
@@ -14,6 +15,16 @@ public class ActionsBarSlotUI : SlotUI
     private TextMeshProUGUI _cdTimer;
     [SerializeField]
     private TextMeshProUGUI _slotHotkeyText;
+
+    private ISlottable _slottable;
+
+    public event IntCallback OnSlotClick;
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        Debug.Log("Help");
+        OnSlotClick?.Invoke(_slotIndex);
+    }
 
     public void UpdateSlotHotkey(string slotHotkey)
     {
