@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Ability : ScriptableObject, IStorable
+public abstract class Ability : ScriptableObject, ISlottable
 {
     [SerializeField]
     protected string _name;
@@ -35,7 +35,7 @@ public abstract class Ability : ScriptableObject, IStorable
 
     }
 
-    public string GetAbilityName()
+    public string GetName()
     {
         return _name;
     }

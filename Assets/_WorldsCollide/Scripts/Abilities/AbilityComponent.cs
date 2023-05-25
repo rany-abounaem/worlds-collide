@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+
+public delegate void AbilityCallback();
 
 public class AbilityComponent : MonoBehaviour
 {
@@ -10,6 +13,8 @@ public class AbilityComponent : MonoBehaviour
     private Ability _currentAbility;
 
     private Creature _creature;
+
+    public event AbilityCallback OnAbilityAdded;
 
     public void Setup(Creature creature)
     {
@@ -30,7 +35,7 @@ public class AbilityComponent : MonoBehaviour
         string __abilityName;
         foreach(var __ability in _abilities)
         {
-            __abilityName = __ability.GetAbilityName();
+            __abilityName = __ability.GetName();
             if (__abilityName.Equals(name) && _cooldownManager.AbilityOnCooldown(__abilityName) == -1)
             {
                 var __cooldown = __ability.GetCooldown();
@@ -38,11 +43,31 @@ public class AbilityComponent : MonoBehaviour
                 __ability.Use();
                 _currentAbility = __ability;
             }
-
-            
         }
-        
-        
+    }
+
+    public void AddAbility(Ability ability)
+    {
+        if (_abilities.Contains(ability))
+        {
+            return;
+        }
+        else
+        {
+            _abilities.Add(ability);
+            OnAbilityAdded?.Invoke();
+        }
+    }
+
+    public List<Ability> GetAbilities()
+    {
+        return _abilities;
+    }
+
+    public List<Ability> GetAbilities(int firstIndex, int count)
+    {
+        var __paginatedAbilities = _abilities.Skip(firstIndex).Take(count).ToList();
+        return __paginatedAbilities;
     }
 
     private void Update()

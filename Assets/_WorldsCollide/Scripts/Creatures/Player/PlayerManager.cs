@@ -17,8 +17,6 @@ public class PlayerManager : MonoBehaviour
         _input.Game.Roll.performed += _ => _player.Movement.Roll();
 
         _input.Game.Pickup.performed += _ => _player.Interaction.Interact();
-
-        _input.Game.Attack_1.performed += _ => _player.Ability.UseAbility("Thrust");
     }
 
     public void Setup(InputActions inputActions, Player player)

@@ -17,3 +17,4 @@ MonoBehaviour:
   _energyCost: 0
   _cooldown: 0.5
   _allowedClasses: 
+  _icon: {fileID: 21300000, guid: b7746343e6b0fad478dde596dec7d1b6, type: 3}

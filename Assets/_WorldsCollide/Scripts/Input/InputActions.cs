@@ -158,6 +158,22 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""DragAndDrop"",
+                    ""type"": ""Button"",
+                    ""id"": ""6ef9113c-d32e-4ee8-8a8e-ee2bca8f7e48"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Hold""
+                },
+                {
+                    ""name"": ""ActionsBar_1"",
+                    ""type"": ""Button"",
+                    ""id"": ""91e9e818-49e4-4436-9c2a-5851d682fa7a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -182,6 +198,28 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""action"": ""AbilityMenu"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3e66ac8c-88c9-4f2d-a116-f97901ece632"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DragAndDrop"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""64b708b3-553f-4d27-ad5a-a1af7e521bbc"",
+                    ""path"": ""<Keyboard>/1"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ActionsBar_1"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -199,6 +237,8 @@ public class @InputActions : IInputActionCollection, IDisposable
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Inventory = m_UI.FindAction("Inventory", throwIfNotFound: true);
         m_UI_AbilityMenu = m_UI.FindAction("AbilityMenu", throwIfNotFound: true);
+        m_UI_DragAndDrop = m_UI.FindAction("DragAndDrop", throwIfNotFound: true);
+        m_UI_ActionsBar_1 = m_UI.FindAction("ActionsBar_1", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -315,12 +355,16 @@ public class @InputActions : IInputActionCollection, IDisposable
     private IUIActions m_UIActionsCallbackInterface;
     private readonly InputAction m_UI_Inventory;
     private readonly InputAction m_UI_AbilityMenu;
+    private readonly InputAction m_UI_DragAndDrop;
+    private readonly InputAction m_UI_ActionsBar_1;
     public struct UIActions
     {
         private @InputActions m_Wrapper;
         public UIActions(@InputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Inventory => m_Wrapper.m_UI_Inventory;
         public InputAction @AbilityMenu => m_Wrapper.m_UI_AbilityMenu;
+        public InputAction @DragAndDrop => m_Wrapper.m_UI_DragAndDrop;
+        public InputAction @ActionsBar_1 => m_Wrapper.m_UI_ActionsBar_1;
         public InputActionMap Get() { return m_Wrapper.m_UI; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -336,6 +380,12 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @AbilityMenu.started -= m_Wrapper.m_UIActionsCallbackInterface.OnAbilityMenu;
                 @AbilityMenu.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnAbilityMenu;
                 @AbilityMenu.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnAbilityMenu;
+                @DragAndDrop.started -= m_Wrapper.m_UIActionsCallbackInterface.OnDragAndDrop;
+                @DragAndDrop.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnDragAndDrop;
+                @DragAndDrop.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnDragAndDrop;
+                @ActionsBar_1.started -= m_Wrapper.m_UIActionsCallbackInterface.OnActionsBar_1;
+                @ActionsBar_1.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnActionsBar_1;
+                @ActionsBar_1.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnActionsBar_1;
             }
             m_Wrapper.m_UIActionsCallbackInterface = instance;
             if (instance != null)
@@ -346,6 +396,12 @@ public class @InputActions : IInputActionCollection, IDisposable
                 @AbilityMenu.started += instance.OnAbilityMenu;
                 @AbilityMenu.performed += instance.OnAbilityMenu;
                 @AbilityMenu.canceled += instance.OnAbilityMenu;
+                @DragAndDrop.started += instance.OnDragAndDrop;
+                @DragAndDrop.performed += instance.OnDragAndDrop;
+                @DragAndDrop.canceled += instance.OnDragAndDrop;
+                @ActionsBar_1.started += instance.OnActionsBar_1;
+                @ActionsBar_1.performed += instance.OnActionsBar_1;
+                @ActionsBar_1.canceled += instance.OnActionsBar_1;
             }
         }
     }
@@ -362,5 +418,7 @@ public class @InputActions : IInputActionCollection, IDisposable
     {
         void OnInventory(InputAction.CallbackContext context);
         void OnAbilityMenu(InputAction.CallbackContext context);
+        void OnDragAndDrop(InputAction.CallbackContext context);
+        void OnActionsBar_1(InputAction.CallbackContext context);
     }
 }
