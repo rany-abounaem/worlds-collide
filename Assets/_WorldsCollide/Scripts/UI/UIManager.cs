@@ -6,7 +6,10 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField]
-    List<UIPanel> _panels;
+    private List<UIPanel> _panels;
+
+    [SerializeField]
+    private FloatingTextChannel _floatingTextChannel;
 
     private UIPanel _currentActivePanel;
 
@@ -43,11 +46,20 @@ public class UIManager : MonoBehaviour
                 _input.UI.DragAndDrop.canceled += _ => __actionsBarPanel.ActionBarDrop();
             }
         }
-        
 
+        // Add reference to textpopup manager (unrelated to UI manager)
+        // Instantiate textpopup and add to list with x duration
+        // Loop through textpopups list and update their scale and position
+        // Delete if x duration is done
+        //_floatingTextChannel.OnFloatingTextPopup += 
 
 
     }
+
+    //private IEnumerator ShowFloatingText(string text, )
+    //{
+    //    yield return new WaitForSeconds(2f);
+    //}
 
     private void ToggleUIPanel(UIPanel panel)
     {

@@ -28,6 +28,8 @@ public class GameplaySystem : MonoBehaviour
     private LootingManager _lootingManager;
     [SerializeField]
     private ExperienceManager _experienceManager;
+    [SerializeField]
+    private FloatingTextManager _floatingTextManager;
 
 
     private InputActions _inputActions;
@@ -53,12 +55,14 @@ public class GameplaySystem : MonoBehaviour
         _lootingManager.Setup(_enemiesManager);
         _experienceManager.Setup(_player, _enemiesManager);
         _UIManager.Setup(_inputActions, _player);
+        _floatingTextManager.Setup();
 
     }
 
     private void Update()
     {
         _enemiesManager.Tick();
+        _floatingTextManager.Tick();
     }
 }
 

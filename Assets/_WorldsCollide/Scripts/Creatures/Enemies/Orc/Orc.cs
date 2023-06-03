@@ -15,6 +15,7 @@ public class Orc : Enemy
         base.Setup();
         CurrentState = new OrcIdleState(this);
         Debug.Log(CurrentState);
+        OnDeath += () => { SetState(new OrcDeathState(this));  };
     }
 
     public Transform[] GetWaypoints()

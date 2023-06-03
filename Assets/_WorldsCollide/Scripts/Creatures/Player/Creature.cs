@@ -14,6 +14,8 @@ public abstract class Creature : MonoBehaviour, IDamageable
 
     public event HitCallback OnTakeDamage;
 
+    public FloatingTextRaiser FloatingText { get; private set; }
+
     [ContextMenu("Setup")]
     public virtual void Setup()
     {
@@ -24,6 +26,7 @@ public abstract class Creature : MonoBehaviour, IDamageable
         Ability = GetComponent<AbilityComponent>();
         Ability.Setup(this);
         Stats = GetComponent<StatsComponent>();
+        FloatingText = GetComponent<FloatingTextRaiser>();
     }
 
     public virtual void Tick()
@@ -37,10 +40,7 @@ public abstract class Creature : MonoBehaviour, IDamageable
         Stats.ReduceHealth(__damage);
         OnTakeDamage?.Invoke(damageDetails);
         Instantiate(GameplaySystem.instance.BloodEffect, transform.position, Quaternion.identity, transform);
-        GameObject damagePopup = Instantiate(GameplaySystem.instance.DamagePopup, transform.position, Quaternion.identity);
-        TextPopupManager textPopupManager = damagePopup.GetComponent<TextPopupManager>();
-        textPopupManager.text = __damage.ToString();
-        damagePopup.SetActive(true);
+        FloatingText.SpawnFloatingText(transform.position, __damage.ToString(), Color.red);
     }
 
 }

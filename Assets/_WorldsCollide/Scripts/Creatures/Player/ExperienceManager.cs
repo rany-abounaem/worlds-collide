@@ -10,20 +10,24 @@ public class ExperienceManager : MonoBehaviour
     private GameObject _levelUpEffectPrefab;
 
     private Player _player;
+    private FloatingTextRaiser _floatingTextRaiser;
 
     public void Setup(Player player, EnemiesManager enemiesManager)
     {
         _player = player;
         ((PlayerStatsComponent)_player.Stats).OnLevelUpdated += SpawnLevelUpEffect;
         enemiesManager.OnEnemyDeath += AddExperience;
+        _floatingTextRaiser = GetComponent<FloatingTextRaiser>();
     }
 
     private void AddExperience(Enemy enemy)
     {
-        ((PlayerStatsComponent)_player.Stats).AddExperiencePoints(enemy.GetExperienceDrop());
+        var __experiencePoints = enemy.GetExperienceDrop();
+        ((PlayerStatsComponent)_player.Stats).AddExperiencePoints(__experiencePoints);
         var __expParticlePrefab = Instantiate(_expParticlePrefab, enemy.transform.position, Quaternion.identity);
         var __experienceParticles = __expParticlePrefab.GetComponent<ExperienceParticles>();
         __experienceParticles.Setup(_player.transform);
+        _floatingTextRaiser.SpawnFloatingText(_player.transform.position, __experiencePoints.ToString(), Color.white);
 
     }
 

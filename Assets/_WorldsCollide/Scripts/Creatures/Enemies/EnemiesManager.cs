@@ -37,6 +37,12 @@ public class EnemiesManager : MonoBehaviour
     private void HandleEnemyDeath(Enemy enemy)
     {
         OnEnemyDeath?.Invoke(enemy);
+        StartCoroutine(DeactivateEnemy(enemy));
+    }
+
+    private IEnumerator DeactivateEnemy (Enemy enemy)
+    {
+        yield return new WaitForSeconds(2f);
         enemy.gameObject.SetActive(false);
     }
 }
