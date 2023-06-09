@@ -76,8 +76,8 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1447028355
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &2652508368340558475
@@ -114,10 +114,10 @@ MonoBehaviour:
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 0, b: 0, a: 1}
-    topRight: {r: 0.1509434, g: 0.046137415, b: 0.046137415, a: 1}
-    bottomLeft: {r: 1, g: 0, b: 0, a: 1}
-    bottomRight: {r: 0.3018868, g: 0.2004984, b: 0.2004984, a: 1}
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0

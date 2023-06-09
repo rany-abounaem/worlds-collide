@@ -24,21 +24,29 @@ public class FloatingText : MonoBehaviour
         _scalingSpeed = scalingSpeed;
     }
 
-    public void Tick()
+    private void Update()
     {
         var __delta = Time.deltaTime;
         var __pos = transform.position;
         transform.position = new Vector2(__pos.x, __pos.y + (_floatingSpeed * __delta));
-        var __scale = transform.localScale;
-        var __ratio = _maxTime / (_timeElapsed + 0.01f);
-        var __scaleX = Mathf.Clamp(__scale.x - __ratio, 0, 1);
-        var __scaleY = Mathf.Clamp(__scale.y - __ratio, 0, 1);
-        transform.localScale = new Vector2(__scaleX, __scaleY);
+        var __ratio = _timeElapsed / _maxTime;
+        var __scale = Mathf.Clamp(__ratio, 0, 1);
+        transform.localScale = new Vector2(1 - __scale, 1 - __scale);
         _timeElapsed += __delta;
         if (_timeElapsed >= _maxTime)
         {
             OnTimeEnd?.Invoke(this);
         }
+    }
+
+    public float GetTimeElapsed()
+    {
+        return _timeElapsed;
+    }
+
+    public float GetMaxTime()
+    {
+        return _maxTime;
     }
 
 }

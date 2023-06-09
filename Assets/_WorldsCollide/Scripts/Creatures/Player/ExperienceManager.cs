@@ -34,5 +34,6 @@ public class ExperienceManager : MonoBehaviour
     private void SpawnLevelUpEffect(int level)
     {
         Instantiate(_levelUpEffectPrefab, _player.transform);
+        _floatingTextRaiser.SpawnFloatingText(_player.transform.position, "Level Up!", Color.red);
     }
 }

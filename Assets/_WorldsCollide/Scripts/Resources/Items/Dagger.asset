@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a175635978da2cf449fdebf682ae2fc4, type: 3}
   m_Name: Dagger
   m_EditorClassIdentifier: 
-  _itemName: 
+  _itemName: Dagger
+  _description: This is a test dagger item.
   _spriteId: 0
   _quantity: 1
   _cost: 0

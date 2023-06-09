@@ -30,7 +30,6 @@ public class ActionsBarUI : UIPanel
         var __ability = (Ability)_actionSlots[index].GetSlottable();
         if (__ability != null)
         {
-            UnityEngine.Debug.Log("Here");
             _player.Ability.UseAbility(__ability.GetName());
         }
         

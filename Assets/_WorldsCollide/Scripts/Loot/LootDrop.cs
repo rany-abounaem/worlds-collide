@@ -12,6 +12,9 @@ public class LootDrop : MonoBehaviour, IInteractable
     SpriteRenderer _spriteRenderer;
     BoxCollider2D _boxCollider;
 
+    [SerializeField]
+    private InfoBarChannel _infoBarChannel;
+
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
@@ -36,4 +39,10 @@ public class LootDrop : MonoBehaviour, IInteractable
         _boxCollider.size = new Vector2(0.5f, 0.5f);
     }
 
+    public void DisplayInfo()
+    {
+        _infoBarChannel.Raise("Interact to pick up: " + Item.GetName());
+    }
+
+    
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -8,14 +9,11 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private List<UIPanel> _panels;
 
-    [SerializeField]
-    private FloatingTextChannel _floatingTextChannel;
-
     private UIPanel _currentActivePanel;
 
     private InputActions _input;
     private Player _player;
-    
+
     public void Setup(InputActions input, Player player)
     {
         _input = input;
@@ -86,4 +84,5 @@ public class UIManager : MonoBehaviour
             Cursor.visible = false;
         }
     }
+
 }

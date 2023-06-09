@@ -15,14 +15,20 @@ namespace WorldsCollide.Interaction
             Physics2D.OverlapArea(pointA, pointB, new ContactFilter2D(), results);
             foreach (var collider in results)
             {
-                if (collider.TryGetComponent(out IInteractable interactable))
+                if (collider.TryGetComponent(out IInteractable __interactable))
                 {
                     var __player = GetComponent<Player>();
-                    interactable.Interact(__player);
+                    __interactable.Interact(__player);
                     break;
                 }
             }
 
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            var __interactable = collision.GetComponentInParent<IInteractable>();
+            __interactable?.DisplayInfo();
         }
     }
 }

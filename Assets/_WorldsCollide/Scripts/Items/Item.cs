@@ -9,6 +9,8 @@ public class Item : ScriptableObject, ISlottable
     [SerializeField]
     private string _itemName;
     [SerializeField]
+    private string _description;
+    [SerializeField]
     private int _spriteId;
     [SerializeField]
     private int _quantity;
@@ -20,6 +22,11 @@ public class Item : ScriptableObject, ISlottable
     public string GetName()
     {
         return _itemName;
+    }
+
+    public string GetDescription()
+    {
+        return _description;
     }
 
     public Sprite GetSprite()

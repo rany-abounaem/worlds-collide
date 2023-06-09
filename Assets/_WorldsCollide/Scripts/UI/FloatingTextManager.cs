@@ -22,37 +22,34 @@ public class FloatingTextManager : MonoBehaviour
 
     public void Tick()
     {
-        UpdateFloatingTexts();
-    }
 
-    private void UpdateFloatingTexts()
-    {
-        foreach(var __floatingText in _floatingTexts)
-        {
-            __floatingText.Tick();
-        }
     }
 
     private void InstantiateFloatingText(Vector3 pos, string text, Color color)
     {
         var __floatingTextPrefab = Instantiate(_textPopupPrefab, pos, Quaternion.identity, transform);
         var __floatingTextComponent = __floatingTextPrefab.GetComponent<FloatingText>();
-        __floatingTextComponent.Setup(text, color, 10f, 1f, 1f);
+        __floatingTextComponent.Setup(text, color, 2f, 1f, 100f);
         _floatingTexts.Add(__floatingTextComponent);
         __floatingTextComponent.OnTimeEnd += DestroyFloatingText;
     }
     
     private void DestroyFloatingText(FloatingText floatingText)
     {
-
+        FloatingText __textToRemove = null;
         foreach (var __floatingText in _floatingTexts)
         {
             if (__floatingText == floatingText)
             {
-                Destroy(__floatingText.gameObject);
-                _floatingTexts.Remove(floatingText);
+                __textToRemove = __floatingText;
                 break;
             }
         }
+        if (__textToRemove != null)
+        {
+            Destroy(__textToRemove.gameObject);
+            _floatingTexts.Remove(__textToRemove);
+        }
+        
     }
 }

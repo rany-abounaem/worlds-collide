@@ -675,7 +675,7 @@ MonoBehaviour:
   - lootItem: {fileID: 11400000, guid: c8463df0054f6e84088d436b6b869803, type: 2}
     minQuanitity: 1
     maxQuantity: 1
-    probability: 100
+    probability: 50
 --- !u!114 &1400951658
 MonoBehaviour:
   m_ObjectHideFlags: 0

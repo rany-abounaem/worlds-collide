@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public abstract class SlotUI : MonoBehaviour
+public delegate void VoidCallback();
+
+public abstract class SlotUI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     protected int _slotIndex;
     [SerializeField]
@@ -12,7 +15,10 @@ public abstract class SlotUI : MonoBehaviour
     [SerializeField]
     private Image _itemUI;
 
-    private ISlottable _slottable;
+    public event VoidCallback OnSlotPointerEnter;
+    public event VoidCallback OnSlotPointerExit;
+
+    protected ISlottable _slottable;
     public ISlottable GetSlottable() { return _slottable; }
 
     public virtual void UpdateSlot(ISlottable slottable)
@@ -37,4 +43,24 @@ public abstract class SlotUI : MonoBehaviour
     }
 
     public int GetSlotIndex() { return _slotIndex;}
+
+    public virtual string GetSlotTooltip()
+    {
+        return "";
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        OnSlotPointerEnter?.Invoke();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        OnSlotPointerExit?.Invoke();
+    }
+
+    //private void OnDisable()
+    //{
+    //    OnSlotPointerEnter = null;
+    //}
 }
